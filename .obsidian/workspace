@@ -1,0 +1,125 @@
+{
+  "main": {
+    "id": "01ef176fd706ded7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2449b23f3d0bdf55",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c078cbb4d27463bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d25d180d75350ee8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a340b750d81dbf13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4780cac1667791de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 222
+  },
+  "right": {
+    "id": "3073b1c7997f7f6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "47f79c3087b9bc72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2774da3816145752",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6d85e0b49c85855",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "32dce8c51f3a3285",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "a503d818dd923003",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "2449b23f3d0bdf55",
+  "lastOpenFiles": [
+    "d - 算法/算法-还不会做/算法-还不会做.md",
+    "d - 算法/算法-还不会做/1034. 边界着色.md",
+    "d - 算法/dfs/dfs.md",
+    "d - 算法/dfs/岛屿问题.md",
+    "d - 算法/dfs/200. 岛屿数量.md",
+    "d - 算法/leetcode每日一题/2021.12.md",
+    "d - 算法/leetcode每日一题/372. 超级次方.md",
+    "d - 算法/leetcode每日一题/689. 三个无重叠子数组的最大和.md",
+    "d - 算法/leetcode每日一题/383. 赎金信.md",
+    "d - 算法/leetcode每日一题/1005. K 次取反后最大化的数组和.md"
+  ]
+}
