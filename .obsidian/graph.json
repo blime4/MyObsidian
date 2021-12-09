@@ -34,18 +34,25 @@
         "a": 1,
         "rgb": 6084188
       }
+    },
+    {
+      "query": "path:\"f - 语言\"",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
     }
   ],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.72415730337079,
+  "lineSizeMultiplier": 3.3538202247191,
+  "collapse-forces": false,
+  "centerStrength": 0.650561797752809,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6346285676930614,
+  "scale": 0.6346285676930605,
   "close": true
 }

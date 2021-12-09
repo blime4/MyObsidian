@@ -1,0 +1,13 @@
+.popover.hover-popover {
+    transform: scale(0.8); /* makes the content smaller /
+    max-height: 800px;
+    min-height: 50px;
+    width: 500px;
+    overflow: overlay; / new added */
+    }
+    .popover.hover-popover .markdown-embed  {
+    height: 100%;
+    }
+    .popover.hover-popover.is-loaded .markdown-embed .markdown-embed-content .markdown-preview-view{
+    padding: 10px 10px 10px 16px; /*16px  two pop magin */
+    }

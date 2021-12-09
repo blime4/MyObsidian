@@ -1,0 +1,13 @@
+# Intellij
+*.iml
+.idea
+
+# npm
+node_modules
+package-lock.json
+yarn-error.log
+
+# build
+main.js
+*.js.map
+data.json

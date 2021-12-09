@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "2449b23f3d0bdf55",
+        "id": "c78f2b8a7de8d164",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "y - 日记/2021-12-10.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,7 +68,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "y - 日记/2021-12-10.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "y - 日记/2021-12-10.md"
+              }
             }
           },
           {
@@ -101,25 +107,61 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "690a179a942c6e5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "y - 日记/2021-12-10.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "a48b344167292cea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8db700249d616baf",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          },
+          {
+            "id": "ac8e65318110d906",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 815
   },
-  "active": "2449b23f3d0bdf55",
+  "active": "c78f2b8a7de8d164",
   "lastOpenFiles": [
-    "d - 算法/算法-还不会做/算法-还不会做.md",
-    "d - 算法/算法-还不会做/1034. 边界着色.md",
-    "d - 算法/dfs/dfs.md",
-    "d - 算法/dfs/岛屿问题.md",
-    "d - 算法/dfs/200. 岛屿数量.md",
-    "d - 算法/leetcode每日一题/2021.12.md",
-    "d - 算法/leetcode每日一题/372. 超级次方.md",
-    "d - 算法/leetcode每日一题/689. 三个无重叠子数组的最大和.md",
-    "d - 算法/leetcode每日一题/383. 赎金信.md",
-    "d - 算法/leetcode每日一题/1005. K 次取反后最大化的数组和.md"
+    "y - 日记/2021-12-10.md",
+    "x - 模板/日记模板.md",
+    "y - 日记/2021-12-09.md",
+    "f - 语言/c++/c++ 白皮书/10.md",
+    "e - 项目/a - muduo/multiple reactor服务器.md",
+    "d - 算法/dp/70. 爬楼梯.md",
+    "b - 计算机网络/流量控制与可靠传输机制.md",
+    "b - 计算机网络/数据链路层.md",
+    "b - 计算机网络/差错控制.md",
+    "b - 计算机网络/奇偶检验码.md"
   ]
 }
