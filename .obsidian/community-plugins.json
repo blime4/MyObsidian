@@ -1,12 +1,11 @@
 [
   "obsidian-pangu",
   "calendar",
-  "better-word-count",
-  "better-fn",
-  "table-editor-obsidian",
   "easy-typing-obsidian",
   "obsidian-emoji-toolbar",
   "obsidian-daily-stats",
   "dataview",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-link-indexer",
+  "obsidian-mind-map"
 ]

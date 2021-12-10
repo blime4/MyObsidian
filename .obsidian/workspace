@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222
+    "width": 222,
+    "collapsed": true
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -135,21 +136,13 @@
               "type": "stats-tracker",
               "state": {}
             }
-          },
-          {
-            "id": "ac8e65318110d906",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 815
+    "width": 100
   },
   "active": "c78f2b8a7de8d164",
   "lastOpenFiles": [
