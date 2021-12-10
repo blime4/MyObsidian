@@ -6,23 +6,23 @@
       {
         "id": "fafd4b5f65f804a3",
         "type": "leaf",
-        "dimension": 68.07580174927114,
+        "dimension": 74.8,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "f - 语言/c++/内存管理.md",
-            "mode": "source"
+            "file": "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md",
+            "mode": "preview"
           }
         }
       },
       {
         "id": "a5e19fa3e9070e59",
         "type": "leaf",
-        "dimension": 31.924198250728864,
+        "dimension": 25.2,
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "f - 语言/c++/内存管理.md",
+            "file": "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内存",
+                "query": "shar",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "f - 语言/c++/内存管理.md",
+                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "f - 语言/c++/内存管理.md"
+                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "f - 语言/c++/内存管理.md",
+                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -184,15 +184,15 @@
   },
   "active": "fafd4b5f65f804a3",
   "lastOpenFiles": [
-    "f - 语言/c++/内存管理.md",
-    "e - 项目/a - muduo/a - linux多线程服务器编程/weak_ptr.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md",
-    "e - 项目/a - muduo/a - linux多线程服务器编程/智能指针.md",
+    "f - 语言/c++/内存管理.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/悬空指针.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/智能指针.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/race condition.md",
+    "f - 语言/c++/空悬指针.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/weak_ptr.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/006 - 对象的创建很简单.md",
     "e - 项目/a - muduo/z - attachment/Annotation_20211209_170913.png",
-    "e - 项目/a - muduo/对象池的问题.md",
-    "e - 项目/a - muduo/对象池.md",
-    "e - 项目/a - muduo/009 - 线程安全的 Observer 有多难.md"
+    "e - 项目/a - muduo/对象池的问题.md"
   ]
 }
