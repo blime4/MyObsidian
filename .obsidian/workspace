@@ -6,10 +6,11 @@
       {
         "id": "0925c06ba0c18bf2",
         "type": "leaf",
+        "dimension": 85.42274052478133,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "e - 项目/a - muduo/a - linux多线程服务器编程/010 - 对象池.md",
+            "file": "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "de4eb0baf546fc83",
         "type": "leaf",
+        "dimension": 14.577259475218659,
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "e - 项目/a - muduo/a - linux多线程服务器编程/010 - 对象池.md",
+            "file": "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -44,7 +46,7 @@
               "repelStrength": 10,
               "linkStrength": 1,
               "linkDistance": 250,
-              "scale": 1,
+              "scale": 0.2816532814678936,
               "close": false
             }
           }
@@ -76,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shar",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,11 +87,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 372
+    "width": 372,
+    "collapsed": true
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -105,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/010 - 对象池.md",
+                "file": "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/010 - 对象池.md"
+                "file": "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md"
               }
             }
           },
@@ -151,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/010 - 对象池.md",
+                "file": "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,6 +185,8 @@
   },
   "active": "0925c06ba0c18bf2",
   "lastOpenFiles": [
+    "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md",
+    "f - 语言/c++/c++ 白皮书/04 - C++11：感觉像是门新语言.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/010 - 对象池.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/010 - shared_ptr技术与陷阱.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/z - Attachments/Pasted image 20211210185608.png",
@@ -188,8 +194,6 @@
     "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/009 - 线程安全的 Observer 有多难.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/007 - 对象的析构很难.md",
-    "e - 项目/a - muduo/a - linux多线程服务器编程/008 - mutex 不是办法.md",
-    "e - 项目/a - muduo/a - linux多线程服务器编程/006 - 对象的创建很简单.md",
-    "f - 语言/c++/内存管理.md"
+    "e - 项目/a - muduo/a - linux多线程服务器编程/008 - mutex 不是办法.md"
   ]
 }

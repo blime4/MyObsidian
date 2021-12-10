@@ -1,6 +1,6 @@
 {
   "dayCounts": {
-    "2021/11/10": 3877
+    "2021/11/10": 3878
   },
   "todaysWordCount": {
     "y - 日记/2021-12-10.md": {
@@ -90,6 +90,14 @@
     "e - 项目/a - muduo/a - linux多线程服务器编程/010 - shared_ptr技术与陷阱.md": {
       "initial": 0,
       "current": 786
+    },
+    "f - 语言/c++/c++ 白皮书/04 - C++11：感觉像是门新语言.md": {
+      "initial": 15467,
+      "current": 15468
+    },
+    "f - 语言/c++/c++ 白皮书/enable_shared_from_this.md": {
+      "initial": 8,
+      "current": 8
     }
   }
 }
