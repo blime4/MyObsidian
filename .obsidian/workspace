@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "y - 日记/2021-12-10.md",
+            "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222,
-    "collapsed": true
+    "width": 222
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "y - 日记/2021-12-10.md",
+                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "y - 日记/2021-12-10.md"
+                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md"
               }
             }
           },
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "y - 日记/2021-12-10.md",
+                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,6 +145,8 @@
   },
   "active": "c78f2b8a7de8d164",
   "lastOpenFiles": [
+    "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/001 - 前言.md",
     "y - 日记/2021-12-10.md",
     "x - 模板/日记模板.md",
     "y - 日记/2021-12-09.md",
@@ -153,8 +154,6 @@
     "e - 项目/a - muduo/multiple reactor服务器.md",
     "d - 算法/dp/70. 爬楼梯.md",
     "b - 计算机网络/流量控制与可靠传输机制.md",
-    "b - 计算机网络/数据链路层.md",
-    "b - 计算机网络/差错控制.md",
-    "b - 计算机网络/奇偶检验码.md"
+    "b - 计算机网络/数据链路层.md"
   ]
 }
