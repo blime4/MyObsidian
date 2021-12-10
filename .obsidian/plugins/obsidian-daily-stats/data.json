@@ -1,6 +1,6 @@
 {
   "dayCounts": {
-    "2021/11/10": 3091
+    "2021/11/10": 3877
   },
   "todaysWordCount": {
     "y - 日记/2021-12-10.md": {
@@ -86,6 +86,10 @@
     "f - 语言/c++/内存管理.md": {
       "initial": 0,
       "current": 142
+    },
+    "e - 项目/a - muduo/a - linux多线程服务器编程/010 - shared_ptr技术与陷阱.md": {
+      "initial": 0,
+      "current": 786
     }
   }
 }
