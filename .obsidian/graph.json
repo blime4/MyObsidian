@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "path:\"e - 项目/a - muduo/a - linux\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"a - 计算机操作系统\"",
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6346285676930605,
+  "scale": 1.4769860980686556,
   "close": true
 }

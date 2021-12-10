@@ -4,15 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "c78f2b8a7de8d164",
+        "id": "0c390c832b4cab29",
         "type": "leaf",
+        "dimension": 56.73707210487983,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
+            "file": "e - 项目/a - muduo/007 - 对象的析构很难.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "8f87fe4c54aff3a2"
+      },
+      {
+        "id": "a5e19fa3e9070e59",
+        "type": "leaf",
+        "dimension": 43.26292789512017,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "e - 项目/a - muduo/007 - 对象的析构很难.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 0.6554983534946917,
+              "close": false
+            }
+          }
+        },
+        "group": "8f87fe4c54aff3a2"
       }
     ],
     "direction": "vertical"
@@ -39,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "线程安全",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222
+    "width": 222,
+    "collapsed": true
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -68,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
+                "file": "e - 项目/a - muduo/007 - 对象的析构很难.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md"
+                "file": "e - 项目/a - muduo/007 - 对象的析构很难.md"
               }
             }
           },
@@ -114,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
+                "file": "e - 项目/a - muduo/007 - 对象的析构很难.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,23 +177,23 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 103
   },
-  "active": "c78f2b8a7de8d164",
+  "active": "0c390c832b4cab29",
   "lastOpenFiles": [
+    "e - 项目/a - muduo/007 - 对象的析构很难.md",
+    "e - 项目/a - muduo/线程安全.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/006 - 对象的创建很简单.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/005 - MutexLock与MutexLockGuard.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/004 - 当析构函数遇到多线程.md",
+    "e - 项目/a - muduo/日志类封装.md",
     "e - 项目/a - muduo/a - linux多线程服务器编程/002 - 网络编程中遇到的一些具体问题.md",
-    "e - 项目/a - muduo/a - linux多线程服务器编程/001 - 前言.md",
-    "y - 日记/2021-12-10.md",
-    "x - 模板/日记模板.md",
-    "y - 日记/2021-12-09.md",
-    "f - 语言/c++/c++ 白皮书/10.md",
-    "e - 项目/a - muduo/multiple reactor服务器.md",
-    "d - 算法/dp/70. 爬楼梯.md",
-    "b - 计算机网络/流量控制与可靠传输机制.md",
-    "b - 计算机网络/数据链路层.md"
+    "e - 项目/a - muduo/a - linux多线程服务器编程/003 - 线程安全的对象生命期管理.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/race condition.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/001 - 前言.md"
   ]
 }
