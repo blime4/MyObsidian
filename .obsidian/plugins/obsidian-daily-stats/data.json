@@ -1,6 +1,6 @@
 {
   "dayCounts": {
-    "2021/11/10": 2706
+    "2021/11/10": 2890
   },
   "todaysWordCount": {
     "y - 日记/2021-12-10.md": {
@@ -74,6 +74,18 @@
     "e - 项目/a - muduo/a - linux多线程服务器编程/智能指针.md": {
       "initial": 0,
       "current": 7
+    },
+    "e - 项目/a - muduo/a - linux多线程服务器编程/shared_ptr.md": {
+      "initial": 137,
+      "current": 137
+    },
+    "e - 项目/a - muduo/a - linux多线程服务器编程/weak_ptr.md": {
+      "initial": 0,
+      "current": 85
+    },
+    "f - 语言/c++/内存管理.md": {
+      "initial": 0,
+      "current": 99
     }
   }
 }
