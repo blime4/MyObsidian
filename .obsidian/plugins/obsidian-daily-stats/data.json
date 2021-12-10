@@ -1,6 +1,6 @@
 {
   "dayCounts": {
-    "2021/11/10": 1769
+    "2021/11/10": 2093
   },
   "todaysWordCount": {
     "y - 日记/2021-12-10.md": {
@@ -29,7 +29,7 @@
     },
     "e - 项目/a - muduo/线程安全.md": {
       "initial": 82,
-      "current": 157
+      "current": 167
     },
     "e - 项目/a - muduo/a - linux多线程服务器编程/005 - MutexLock与MutexLockGuard.md": {
       "initial": 0,
@@ -49,7 +49,15 @@
     },
     "e - 项目/a - muduo/007 - 对象的析构很难.md": {
       "initial": 0,
-      "current": 158
+      "current": 164
+    },
+    "e - 项目/a - muduo/008 - mutex 不是办法.md": {
+      "initial": 186,
+      "current": 373
+    },
+    "e - 项目/a - muduo/009 - 线程安全的 Observer 有多难.md": {
+      "initial": 0,
+      "current": 121
     }
   }
 }
