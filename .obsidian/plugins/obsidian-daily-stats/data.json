@@ -1,108 +1,21 @@
 {
   "dayCounts": {
     "2021/11/10": 3878,
-    "2021/11/11": 3165
+    "2021/11/11": 3165,
+    "2021/11/12": 183
   },
   "todaysWordCount": {
-    "d - 算法/leetcode每日一题/2021.12.md": {
-      "initial": 51,
-      "current": 56
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/012 - 并发编程.md": {
+    "e - 项目/a - muduo/a - linux多线程服务器编程/019 - 进程间通信只用TCP.md": {
       "initial": 0,
-      "current": 93
+      "current": 89
     },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/013 - 线程同步的四项原则.md": {
+    "e - 项目/a - muduo/a - linux多线程服务器编程/IPC.md": {
       "initial": 0,
-      "current": 198
+      "current": 8
     },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/高级的并发编程构件.md": {
-      "initial": 0,
-      "current": 17
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/互斥器.md": {
-      "initial": 0,
-      "current": 427
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/不可重入.md": {
-      "initial": 0,
-      "current": 367
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/条件变量.md": {
-      "initial": 0,
-      "current": 459
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/CountDownLatch.md": {
-      "initial": 147,
-      "current": 163
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/014 -.md": {
-      "initial": 1,
-      "current": 0
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/014 - 封装MutexLock,MutexLockGuard,Condition.md": {
-      "initial": 0,
-      "current": 3
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/MutexLock.md": {
-      "initial": 0,
-      "current": 111
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/Condition.md": {
-      "initial": 0,
-      "current": 37
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/015 - 线程安全的Singleton实现.md": {
-      "initial": 0,
-      "current": 77
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/016 - sleep不是同步原语.md": {
-      "initial": 0,
-      "current": 140
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/017 - 借shared_ptr实现copy-on-write.md": {
-      "initial": 0,
-      "current": 244
-    },
-    "e - 项目/a - muduo/reactor.md": {
-      "initial": 0,
-      "current": 98
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/018 - 多线程服务器的常用编程模型.md": {
-      "initial": 0,
-      "current": 136
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/one loop per thread.md": {
-      "initial": 45,
-      "current": 336
-    },
-    "e - 项目/a - muduo/a - linux多线程服务器编程/线程池.md": {
-      "initial": 0,
-      "current": 114
-    },
-    "y - 日记/2021-12-11.md": {
-      "initial": 42,
-      "current": 45
-    },
-    "x - 模板/日记模板.md": {
-      "initial": 43,
-      "current": 50
-    },
-    "e - 项目/a - muduo/boost scoped_ptr.md": {
-      "initial": 7,
-      "current": 7
-    },
-    "t - 摘抄/001 - 太宰治.md": {
-      "initial": 0,
-      "current": 6
-    },
-    "t - 摘抄/人间失格.md": {
-      "initial": 1,
-      "current": 264
-    },
-    "t - 摘抄/斜阳.md": {
-      "initial": 0,
-      "current": 53
+    "e - 项目/a - muduo/a - linux多线程服务器编程/进程间通信.md": {
+      "initial": 3,
+      "current": 89
     }
   }
 }
