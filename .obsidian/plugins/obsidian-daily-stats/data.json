@@ -2,7 +2,7 @@
   "dayCounts": {
     "2021/11/10": 3878,
     "2021/11/11": 3165,
-    "2021/11/12": 707
+    "2021/11/12": 762
   },
   "todaysWordCount": {
     "e - 项目/a - muduo/a - linux多线程服务器编程/019 - 进程间通信只用TCP.md": {
@@ -43,11 +43,15 @@
     },
     "d - 算法/dp/跳跃游戏系列.md": {
       "initial": 0,
-      "current": 11
+      "current": 17
     },
     "d - 算法/dp/55. 跳跃游戏.md": {
       "initial": 0,
       "current": 39
+    },
+    "45. 跳跃游戏 II.md": {
+      "initial": 0,
+      "current": 49
     }
   }
 }
