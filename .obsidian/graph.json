@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path:\"e - 项目/a - muduo/a - linux\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"a - 计算机操作系统\"",
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 6084269
       }
+    },
+    {
+      "query": "path:\"e - 项目/a - muduo/a - linux多线程服务器编程\"",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.4769860980686556,
+  "scale": 1.3541652880340547,
   "close": true
 }
