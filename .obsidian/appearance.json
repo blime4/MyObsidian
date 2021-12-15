@@ -1,5 +1,6 @@
 {
   "baseFontSize": 30,
-  "theme": "moonstone",
-  "translucency": false
+  "theme": "obsidian",
+  "translucency": false,
+  "cssTheme": "Cybertron"
 }

@@ -1,6 +1,6 @@
 
 
-每个 Channel 对象自始至终只属于一个 [[EventLoop]]，因此每个 Channel 对象都只属于某一个 [[IO 线程]]。每个 Channel 对象自始至终只负责一个[[文件描述符]]（fd）的 IO 事件分发，但它并不拥有这个 fd，也不会在析构的时候关闭这个 fd。Channel 会把不同的 IO 事件分发为不同的回调，例如 ReadCallback、WriteCallback 等，而且“回调”用 boost :: function 表示，用户无须继承 Channel，Channel 不是基类。muduo 用户一般不直接使用 Channel，而会使用更上层的封装，如[[TcpConnection]]。Channel的生命期由其owner class负责管理，它一般是其他class的直接或间接成员。以下是Channel的public interface：
+每个 Channel 对象自始至终只属于一个 [[EventLoop]]，因此每个 Channel 对象都只属于某一个 [[IO 线程]]。每个 Channel 对象自始至终只负责一个[[文件描述符]]（fd）的 IO 事件分发，但它并不拥有这个 fd，也不会在析构的时候关闭这个 fd。Channel 会把不同的 IO 事件分发为不同的回调，例如 ReadCallback、WriteCallback 等，而且“回调”用 boost :: function 表示，用户无须继承 Channel，Channel 不是基类。==muduo 用户一般不直接使用 Channel，而会使用更上层的封装，如 [[TcpConnection]]。==Channel 的生命期由其 owner class 负责管理，它一般是其他 class 的直接或间接成员。以下是 Channel 的 public interface：
 
 ```c++
 

@@ -2,5 +2,6 @@
   "promptDelete": false,
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./z - Attachments"
+  "attachmentFolderPath": "./z - Attachments",
+  "readableLineLength": false
 }
