@@ -142,3 +142,29 @@ void EventLoop::updateChannel(Channel* channel){
 ---
 
 [[042 - 用timerfd实现了一个单次触发的定时器]]
+
+---
+
+### EventLoop 的改动 2
+
+EventLoop 新增了几个方便用户使用的定时器接口，这几个函数都转而调用 TimerQueue :: addTimer ()。注意这几个 EventLoop 成员函数应该允许跨线程使用，比方说我想在某个 IO 线程中执行超时回调。这就带来线程安全性方面的问题，muduo 的解决办法不是加锁，而是把对 TimerQueue 的操作转移到 IO 线程来进行，这会用 EventLoop :: runInLoop () 函数。
+
+
+```c++
+TimerId EventLoop::runAt()(const Timestamp& time , const TimerCallback& cb){
+	return timerQueue_->addTimer(cb,time,0.0);
+}
+TimerId EventLoop::runAfter(double delay, const TimerCallback& cb){
+	Timestamp time(addTime(Timestamp::now(),delay));
+	return runAt(time,cb);
+}
+TimerId EventLoop::runEvery(double interval, const TimerCallback& cb){
+	Timestamp time(addTime(Timestamp::now(),interval));
+	return timerQueue_->addTimer(cb,time,interval);
+}
+
+```
+
+---
+
+EventLoop :: runInLoop () 函数
