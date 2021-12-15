@@ -3,5 +3,12 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./z - Attachments",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "autoPairMarkdown": true,
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "TcpServer",
+    "handleEvent",
+    "TcpConnection"
+  ]
 }

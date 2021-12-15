@@ -3,7 +3,6 @@
   "calendar",
   "easy-typing-obsidian",
   "obsidian-emoji-toolbar",
-  "obsidian-daily-stats",
   "dataview",
   "obsidian-git",
   "obsidian-link-indexer",
@@ -12,5 +11,7 @@
   "obsidian-outliner",
   "obsidian-file-path-to-uri",
   "markdown-prettifier",
-  "extract-highlights-plugin"
+  "extract-highlights-plugin",
+  "better-word-count",
+  "obsidian-daily-stats"
 ]
