@@ -36,5 +36,5 @@ private:
 
 其中events_是它关心的IO事件，由用户设置；revents_是目前活动的事件，由EventLoop/Poller设置；这两个字段都是bit pattern，它们的名字来自poll(2)的struct pollfd。
 
-Channel :: [[handleEvent]] () 是 Channel的核心;
-它由EventLoop::loop()调用，它的功能是根据revents_的值分别调用不同的用户回调。
+==Channel :: [[handleEvent]] () 是 Channel 的核心;
+它由 EventLoop :: loop () 调用，它的功能是根据 revents_的值分别调用不同的用户回调。==
