@@ -168,3 +168,36 @@ TimerId EventLoop::runEvery(double interval, const TimerCallback& cb){
 ---
 
 EventLoop :: runInLoop () 函数
+
+EventLoop 有一个非常有用的功能：在它的 [[IO 线程]]内执行某个用户任务回调，即 EventLoop :: runInLoop (const Functor& cb)，其中 Functor 是 boost :: function<void ()>。如果用户在当前 IO 线程调用这个函数，回调会同步进行；如果用户在其他线程调用 runInLoop ()，cb 会被加入队列，IO 线程会被唤醒来调用这个 Functor。
+
+---
+
+```c++
+void EventLoop::runInLoop(const Functor& cb){
+	if(isInLoopThread){
+		cb();
+	} else {
+		queueInLoop(cb);
+	}
+}
+```
+
+---
+
+有了这个功能，我们就能轻易地在线程间调配任务，比方说把 TimerQueue 的成员函数调用移到其 IO 线程，这样可以在不用锁的情况下保证[[线程安全]]性。
+
+QueueInLoop () 的实现很简单，将 cb 放入队列，并在必要时唤醒 IO 线程。
+```c++
+void EventLoop::queueInLoop(const Functor& cb){
+	{
+		MutexLockGuard lock(mutex_);
+		pendingFunctors_.push_back(cb);
+	}
+	if(!isInLoopThread()||callingPendingFunctors_){
+		wakeup();
+	}
+}
+```
+
+
