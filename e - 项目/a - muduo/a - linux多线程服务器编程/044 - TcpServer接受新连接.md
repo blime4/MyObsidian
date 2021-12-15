@@ -28,7 +28,45 @@ public:
 	void setMessageCallback(const MessageCallback& cb){ messageCallback_ = cb; }
 private:
 	
-
+	void newConnection(int sockfd, const InetAddress& peerAddr);
+	typedef std::map<std::string, TcpConnectionPtr> ConnectionMap;
+	EventLoop* loop_;							// the acceptor loop
+	const std::string name_;
+	boost::scoped_ptr<Acceptor> acceptor_;		// avoid revealing Acceptor
+	ConnectionCallback connectionCallback_;
+	MessageCallback messageCallback_;
+	bool started_;
+	int nextConnId_;							// always in loop thread
+	ConnectionMap connections_;
 }
 
 ```
+
+---
+
+
+每个 TcpConnection 对象有一个名字，这个名字是由其所属的 TcpServer 在创建 TcpConnection 对象时生成，名字是 ConnectionMap 的 key。
+在新连接到达时，[[Acceptor]] 会回调 newConnection ()，后者会创建 TcpConnection 对象 conn，把它加入 ConnectionMap，设置好 callback，再调用 conn->connectEstablished ()，其中会回调用户提供的 ConnectionCallback。代码如下。
+
+```c++
+void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
+	loop_->assertInLoopThread();
+	char buf[32];
+	snprintf(buf, sizeof(buf), "#%d", nextConnId_);
+	++nextConnId_;
+	std::string connName = name_ + buf;
+	
+	LOG_INFO << "TcpServer::newConnection [" << name_
+			 << "] - new connection [" << connName
+			 << "] from "<<peerAddr.toHostPort();
+	InetAddress localAddr(sockets::getLocalAddr(sockfd));
+	TcpConnectionPtr conn(
+		new TcpConnection(loop_,connName,sockfd,localAddr,peerAddr));
+	connections_[connName] = conn;
+	conn->setConnectionCallback(connectionCallback_);
+	conn->setMessageCallback(messageCallback_);
+	conn->connectEstablished();
+}
+
+```
+

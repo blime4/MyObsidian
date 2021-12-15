@@ -9,6 +9,12 @@
   "spellcheckDictionary": [
     "TcpServer",
     "handleEvent",
-    "TcpConnection"
+    "TcpConnection",
+    "ConnectionMap",
+    "Acceptor",
+    "newConnection",
+    "conn",
+    "connectEstablished",
+    "ConnectionCallback"
   ]
 }
