@@ -70,3 +70,37 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 
 ```
 
+
+---
+
+TcpConnection是muduo里唯一默认使用[[shared_ptr]]来管理的class，也是唯一继承[[enable_shared_from_this]]的class，这源于其模糊的生命期
+```c++
+
+class TcpConnection : boost::nocopyable,
+					  public boost::enable_shared_from_this<TcpConnection>
+{
+public:
+private:
+	enum StateE {KConnecting, KConnected,};
+	void setState(StateE s) {state_ = s};
+	void handleRead();
+	
+	EventLoop* loop_;
+	std::string name_;
+	StateE state_;
+	
+	
+	boost::scoped_ptr<Socket> socket_;
+	boost::scoped_ptr<Channel> channel_;
+	InetAddress localAddr_;
+	InetAddress peerAddr_;
+	
+	ConnectionCallback connectionCallback_;
+	MessageCallback messageCallback_;
+};
+
+```
+
+---
+
+[[045 - TcpServer断开连接]]

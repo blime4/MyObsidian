@@ -15,6 +15,9 @@
     "newConnection",
     "conn",
     "connectEstablished",
-    "ConnectionCallback"
+    "ConnectionCallback",
+    "leetcode",
+    "muduo",
+    "ptr"
   ]
 }
