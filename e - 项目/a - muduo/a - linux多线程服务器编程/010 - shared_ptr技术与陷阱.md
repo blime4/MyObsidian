@@ -30,9 +30,9 @@ boost::function<void()> func = boost::bind(&Foo::doit,pFoo); // long life foo
 	
 ## 析构动作在创建时被捕获
 这是一个非常有用的特性，这意味着：
-+ 虚析构不再是必需的。
-+ shared_ptr<void>可以持有任何对象，而且能安全地释放。
-+ shared_ptr 对象可以安全地跨越模块边界，比如从 DLL 里返回，而不会造成从模块 A 分配的内存在模块 B 里被释放这种错误。
+	+ 虚析构不再是必需的。
+	+ shared_ptr<void>可以持有任何对象，而且能安全地释放。
+	+ shared_ptr 对象可以安全地跨越模块边界，比如从 DLL 里返回，而不会造成从模块 A 分配的内存在模块 B 里被释放这种错误。
 	
 	
 ## 析构所在的线程
@@ -40,7 +40,7 @@ boost::function<void()> func = boost::bind(&Foo::doit,pFoo); // long life foo
 	
 	
 ## 现成的 RAII handle
- 　==我认为RAII（资源获取即初始化）是C++语言区别于其他所有编程语言的最重要的特性==，一个不懂RAII的C++程序员不是一个合格的C++程序员。初学C++的教条是“new和delete要配对，new了之后要记着delete”；如果使用RAII[CCS，条款13]
+ 　==我认为 RAII（资源获取即初始化）是 C++语言区别于其他所有编程语言的最重要的特性==，一个不懂 RAII 的 C++程序员不是一个合格的 C++程序员。初学 C++的教条是“new 和 delete 要配对，new 了之后要记着 delete”；如果使用 RAII[CCS，条款 13]
  ，要改成“每一个明确的资源配置动作（例如new）都应该在单一语句中执行，并在该语句中立刻将配置获得的资源交给handle对象（如shared_ptr），程序中一般不出现delete”。shared_ptr是管理共享资源的利器，需要注意避免循环引用，==通常的做法是owner持有指向child的shared_ptr，child持有指向owner的[[weak_ptr]]。==
 
 

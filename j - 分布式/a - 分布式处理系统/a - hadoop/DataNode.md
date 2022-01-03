@@ -1,0 +1,1 @@
+DataNode是实际的数据存储节点，负责相应[[NameNode]]创建、删除和复制块的命令。NameNode会读取来自DataNode的心跳信息，以此判断DataNode是否存活。同一份数据会以多份副本存储在不同的DataNode上，一旦某一个DataNode宕机，NameNode会立即采取手段来处理问题。

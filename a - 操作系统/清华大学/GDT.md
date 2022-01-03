@@ -1,0 +1,1 @@
+全局描述表 (GDT Global Descriptor Table):

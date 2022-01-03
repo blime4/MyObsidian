@@ -38,3 +38,6 @@ private:
 
 ==Channel :: [[handleEvent]] () 是 Channel 的核心;
 它由 EventLoop :: loop () 调用，它的功能是根据 revents_的值分别调用不同的用户回调。==
+
+
+[[完整的Channel]]

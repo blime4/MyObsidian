@@ -13,5 +13,9 @@
   "markdown-prettifier",
   "extract-highlights-plugin",
   "better-word-count",
-  "obsidian-daily-stats"
+  "obsidian-daily-stats",
+  "obsidian-pandoc",
+  "cm-chs-patch",
+  "cm-editor-syntax-highlight-obsidian",
+  "table-editor-obsidian"
 ]

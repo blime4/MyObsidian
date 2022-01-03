@@ -1,0 +1,1 @@
+Secondary NameNode是[[NameNode]]的备份节点，[[HDFS]]会将NameNode的数据**实时**备份到Secondary NameNode上，当NameNode宕机需要重启时，则可以利用Secondary NameNode中的数据加快NameNode的重启恢复速度。

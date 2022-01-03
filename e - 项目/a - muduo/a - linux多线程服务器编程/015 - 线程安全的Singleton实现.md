@@ -4,6 +4,7 @@
 
 [[线程安全]] 
 [[singleton]]
+[[pthread_once]]
 
 ```c++
 
@@ -11,8 +12,8 @@ template<typename T>
 class Singleton : boost::nocopyable{
 public:
 	static T& instance(){
-	pthread_once(&ponce_,&Singleton::init);
-	return *value_;
+		pthread_once(&ponce_,&Singleton::init);
+		return *value_;
 	}
 private:
 	Singleton();

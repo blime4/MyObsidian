@@ -92,3 +92,36 @@ void Poller::fillActiveChannels(int numEvents, ChannelList* activeChannels) cons
 Poller :: updateChannel () 的主要功能是负责维护和更新 pollfds_数组。添加新 Channel 的复杂度是 O (logN)，更新已有的 Channel 的复杂度是 O (1)，因为 Channel 记住了自己在 pollfds_数组中的下标，因此可以快速定位。RemoveChannel () 的复杂度也将会是 O (logN)。这里用了大量的 assert 来检查 invariant。
 
 代码略
+
+---
+
+### [[Poller]] :: removeChannel ()
+```c++
+
+void Poller::removeChannel(Channel* channel){
+	assertInLoopThread();
+	LOG_TRACE << "fd = " << channel->fd();
+	assert(channels_.find(channel->fd()) != channels_.end());
+	assert(channels_[channel->fd()] == channel);
+	assert(channels->isNoneEvent());
+	
+	int idx = channel->index();
+	assert(0<=idx && idx < static_cast<int>(pollfds_.size()));
+	const struct pollfd& pfd = pollfds_[idx]; (void)pfd;
+	assert(pfd.fd == -channel->fd()-1 && pfd.events == channel->events());
+	size_t n = channels_.erase(channel->fd());
+	assert(n==1);(void)n;
+	if(implicit_cast<size_t>(idx) == pollfds_.size()-1){
+		pollfds_.pop_back();
+	}else{
+		int channelAtEnd = pollfds_.back().fd;
+		iter_swap(pollfds_.begin()+idx, pollfds_end()-1);
+		if(channelAtEnd < 0){
+			channelAtEnd = -channelAtEnd -1;
+		}
+		channels_[channelAtEnd]->set_index(idx);
+		pollfds_.pop_back();
+	}
+	
+}
+```
