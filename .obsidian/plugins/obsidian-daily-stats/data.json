@@ -13,7 +13,7 @@
     "2022/0/1": 223,
     "2022/0/2": 5307,
     "2022/0/3": 346,
-    "2022/0/4": 143
+    "2022/0/4": 367
   },
   "todaysWordCount": {
     "e - 项目/b - naruto/007 - log_appender_interface类分析.md": {
@@ -35,6 +35,10 @@
     "y - 日记/today.md": {
       "initial": 7,
       "current": 13
+    },
+    "e - 项目/b - naruto/vprintf.md": {
+      "initial": 0,
+      "current": 224
     }
   }
 }
