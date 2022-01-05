@@ -7,9 +7,11 @@
         "id": "7d22acf6c0e8021c",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "h - 其他/从零开始详细介绍CMake.pdf"
+            "file": "h - 其他/笔试题地址：.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -69,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "h - 其他/从零开始详细介绍CMake.pdf",
+                "file": "h - 其他/笔试题地址：.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "h - 其他/从零开始详细介绍CMake.pdf"
+                "file": "h - 其他/笔试题地址：.md"
               }
             }
           },
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "h - 其他/从零开始详细介绍CMake.pdf",
+                "file": "h - 其他/笔试题地址：.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "h - 其他/从零开始详细介绍CMake.pdf",
+                "file": "h - 其他/笔试题地址：.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -189,15 +191,15 @@
   },
   "active": "7d22acf6c0e8021c",
   "lastOpenFiles": [
-    "h - 其他/从零开始详细介绍CMake.pdf",
+    "h - 其他/笔试题地址：.md",
+    "h - 其他/003 - gdb.md",
     "h - 其他/002 - Linux下CMake简明教程.md",
+    "h - 其他/从零开始详细介绍CMake.pdf",
     "双缓冲机制.md",
     "e - 项目/b - naruto/001 - 高性能c++日志库.md",
     "e - 项目/b - naruto/static.md",
     "e - 项目/a - muduo/b - 参考自B站视频/one loop per thread + thread pool.md",
     "b - 网络/b - 网络编程专题(来自B站)/013 - Single-Reactor线程池模型.md",
-    "b - 网络/b - 网络编程专题(来自B站)/014 - Muti-Reactor多线程模型.md",
-    "b - 网络/b - 网络编程专题(来自B站)/010 - 主流网络模型介绍.md",
-    "e - 项目/b - naruto/006 - Logger类分析.md"
+    "b - 网络/b - 网络编程专题(来自B站)/014 - Muti-Reactor多线程模型.md"
   ]
 }
