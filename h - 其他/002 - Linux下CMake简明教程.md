@@ -109,3 +109,12 @@ ADD_LIBRARY(naruto STATIC ${srcs})
 SET_TARGET_PROPERTIES(naruto PROPERTIES OUTPUT_NAME "naruto")
 SET_TARGET_PROPERTIES(naruto PROPERTIES CLEAN_DIRECT_OUTPUT 1)
 ```
+
+
+
+
+[参考](https://www.bilibili.com/video/BV1vR4y1u77h?p=3&spm_id_from=pageDriver)
+[[从零开始详细介绍CMake.pdf]]
+
+
+

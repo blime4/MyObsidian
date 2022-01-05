@@ -13,32 +13,17 @@
     "2022/0/1": 223,
     "2022/0/2": 5307,
     "2022/0/3": 346,
-    "2022/0/4": 367
+    "2022/0/4": 367,
+    "2022/0/5": 22
   },
   "todaysWordCount": {
-    "e - 项目/b - naruto/007 - log_appender_interface类分析.md": {
-      "initial": 41,
-      "current": 46
+    "e - 项目/b - naruto/001 - 高性能c++日志库.md": {
+      "initial": 1342,
+      "current": 1342
     },
-    "e - 项目/b - naruto/010 - AsyncFileAppender类分析.md": {
-      "initial": 672,
-      "current": 792
-    },
-    "双缓冲机制.md": {
-      "initial": 1,
-      "current": 4
-    },
-    "e - 项目/b - naruto/012 - LogFile类分析.md": {
-      "initial": 523,
-      "current": 532
-    },
-    "y - 日记/today.md": {
-      "initial": 7,
-      "current": 13
-    },
-    "e - 项目/b - naruto/vprintf.md": {
-      "initial": 0,
-      "current": 224
+    "h - 其他/002 - Linux下CMake简明教程.md": {
+      "initial": 456,
+      "current": 478
     }
   }
 }
