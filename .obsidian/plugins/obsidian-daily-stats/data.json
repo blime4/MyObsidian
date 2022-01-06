@@ -14,32 +14,17 @@
     "2022/0/2": 5307,
     "2022/0/3": 346,
     "2022/0/4": 367,
-    "2022/0/5": 196
+    "2022/0/5": 196,
+    "2022/0/6": 694
   },
   "todaysWordCount": {
-    "e - 项目/b - naruto/001 - 高性能c++日志库.md": {
-      "initial": 1342,
-      "current": 1342
+    "i - 模拟面试/007 - 迭代器失效.md": {
+      "initial": 6,
+      "current": 700
     },
-    "h - 其他/002 - Linux下CMake简明教程.md": {
-      "initial": 456,
-      "current": 478
-    },
-    "h - 其他/003 - gdb.md": {
-      "initial": 0,
-      "current": 164
-    },
-    "h - 其他/笔试题地址：.md": {
-      "initial": 9,
-      "current": 9
-    },
-    "e - 项目/e - icu/000 - QT实战远程控制软件 I see u.md": {
-      "initial": 13,
-      "current": 23
-    },
-    "e - 项目/e - icu/001 - QT安装.md": {
-      "initial": 4,
-      "current": 4
+    "h - 其他/001 - vim 使用技巧.md": {
+      "initial": 20,
+      "current": 20
     }
   }
 }

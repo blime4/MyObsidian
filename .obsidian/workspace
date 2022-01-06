@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "y - 日记/2022-01-06.md",
+            "file": "h - 其他/001 - vim 使用技巧.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "y - 日记/2022-01-06.md",
+                "file": "h - 其他/001 - vim 使用技巧.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "y - 日记/2022-01-06.md"
+                "file": "h - 其他/001 - vim 使用技巧.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "y - 日记/2022-01-06.md",
+                "file": "h - 其他/001 - vim 使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "y - 日记/2022-01-06.md",
+                "file": "h - 其他/001 - vim 使用技巧.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,15 +191,15 @@
   },
   "active": "7d22acf6c0e8021c",
   "lastOpenFiles": [
-    "y - 日记/2022-01-06.md",
+    "h - 其他/001 - vim 使用技巧.md",
+    "i - 模拟面试/007 - 迭代器失效.md",
+    "i - 模拟面试/006 - 说一说什么是内存泄露，如何检测.md",
+    "e - 项目/b - naruto/000 - 源文件分析.md",
+    "e - 项目/b - naruto/008 - mutex类分析.md",
+    "f - 语言/c++/Boost程序库完全开发指南/003 - RAII机制.md",
+    "f - 语言/c++/Boost程序库完全开发指南/001 - 内存管理.md",
     "e - 项目/e - icu/001 - QT安装.md",
     "e - 项目/e - icu/000 - QT实战远程控制软件 I see u.md",
-    "h - 其他/笔试题地址：.md",
-    "h - 其他/003 - gdb.md",
-    "h - 其他/002 - Linux下CMake简明教程.md",
-    "h - 其他/从零开始详细介绍CMake.pdf",
-    "双缓冲机制.md",
-    "e - 项目/b - naruto/001 - 高性能c++日志库.md",
-    "e - 项目/b - naruto/static.md"
+    "y - 日记/2022-01-06.md"
   ]
 }
