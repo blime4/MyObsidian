@@ -19,7 +19,7 @@
     "2022/0/7": 278,
     "2022/0/8": 298,
     "2022/0/10": 136,
-    "2022/0/11": 828
+    "2022/0/11": 994
   },
   "todaysWordCount": {
     "y - 日记/today.md": {
@@ -97,6 +97,22 @@
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/004 - 从汇编角度看编译器优化.md": {
       "initial": 12,
       "current": 12
+    },
+    "a - 操作系统/d - 刘一宇教授/Moore's Law.md": {
+      "initial": 3,
+      "current": 25
+    },
+    "a - 操作系统/d - 刘一宇教授/002 - Performance.md": {
+      "initial": 2,
+      "current": 122
+    },
+    "a - 操作系统/d - 刘一宇教授/003 - CPU time.md": {
+      "initial": 3,
+      "current": 23
+    },
+    "a - 操作系统/d - 刘一宇教授/CPI.md": {
+      "initial": 1,
+      "current": 5
     }
   }
 }
