@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md",
+            "file": "d - 算法/模拟/155. 最小栈.md",
             "mode": "source",
             "source": false
           }
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.0014476776123,
-    "collapsed": true
+    "width": 412.0014476776123
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md",
+                "file": "d - 算法/模拟/155. 最小栈.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md"
+                "file": "d - 算法/模拟/155. 最小栈.md"
               }
             }
           },
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md",
+                "file": "d - 算法/模拟/155. 最小栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md",
+                "file": "d - 算法/模拟/155. 最小栈.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,15 +190,15 @@
   },
   "active": "7d22acf6c0e8021c",
   "lastOpenFiles": [
+    "d - 算法/模拟/155. 最小栈.md",
+    "d - 算法/模拟/算法 - 模拟.md",
+    "d - 算法/模拟/104. 二叉树的最大深度.md",
+    "d - 算法/模拟/101. 对称二叉树.md",
+    "d - 算法/模拟/21. 合并两个有序链表.md",
+    "d - 算法/模拟/20. 有效的括号.md",
+    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/const.md",
+    "y - 日记/2022-01-12.md",
     "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md",
-    "y - 日记/2022-01-11.md",
-    "a - 操作系统/d - 刘一宇教授/003 - CPU time.md",
-    "a - 操作系统/d - 刘一宇教授/002 - Performance.md",
-    "a - 操作系统/d - 刘一宇教授/CPI.md",
-    "a - 操作系统/d - 刘一宇教授/001 - Moore's Law.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/c++新特性.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/003 - 模板元编程与函数式.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/004 - 从汇编角度看编译器优化.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/005 - c++11多线程编程.md"
+    "y - 日记/2022-01-11.md"
   ]
 }
