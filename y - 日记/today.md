@@ -1,7 +1,4 @@
-2022.1.4
-- [x] [[002 - 观察者模式]]
-- [ ] [[static]]
-- [ ] MMapFileWriter
-- [ ] AppendFileWriter
+2022.1.11
+- [ ] 代理模式
 - [ ] 
 
