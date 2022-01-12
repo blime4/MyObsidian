@@ -7,8 +7,12 @@
         "id": "7d22acf6c0e8021c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "d - 算法/010 - 树/404. 左叶子之和.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "d - 算法/010 - 树/404. 左叶子之和.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "d - 算法/010 - 树/404. 左叶子之和.md"
+              }
             }
           },
           {
@@ -109,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "d - 算法/010 - 树/404. 左叶子之和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,6 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "d - 算法/010 - 树/404. 左叶子之和.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,15 +190,15 @@
   },
   "active": "7d22acf6c0e8021c",
   "lastOpenFiles": [
-    "h - 其他/笔试题地址：.md",
-    "d - 算法/模拟/155. 最小栈.md",
-    "d - 算法/模拟/算法 - 模拟.md",
-    "d - 算法/模拟/104. 二叉树的最大深度.md",
-    "d - 算法/模拟/101. 对称二叉树.md",
-    "d - 算法/模拟/21. 合并两个有序链表.md",
-    "d - 算法/模拟/20. 有效的括号.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/const.md",
-    "y - 日记/2022-01-12.md",
-    "a - 操作系统/d - 刘一宇教授/004 - Amdahl's Law.md"
+    "d - 算法/010 - 树/404. 左叶子之和.md",
+    "d - 算法/010 - 树/算法 - 树.md",
+    "d - 算法/010 - 树/543. 二叉树的直径.md",
+    "d - 算法/001 - 算法- 困难题/41. 缺失的第一个正数.md",
+    "d - 算法/001 - 算法- 困难题/算法-困难.md",
+    "d - 算法/004 - 数论/算法 - 简单.md",
+    "d - 算法/004 - 数论/287. 寻找重复数.md",
+    "d - 算法/004 - 数论/算法-数论.md",
+    "d - 算法/004 - 数论/268. 丢失的数字.md",
+    "d - 算法/004 - 数论/算法 - 位运算.md"
   ]
 }
