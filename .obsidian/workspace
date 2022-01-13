@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "y - 日记/2022-01-13.md",
+            "file": "a - 操作系统/b - 深入理解操作系统/002-生产者消费者问题.md",
             "mode": "source",
             "source": false
           }
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.0014476776123
+    "width": 276.00680351257324,
+    "collapsed": true
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -70,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "y - 日记/2022-01-13.md",
+                "file": "a - 操作系统/b - 深入理解操作系统/002-生产者消费者问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "y - 日记/2022-01-13.md"
+                "file": "a - 操作系统/b - 深入理解操作系统/002-生产者消费者问题.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "y - 日记/2022-01-13.md",
+                "file": "a - 操作系统/b - 深入理解操作系统/002-生产者消费者问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "y - 日记/2022-01-13.md",
+                "file": "a - 操作系统/b - 深入理解操作系统/002-生产者消费者问题.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,15 +191,15 @@
   },
   "active": "5ac348f92cc9ef50",
   "lastOpenFiles": [
-    "y - 日记/2022-01-13.md",
-    "h - 其他/003 - gdb.md",
-    "d - 算法/003 - 模拟/229. 求众数 II.md",
-    "d - 算法/003 - 模拟/算法 - 摩尔投票.md",
-    "d - 算法/003 - 模拟/747. 至少是其他数字两倍的最大数.md",
-    "d - 算法/003 - 模拟/169. 多数元素.md",
-    "d - 算法/003 - 模拟/算法 - 模拟.md",
-    "f - 语言/c++/bennyhuo - c++/001 - 值类型.md",
-    "e - 项目/a - muduo/a - linux多线程服务器编程/值语义.md",
-    "e - 项目/b - naruto/完美转发.md"
+    "a - 操作系统/b - 深入理解操作系统/002-生产者消费者问题.md",
+    "a - 操作系统/e - 从0开始数(up主)/003 - 进程间通信-同步.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/消息队列.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/共享内存.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/进程间通信.md",
+    "a - 操作系统/e - 从0开始数(up主)/002 - 进程间通信-互斥.md",
+    "a - 操作系统/e - 从0开始数(up主)/Peterson算法.md",
+    "a - 操作系统/e - 从0开始数(up主)/严格轮换法.md",
+    "a - 操作系统/e - 从0开始数(up主)/001 - 进程和线程的区别.md",
+    "d - 算法/011 - 链表/234. 回文链表.md"
   ]
 }
