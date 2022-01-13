@@ -9,3 +9,4 @@ while(!functors_.empty()){
 
 ```
 
+[[move语义 与 结构化绑定]]
