@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "f - 语言/c++/c++17完全指南/003 -  内联变量.md",
+            "file": "y - 日记/2022-01-15.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "f - 语言/c++/c++17完全指南/003 -  内联变量.md",
+                "file": "y - 日记/2022-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "f - 语言/c++/c++17完全指南/003 -  内联变量.md"
+                "file": "y - 日记/2022-01-15.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "f - 语言/c++/c++17完全指南/003 -  内联变量.md",
+                "file": "y - 日记/2022-01-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "f - 语言/c++/c++17完全指南/003 -  内联变量.md",
+                "file": "y - 日记/2022-01-15.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,15 +191,15 @@
   },
   "active": "5ac348f92cc9ef50",
   "lastOpenFiles": [
+    "y - 日记/2022-01-15.md",
+    "e - 项目/a - muduo/c - 参考自hujiese/010 - Singleton实现.md",
+    "f - 语言/c++/c++ 白皮书/atomic.md",
     "f - 语言/c++/c++17完全指南/003 -  内联变量.md",
+    "e - 项目/a - muduo/a - linux多线程服务器编程/Singleton.md",
     "f - 语言/c++/c++17完全指南/内联变量和thread_local.md",
     "b - 网络/c - linux高性能服务器编程/888 - 具体略过了，以后再学.md",
     "f - 语言/c++/c++17完全指南/constexpr static 成员现在隐含 inline.md",
     "f - 语言/c++/c++17完全指南/使用内联变量.md",
-    "f - 语言/c++/c++17完全指南/000 - 目录.md",
-    "f - 语言/c++/c++17完全指南/内联变量产生的动机.md",
-    "f - 语言/c++/c++17完全指南/一次定义原则.md",
-    "f - 语言/c++/c++17完全指南/002 - 带初始化的 if 和switch 语句.md",
-    "f - 语言/c++/c++17完全指南/带初始化的 switch 语句.md"
+    "f - 语言/c++/c++17完全指南/000 - 目录.md"
   ]
 }
