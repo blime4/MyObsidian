@@ -1,6 +1,6 @@
 {
   "dayCounts": {
-    "2022/0/17": 321
+    "2022/0/17": 728
   },
   "todaysWordCount": {
     "w - 听歌/粤语/001 - 杨千嬅.md": {
@@ -26,6 +26,10 @@
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/TBB并行库.md": {
       "initial": 4,
       "current": 4
+    },
+    "h - 其他/004 - githubusercontent、github加速镜像.md": {
+      "initial": 10,
+      "current": 417
     }
   }
 }

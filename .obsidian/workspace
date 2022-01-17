@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "h - 其他/001 - vim 使用技巧.md",
+            "file": "h - 其他/004 - githubusercontent、github加速镜像.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "h - 其他/001 - vim 使用技巧.md",
+                "file": "h - 其他/004 - githubusercontent、github加速镜像.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "h - 其他/001 - vim 使用技巧.md"
+                "file": "h - 其他/004 - githubusercontent、github加速镜像.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "h - 其他/001 - vim 使用技巧.md",
+                "file": "h - 其他/004 - githubusercontent、github加速镜像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "h - 其他/001 - vim 使用技巧.md",
+                "file": "h - 其他/004 - githubusercontent、github加速镜像.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,6 +191,7 @@
   },
   "active": "5ac348f92cc9ef50",
   "lastOpenFiles": [
+    "h - 其他/004 - githubusercontent、github加速镜像.md",
     "h - 其他/001 - vim 使用技巧.md",
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/TBB并行库.md",
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/006 - TBB开启并行编程之旅.md",
@@ -199,7 +200,6 @@
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/常引用.md",
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/004 - 从汇编角度看编译器优化.md",
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/003 - 模板元编程与函数式.md",
-    "t - 读书/001 - 太宰治/斜阳.md",
-    "t - 读书/001 - 太宰治/人间失格.md"
+    "t - 读书/001 - 太宰治/斜阳.md"
   ]
 }
