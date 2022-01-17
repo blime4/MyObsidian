@@ -1,39 +1,12 @@
 {
   "dayCounts": {
-    "2022/0/17": 1050
+    "2022/0/17": 1050,
+    "2022/0/18": 34
   },
   "todaysWordCount": {
-    "w - 听歌/粤语/001 - 杨千嬅.md": {
-      "initial": 0,
-      "current": 5
-    },
-    "w - 听歌/粤语/再见二丁目.md": {
-      "initial": 0,
-      "current": 300
-    },
-    "h - 其他/001 - vim 使用技巧.md": {
-      "initial": 20,
-      "current": 25
-    },
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/006 - TBB开启并行编程之旅.md": {
-      "initial": 10,
-      "current": 22
-    },
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/并发和并行的区别.md": {
-      "initial": 8,
-      "current": 12
-    },
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/TBB并行库.md": {
-      "initial": 4,
-      "current": 4
-    },
-    "h - 其他/004 - githubusercontent、github加速镜像.md": {
-      "initial": 10,
-      "current": 417
-    },
-    "h - 其他/neovim傻瓜配置.md": {
-      "initial": 0,
-      "current": 317
+    "g - 设计模式/000 - 看懂时序图.md": {
+      "initial": 6,
+      "current": 40
     }
   }
 }

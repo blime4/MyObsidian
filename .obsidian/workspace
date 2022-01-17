@@ -7,12 +7,8 @@
         "id": "5ac348f92cc9ef50",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "h - 其他/neovim傻瓜配置.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -54,8 +50,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.00680351257324,
-    "collapsed": true
+    "width": 409.00680351257324
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -71,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "h - 其他/neovim傻瓜配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "h - 其他/neovim傻瓜配置.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "h - 其他/neovim傻瓜配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +136,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "h - 其他/neovim傻瓜配置.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,24 +172,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 166.89031982421875,
+    "width": 198.73573303222656,
     "collapsed": true
   },
   "active": "5ac348f92cc9ef50",
   "lastOpenFiles": [
+    "g - 设计模式/001 - 桥接模式.md",
+    "g - 设计模式/002 - 观察者模式.md",
+    "g - 设计模式/003 - 访问者模式.md",
+    "g - 设计模式/shared_ptr 如何用于 pimpl.md",
+    "g - 设计模式/桥模式.md",
+    "g - 设计模式/000 - 看懂时序图.md",
     "h - 其他/neovim傻瓜配置.md",
     "h - 其他/001 - vim 使用技巧.md",
     "h - 其他/004 - githubusercontent、github加速镜像.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/TBB并行库.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/006 - TBB开启并行编程之旅.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/并发和并行的区别.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/005 - c++11多线程编程.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/常引用.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/004 - 从汇编角度看编译器优化.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/003 - 模板元编程与函数式.md"
+    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/TBB并行库.md"
   ]
 }
