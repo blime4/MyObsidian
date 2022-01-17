@@ -1,6 +1,6 @@
 {
   "dayCounts": {
-    "2022/0/17": 728
+    "2022/0/17": 1050
   },
   "todaysWordCount": {
     "w - 听歌/粤语/001 - 杨千嬅.md": {
@@ -13,7 +13,7 @@
     },
     "h - 其他/001 - vim 使用技巧.md": {
       "initial": 20,
-      "current": 20
+      "current": 25
     },
     "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/006 - TBB开启并行编程之旅.md": {
       "initial": 10,
@@ -30,6 +30,10 @@
     "h - 其他/004 - githubusercontent、github加速镜像.md": {
       "initial": 10,
       "current": 417
+    },
+    "h - 其他/neovim傻瓜配置.md": {
+      "initial": 0,
+      "current": 317
     }
   }
 }
