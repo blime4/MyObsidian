@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md",
+            "file": "h - 其他/001 - vim 使用技巧.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md",
+                "file": "h - 其他/001 - vim 使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md"
+                "file": "h - 其他/001 - vim 使用技巧.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md",
+                "file": "h - 其他/001 - vim 使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md",
+                "file": "h - 其他/001 - vim 使用技巧.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,6 +191,7 @@
   },
   "active": "5ac348f92cc9ef50",
   "lastOpenFiles": [
+    "h - 其他/001 - vim 使用技巧.md",
     "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md",
     "i - 图形学/a - opengl/a - learnOpenGl/001 - 入门.md",
     "i - 图形学/a - opengl/a - learnOpenGl/003 - 模型加载.md",
@@ -199,7 +200,6 @@
     "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Builder.md",
     "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Abstract_Factory.md",
     "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Abstract_Factory.md",
-    "g - 设计模式/a - DesignPatternInCpp17/docs/Behavioral_Pattern/Chain_of_Responsibility.md",
-    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Builder.md"
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Behavioral_Pattern/Chain_of_Responsibility.md"
   ]
 }
