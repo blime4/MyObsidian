@@ -7,8 +7,12 @@
         "id": "5ac348f92cc9ef50",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -50,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.00680351257324
+    "width": 409.00680351257324,
+    "collapsed": true
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -66,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md"
+              }
             }
           },
           {
@@ -109,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,6 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,15 +192,15 @@
   },
   "active": "5ac348f92cc9ef50",
   "lastOpenFiles": [
-    "g - 设计模式/001 - 桥接模式.md",
-    "g - 设计模式/002 - 观察者模式.md",
-    "g - 设计模式/003 - 访问者模式.md",
-    "g - 设计模式/shared_ptr 如何用于 pimpl.md",
-    "g - 设计模式/桥模式.md",
-    "g - 设计模式/000 - 看懂时序图.md",
-    "h - 其他/neovim傻瓜配置.md",
-    "h - 其他/001 - vim 使用技巧.md",
-    "h - 其他/004 - githubusercontent、github加速镜像.md",
-    "f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/TBB并行库.md"
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md",
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Builder.md",
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Abstract_Factory.md",
+    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Abstract_Factory.md",
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Behavioral_Pattern/Chain_of_Responsibility.md",
+    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Builder.md",
+    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/003 - 智能指针的传参方式选择.md",
+    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/001 - 循环引用问题.md",
+    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/002 - 检测内存泄漏的方法.md",
+    "g - 设计模式/a - DesignPatternInCpp17/999 - 参考.md"
   ]
 }

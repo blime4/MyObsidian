@@ -1,12 +1,48 @@
 {
   "dayCounts": {
     "2022/0/17": 1050,
-    "2022/0/18": 34
+    "2022/0/18": 1092
   },
   "todaysWordCount": {
     "g - 设计模式/000 - 看懂时序图.md": {
       "initial": 6,
       "current": 40
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/002 - 检测内存泄漏的方法.md": {
+      "initial": 264,
+      "current": 278
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/999 - 参考.md": {
+      "initial": 10,
+      "current": 18
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/001 - 循环引用问题.md": {
+      "initial": 0,
+      "current": 190
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/003 - 智能指针的传参方式选择.md": {
+      "initial": 0,
+      "current": 428
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Abstract_Factory.md": {
+      "initial": 1,
+      "current": 232
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Builder.md": {
+      "initial": 1,
+      "current": 1
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Abstract_Factory.md": {
+      "initial": 231,
+      "current": 311
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Builder.md": {
+      "initial": 208,
+      "current": 315
+    },
+    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md": {
+      "initial": 142,
+      "current": 142
     }
   }
 }
