@@ -1,56 +1,25 @@
 {
   "dayCounts": {
     "2022/0/17": 1050,
-    "2022/0/18": 1403
+    "2022/0/18": 1403,
+    "2022/0/20": 80
   },
   "todaysWordCount": {
-    "g - 设计模式/000 - 看懂时序图.md": {
+    "f - 语言/c++/c++17完全指南/004 -  聚合体扩展.md": {
       "initial": 6,
-      "current": 40
+      "current": 76
     },
-    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/002 - 检测内存泄漏的方法.md": {
-      "initial": 264,
-      "current": 278
+    "f - 语言/c++/c++17完全指南/005 -  强制省略拷贝或传递未实质化的对象.md": {
+      "initial": 17,
+      "current": 27
     },
-    "g - 设计模式/a - DesignPatternInCpp17/999 - 参考.md": {
-      "initial": 10,
-      "current": 18
+    "h - 其他/001 - vim 使用技巧.md": {
+      "initial": 20,
+      "current": 20
     },
-    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/001 - 循环引用问题.md": {
-      "initial": 0,
-      "current": 190
-    },
-    "g - 设计模式/a - DesignPatternInCpp17/000 - 其他/003 - 智能指针的传参方式选择.md": {
-      "initial": 0,
-      "current": 428
-    },
-    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Abstract_Factory.md": {
-      "initial": 1,
-      "current": 232
-    },
-    "g - 设计模式/a - DesignPatternInCpp17/001 - 创建型模式/Builder.md": {
-      "initial": 1,
-      "current": 1
-    },
-    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Abstract_Factory.md": {
-      "initial": 231,
-      "current": 311
-    },
-    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Builder.md": {
-      "initial": 208,
-      "current": 315
-    },
-    "g - 设计模式/a - DesignPatternInCpp17/docs/Creational_Pattern/Factory_Method.md": {
-      "initial": 142,
-      "current": 142
-    },
-    "i - 图形学/a - opengl/a - learnOpenGl/001 - 入门.md": {
-      "initial": 1,
-      "current": 1
-    },
-    "i - 图形学/a - opengl/a - learnOpenGl/OpenGL.md": {
-      "initial": 0,
-      "current": 311
+    "f - 语言/c++/c++17完全指南/006 - lambda 表达式扩展.md": {
+      "initial": 7,
+      "current": 7
     }
   }
 }
