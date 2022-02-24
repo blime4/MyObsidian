@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "y - 工作上遇到的/002  - bazel.md",
+            "file": "f - 语言/c++/优秀UP主推荐.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "y - 工作上遇到的/002  - bazel.md",
+                "file": "f - 语言/c++/优秀UP主推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "y - 工作上遇到的/002  - bazel.md"
+                "file": "f - 语言/c++/优秀UP主推荐.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "y - 工作上遇到的/002  - bazel.md",
+                "file": "f - 语言/c++/优秀UP主推荐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "y - 工作上遇到的/002  - bazel.md",
+                "file": "f - 语言/c++/优秀UP主推荐.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,6 +191,7 @@
   },
   "active": "b55386c94d4bdb2a",
   "lastOpenFiles": [
+    "f - 语言/c++/优秀UP主推荐.md",
     "y - 工作上遇到的/002  - bazel.md",
     "y - 工作上遇到的/001 - 动态链接库.md",
     "f - 语言/c++/Cherno C++/000 - 学习进度.md",
@@ -199,7 +200,6 @@
     "f - 语言/c++/bennyhuo - c++/001 - 值类型.md",
     "x - 模板/参考模板.md",
     "z- 复盘/001 - 意志力.md",
-    "f - 语言/c++/modern-cpp/noexcept.md",
-    "f - 语言/c++/设计范式.md"
+    "f - 语言/c++/modern-cpp/noexcept.md"
   ]
 }
