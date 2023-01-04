@@ -2,5 +2,6 @@
   "baseFontSize": 24,
   "theme": "obsidian",
   "translucency": false,
-  "cssTheme": "Cybertron"
+  "cssTheme": "Cybertron",
+  "accentColor": ""
 }

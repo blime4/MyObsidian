@@ -1,32 +1,43 @@
-.zoom-plugin-hidden-row {
-  display: none;
-}
-
 .zoom-plugin-header {
-  padding: 20px 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--file-margins);
+  margin-top: var(--size-4-2);
+  margin-bottom: var(--size-4-2);
 }
 
 .zoom-plugin-title {
-  text-decoration: underline;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zoom-plugin-delimiter {
+  display: inline-block;
+  padding: 0 var(--size-4-2);
+}
+
+.zoom-plugin-bls-zoom .cm-editor .cm-formatting-list-ol,
+.zoom-plugin-bls-zoom .cm-editor .cm-formatting-list-ul {
   cursor: pointer;
 }
 
-.outliner-plugin-bls.zoom-plugin-bls-zoom
-  .cm-s-obsidian
-  span.cm-formatting-list-ul:before {
-  cursor: pointer;
+.zoom-plugin-bls-zoom
+  .markdown-source-view.mod-cm6
+  .cm-fold-indicator
+  .collapse-indicator {
+  margin-right: 6px;
+  padding-right: 0;
 }
 
-.zoom-plugin-bls-zoom:not(.outliner-plugin-bls)
-  .cm-s-obsidian
-  span.cm-formatting-list-ul {
-  cursor: pointer;
+.zoom-plugin-bls-zoom
+  .markdown-source-view.mod-cm6
+  .cm-line:not(.cm-active):not(.HyperMD-header):not(.HyperMD-task-line)
+  .cm-fold-indicator
+  .collapse-indicator {
+  margin-right: 18px;
+  padding-right: 0;
 }
 
-.outliner-plugin-bls.zoom-plugin-bls-zoom
-  .cm-s-obsidian
-  span.cm-formatting-list-ul:hover:before {
-  font-size: 42px;
-  margin-left: -8px;
-  margin-top: -21px;
+.markdown-source-view.mod-cm6 .cm-panels {
+  border-bottom-color: var(--background-modifier-border);
 }

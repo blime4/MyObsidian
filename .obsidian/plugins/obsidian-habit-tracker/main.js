@@ -36,6 +36,7 @@ const DEFAULT_SETTINGS = {
     startOfWeek: '0',
     monthFormat: 'YYYY-MM',
     displayHead: true,
+    enableHTML: false,
     Sunday: 'SUN',
     Monday: 'MON',
     Tuesday: 'TUE',
@@ -141,7 +142,7 @@ function renderBody(ctx) {
     const weeks = [];
     if (startHolds) {
         const startWeekDays = 7 - startHolds;
-        const firstWeek = (new Array(startHolds)).fill('');
+        const firstWeek = (new Array(startHolds)).fill(0);
         weeks.push(firstWeek.concat(days.slice(0, startWeekDays)));
         days = days.slice(startWeekDays);
     }
@@ -154,10 +155,11 @@ function renderBody(ctx) {
     if (lastWeek.length < 7) {
         const pad = 7 - lastWeek.length;
         for (let i = 0; i < pad; i++) {
-            lastWeek.push('');
+            lastWeek.push(0);
         }
     }
     const tbody = createEl('tbody');
+    const { enableHTML } = ctx.settings;
     for (let i = 0; i < weeks.length; i++) {
         const tr = tbody.createEl('tr');
         for (let j = 0; j < weeks[i].length; j++) {
@@ -165,10 +167,17 @@ function renderBody(ctx) {
             const hasOwn = ctx.marks.has(d);
             const td = tr.createEl('td', { cls: `habitt-td habitt-td--${d || 'disabled'} ${hasOwn ? 'habitt-td--checked' : ''}` });
             const div = td.createDiv({ cls: 'habitt-c' });
-            div.createDiv({ cls: 'habitt-date', text: d });
+            div.createDiv({ cls: 'habitt-date', text: `${d || ''}` });
             const dots = div.createDiv({ cls: 'habitt-dots' });
             if (hasOwn) {
-                dots.createDiv({ text: ctx.marks.get(d) || '✔️' });
+                const input = ctx.marks.get(d) || '✔️';
+                // treat as HTML
+                if (enableHTML) {
+                    dots.innerHTML = `<div>${input}</div>`;
+                }
+                else {
+                    dots.createDiv({ text: input });
+                }
             }
         }
     }
@@ -208,6 +217,15 @@ class HabitTrackerSettingTab extends obsidian.PluginSettingTab {
             .setValue(this.plugin.settings.displayHead)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.displayHead = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName('Enable HTML')
+            .setDesc('Treat your input text as HTML. Be careful, it may cause DOM injection attacks')
+            .addToggle(dropdown => dropdown
+            .setValue(this.plugin.settings.enableHTML)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.enableHTML = value;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
