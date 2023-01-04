@@ -8,28 +8,13 @@
     "2022/1/22": 121,
     "2022/1/24": 43,
     "2023/0/3": 56,
-    "2023/0/5": 1514
+    "2023/0/4": 74,
+    "2023/0/5": 4
   },
   "todaysWordCount": {
-    "2023/001-工作/001-c++/cmake.md": {
-      "initial": 0,
-      "current": 2
-    },
-    "2021/h - 其他/002 - Linux下CMake简明教程.md": {
-      "initial": 478,
-      "current": 478
-    },
-    "2023/001-工作/002-python/python相关书籍.md": {
-      "initial": 0,
-      "current": 4
-    },
-    "2023/001-工作/002-python/流畅的python.md": {
-      "initial": 0,
-      "current": 139
-    },
-    "2023/001-工作/003-framework/pythorch/profiler.md": {
-      "initial": 0,
-      "current": 1369
+    "2023/002-朋友/006-饭店/北京饭店.md": {
+      "initial": 1,
+      "current": 5
     }
   }
 }
