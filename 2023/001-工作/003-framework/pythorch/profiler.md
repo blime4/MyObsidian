@@ -21,14 +21,15 @@ profiler 工具完全支持
 
 > 参考资料
 1. 外网讲解代码：[PyTorch Community Voices | PyTorch Profiler | Sabrina & Geeta - YouTube](https://www.youtube.com/watch?v=m6ouC0XMYnc)
-2. 官方介绍 ： 
+2. 官方介绍 ：[PyTorch Profiler — PyTorch Tutorials 
 3. 代码：
 
 
 > 学习进展
 
 23.1.5
-学习外网讲解代码：
+1. 学习外网讲解代码 | doing
+2. 学习 profiler recipe | doing
 
 ### Typical Steps to Optimize Your Model
 
