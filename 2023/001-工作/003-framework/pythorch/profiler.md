@@ -104,5 +104,36 @@ print(prof.key_averages(group_by_input_shape=True).table(sort_by="cpu_time_total
 # Self CPU time total: 57.549ms
 ```
 
-Profiler can also be used to analyze performance of models executed on GPUs:
+> Profiler can also be used to analyze performance of models executed on GPUs:
+
+```python
+model = models.resnet18().cuda()
+inputs = torch.randn(5, 3, 224, 224).cuda()
+
+with profile(activities=[
+        ProfilerActivity.CPU, ProfilerActivity.CUDA], record_shapes=True) as prof:
+    with record_function("model_inference"):
+        model(inputs)
+
+print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=10))
+
+
+# (omitting some columns)
+# -------------------------------------------------------  ------------  ------------
+#                                                    Name     Self CUDA    CUDA total
+# -------------------------------------------------------  ------------  ------------
+#                                         model_inference       0.000us      11.666ms
+#                                            aten::conv2d       0.000us      10.484ms
+#                                       aten::convolution       0.000us      10.484ms
+#                                      aten::_convolution       0.000us      10.484ms
+#                              aten::_convolution_nogroup       0.000us      10.484ms
+#                                       aten::thnn_conv2d       0.000us      10.484ms
+#                               aten::thnn_conv2d_forward      10.484ms      10.484ms
+# void at::native::im2col_kernel<float>(long, float co...       3.844ms       3.844ms
+#                                       sgemm_32x32x32_NN       3.206ms       3.206ms
+#                                   sgemm_32x32x32_NN_vec       3.093ms       3.093ms
+# -------------------------------------------------------  ------------  ------------
+# Self CPU time total: 23.015ms
+# Self CUDA time total: 11.666ms
+```
 
