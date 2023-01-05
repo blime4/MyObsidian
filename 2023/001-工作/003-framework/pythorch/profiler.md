@@ -137,4 +137,4 @@ print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=10))
 # Self CUDA time total: 11.666ms
 ```
 
-2. 
+2. Using profiler to analyze memory consumption
