@@ -43,6 +43,14 @@ profiler 工具完全支持
 
 
 ### Usage
+
+-   `activities` - a list of activities to profile:
+    -   `ProfilerActivity.CPU` - PyTorch operators, TorchScript functions and user-defined code labels (see `record_function` below);
+    -   `ProfilerActivity.CUDA` - on-device CUDA kernels;
+-   `record_shapes` - whether to record shapes of the operator inputs;
+-   `profile_memory` - whether to report amount of memory consumed by model’s Tensors;
+-   `use_cuda` - whether to measure execution time of CUDA kernels.
+
 1. how we can use profiler to analyze the execution time
 ```python
 with profile(activities=[ProfilerActivity.CPU], record_shapes=True) as prof:
