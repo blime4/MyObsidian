@@ -80,7 +80,8 @@ print(prof.key_averages().table(sort_by="cpu_time_total", row_limit=10))
 # ---------------------------------  ------------  ------------  ------------  ------------
 # Self CPU time total: 57.549ms
 ```
-To get a finer granularity of results and include operator input shapes, pass `group_by_input_shape=True` (note: this requires running the profiler with `record_shapes=True`):
+
+> To get a finer granularity (/grænjʊ'lærɪtɪ/ 细粒度) of results and include operator input shapes, pass `group_by_input_shape=True` (note: this requires running the profiler with `record_shapes=True`):
 
 
 
