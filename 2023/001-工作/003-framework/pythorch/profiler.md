@@ -83,8 +83,26 @@ print(prof.key_averages().table(sort_by="cpu_time_total", row_limit=10))
 
 > To get a finer granularity (/grænjʊ'lærɪtɪ/ 细粒度) of results and include operator input shapes, pass `group_by_input_shape=True` (note: this requires running the profiler with `record_shapes=True`):
 
+```python
+print(prof.key_averages(group_by_input_shape=True).table(sort_by="cpu_time_total", row_limit=10))
 
+# (omitting some columns)
+# ---------------------------------  ------------  -------------------------------------------
+#                              Name     CPU total                                 Input Shapes
+# ---------------------------------  ------------  -------------------------------------------
+#                   model_inference      57.503ms                                           []
+#                      aten::conv2d       8.008ms      [5,64,56,56], [64,64,3,3], [], ..., []]
+#                 aten::convolution       7.956ms     [[5,64,56,56], [64,64,3,3], [], ..., []]
+#                aten::_convolution       7.909ms     [[5,64,56,56], [64,64,3,3], [], ..., []]
+#          aten::mkldnn_convolution       7.834ms     [[5,64,56,56], [64,64,3,3], [], ..., []]
+#                      aten::conv2d       6.332ms    [[5,512,7,7], [512,512,3,3], [], ..., []]
+#                 aten::convolution       6.303ms    [[5,512,7,7], [512,512,3,3], [], ..., []]
+#                aten::_convolution       6.273ms    [[5,512,7,7], [512,512,3,3], [], ..., []]
+#          aten::mkldnn_convolution       6.233ms    [[5,512,7,7], [512,512,3,3], [], ..., []]
+#                      aten::conv2d       4.751ms  [[5,256,14,14], [256,256,3,3], [], ..., []]
+# ---------------------------------  ------------  -------------------------------------------
+# Self CPU time total: 57.549ms
+```
 
-
-
+Profiler can also be used to analyze performance of models executed on GPUs:
 
