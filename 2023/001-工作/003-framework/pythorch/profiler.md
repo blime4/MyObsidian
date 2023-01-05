@@ -61,6 +61,26 @@ with profile(activities=[ProfilerActivity.CPU], record_shapes=True) as prof:
 > Profiler also automatically profiles the async tasks launched with `torch.jit._fork` and (in case of a backward pass) the backward pass operators launched with `backward()` call.
 > Profiler 会自动分析异步任务和反向算子。
 
+```python
+print(prof.key_averages().table(sort_by="cpu_time_total", row_limit=10))
+
+# ---------------------------------  ------------  ------------  ------------  ------------
+#                              Name      Self CPU     CPU total  CPU time avg    # of Calls
+# ---------------------------------  ------------  ------------  ------------  ------------
+#                   model_inference       5.509ms      57.503ms      57.503ms             1
+#                      aten::conv2d     231.000us      31.931ms       1.597ms            20
+#                 aten::convolution     250.000us      31.700ms       1.585ms            20
+#                aten::_convolution     336.000us      31.450ms       1.573ms            20
+#          aten::mkldnn_convolution      30.838ms      31.114ms       1.556ms            20
+#                  aten::batch_norm     211.000us      14.693ms     734.650us            20
+#      aten::_batch_norm_impl_index     319.000us      14.482ms     724.100us            20
+#           aten::native_batch_norm       9.229ms      14.109ms     705.450us            20
+#                        aten::mean     332.000us       2.631ms     125.286us            21
+#                      aten::select       1.668ms       2.292ms       8.988us           255
+# ---------------------------------  ------------  ------------  ------------  ------------
+# Self CPU time total: 57.549ms
+```
+
 
 
 
