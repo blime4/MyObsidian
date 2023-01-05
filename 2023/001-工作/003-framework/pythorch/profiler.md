@@ -138,6 +138,7 @@ print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=10))
 ```
 
 1. Using profiler to analyze memory consumption
+> To enable memory profiling functionality pass `profile_memory=True`.
 
 ```python
 model = models.resnet18()
