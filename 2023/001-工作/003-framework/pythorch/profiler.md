@@ -252,3 +252,7 @@ print(prof.key_averages(group_by_stack_n=5).table(sort_by="self_cuda_time_total"
 #### Visualizing data as a flamegraph
 
 > Execution time (`self_cpu_time_total` and `self_cuda_time_total` metrics) and stack traces can also be visualized as a flame graph. To do this, first export the raw data using `export_stacks` (requires `with_stack=True`):
+
+```python
+prof.export_stacks("/tmp/profiler_stacks.txt", "self_cuda_time_total")
+```
