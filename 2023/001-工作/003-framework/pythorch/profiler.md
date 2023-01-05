@@ -18,7 +18,8 @@ profiler 工具完全支持
 
 
 > 参考资料
-
+1. 外网讲解代码：[PyTorch Community Voices | PyTorch Profiler | Sabrina & Geeta - YouTube](https://www.youtube.com/watch?v=m6ouC0XMYnc)
+2. 
 
 
 
