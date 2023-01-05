@@ -9,4 +9,8 @@
 3. testcase 这种比较简单 debug 进去, 用 gdb 跟进去
 
 
-> 
+> 学习预期
+
+profiler 工具完全支持  
+1. 熟悉profiler原理，使用清楚，预研下KinTo模式是否能支持。  
+2.精度对比工具优化。
