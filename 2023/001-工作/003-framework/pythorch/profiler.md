@@ -1,3 +1,8 @@
 
 
-> Pytorch profiler 
+> Pytorch profiler
+
+
+学习流程：
+1. 进展这种你可以先看个大概，比如说 profiler，先用起来，现在能用起来么？如果能的话，看看主要有什么功能是吧?
+2. 
