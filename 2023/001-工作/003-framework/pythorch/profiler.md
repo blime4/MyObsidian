@@ -57,7 +57,8 @@ with profile(activities=[ProfilerActivity.CPU], record_shapes=True) as prof:
     with record_function("model_inference"):
         model(inputs)
 ```
-3. 
+
+> Profiler also automatically profiles the async tasks launched with `torch.jit._fork` and (in case of a backward pass) the backward pass operators launched with `backward()` call.
 
 
 
