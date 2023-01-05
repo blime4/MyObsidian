@@ -21,7 +21,7 @@ profiler 工具完全支持
 
 > 参考资料
 1. 外网讲解代码：[PyTorch Community Voices | PyTorch Profiler | Sabrina & Geeta - YouTube](https://www.youtube.com/watch?v=m6ouC0XMYnc)
-2. 官方介绍 ：[PyTorch Profiler — PyTorch Tutorials 
+2. 官方介绍 : [PyTorch Profiler — PyTorch Tutorials 1.12.1+cu102 documentation](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html)
 3. 代码：
 
 
