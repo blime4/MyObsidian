@@ -30,7 +30,12 @@ profiler 工具完全支持
 23.1.5
 学习外网讲解代码：
 
-### Typical Steps t
+### Typical Steps to Optimize Your Model
+
+1. Caputure Profile > Aggregate and analyze results > Optimize Model 
+2. Caputure Profile > Aggregate and analyze results > Optimize Model 
+3. Caputure Profile > Aggregate and analyze results > Optimize Model 
+4. 
 
 
 
