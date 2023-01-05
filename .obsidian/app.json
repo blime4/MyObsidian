@@ -2,7 +2,7 @@
   "promptDelete": false,
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "2023/未命名",
+  "attachmentFolderPath": "./attacments",
   "readableLineLength": false,
   "autoPairMarkdown": true,
   "spellcheck": false,
