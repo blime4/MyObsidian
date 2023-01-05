@@ -42,5 +42,15 @@ profiler 工具完全支持
 
 
 
+### Usage
+1. how we can use profiler to analyze the execution time
+```python
+with profile(activities=[ProfilerActivity.CPU], record_shapes=True) as prof:
+    with record_function("model_inference"):
+        model(inputs)
+```
+3. 
+
+
 
 
