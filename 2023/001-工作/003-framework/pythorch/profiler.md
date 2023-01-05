@@ -213,3 +213,40 @@ prof.export_chrome_trace("trace.json")
 
 #### Examining stack traces
 > Profiler can be used to analyze Python and TorchScript stack traces:
+```python
+with profile(
+    activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA],
+    with_stack=True,
+) as prof:
+    model(inputs)
+
+# Print aggregated stats
+print(prof.key_averages(group_by_stack_n=5).table(sort_by="self_cuda_time_total", row_limit=2))
+
+# (omitting some columns)
+# -------------------------  -----------------------------------------------------------
+#                      Name  Source Location
+# -------------------------  -----------------------------------------------------------
+# aten::thnn_conv2d_forward  .../torch/nn/modules/conv.py(439): _conv_forward
+#                            .../torch/nn/modules/conv.py(443): forward
+#                            .../torch/nn/modules/module.py(1051): _call_impl
+#                            .../site-packages/torchvision/models/resnet.py(63): forward
+#                            .../torch/nn/modules/module.py(1051): _call_impl
+#
+# aten::thnn_conv2d_forward  .../torch/nn/modules/conv.py(439): _conv_forward
+#                            .../torch/nn/modules/conv.py(443): forward
+#                            .../torch/nn/modules/module.py(1051): _call_impl
+#                            .../site-packages/torchvision/models/resnet.py(59): forward
+#                            .../torch/nn/modules/module.py(1051): _call_impl
+#
+# -------------------------  -----------------------------------------------------------
+# Self CPU time total: 34.016ms
+# Self CUDA time total: 11.659ms
+
+# Note the two convolutions and the two callsites in `torchvision/models/resnet.py` script.
+
+# (Warning: stack tracing adds an extra profiling overhead.)
+
+```
+
+
