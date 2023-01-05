@@ -249,4 +249,5 @@ print(prof.key_averages(group_by_stack_n=5).table(sort_by="self_cuda_time_total"
 
 ```
 
+#### Visualizing data as a flamegraph
 
