@@ -51,7 +51,8 @@ profiler 工具完全支持
 -   `profile_memory` - whether to report amount of memory consumed by model’s Tensors;
 -   `use_cuda` - whether to measure execution time of CUDA kernels.
 
-1. how we can use profiler to analyze the execution time
+#### how we can use profiler to analyze the execution time、
+
 ```python
 with profile(activities=[ProfilerActivity.CPU], record_shapes=True) as prof:
     with record_function("model_inference"):
@@ -137,7 +138,7 @@ print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=10))
 # Self CUDA time total: 11.666ms
 ```
 
-1. Using profiler to analyze memory consumption
+#### Using profiler to analyze memory consumption
 > To enable memory profiling functionality pass `profile_memory=True`.
 
 ```python
@@ -187,7 +188,7 @@ print(prof.key_averages().table(sort_by="cpu_memory_usage", row_limit=10))
 # Self CPU time total: 53.064ms
 ```
 
-1. Using tracing functionality
+###Using tracing functionality
 > Profiling results can be outputted as a . json trace file:
 
 ```python
