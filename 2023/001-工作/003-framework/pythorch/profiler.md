@@ -14,9 +14,9 @@
 > 学习预期
 
 profiler 工具完全支持  
-1. 熟悉 profiler 原理，使用清楚，预研下 KinTo 模式是否能支持。  
+1. 熟悉 profiler 原理，使用清楚，预研下 KineTo 模式是否能支持。  
 2. 精度对比工具优化。
-3. 熟悉 prof，交付 pro 测试
+3. 熟悉 prof，交付 pro 测试.
 
 
 > 参考资料
