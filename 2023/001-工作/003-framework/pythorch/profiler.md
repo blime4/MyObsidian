@@ -186,3 +186,18 @@ print(prof.key_averages().table(sort_by="cpu_memory_usage", row_limit=10))
 # ---------------------------------  ------------  ------------  ------------
 # Self CPU time total: 53.064ms
 ```
+
+1. Using tracing functionality
+> Profiling results can be outputted as a . json trace file:
+
+```python
+model = models.resnet18().cuda()
+inputs = torch.randn(5, 3, 224, 224).cuda()
+
+with profile(activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA]) as prof:
+    model(inputs)
+
+prof.export_chrome_trace("trace.json")
+
+# (`chrome://tracing`):
+```
