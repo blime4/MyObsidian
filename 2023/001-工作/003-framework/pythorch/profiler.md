@@ -59,6 +59,10 @@ with profile(activities=[ProfilerActivity.CPU], record_shapes=True) as prof:
 ```
 
 > Profiler also automatically profiles the async tasks launched with `torch.jit._fork` and (in case of a backward pass) the backward pass operators launched with `backward()` call.
+> Profiler 会自动分析异步任务和反向算子。
+
+
+
 
 
 
