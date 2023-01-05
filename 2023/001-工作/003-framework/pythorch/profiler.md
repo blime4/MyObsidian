@@ -137,4 +137,51 @@ print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=10))
 # Self CUDA time total: 11.666ms
 ```
 
-2. Using profiler to analyze memory consumption
+1. Using profiler to analyze memory consumption
+
+```python
+model = models.resnet18()
+inputs = torch.randn(5, 3, 224, 224)
+
+with profile(activities=[ProfilerActivity.CPU],
+        profile_memory=True, record_shapes=True) as prof:
+    model(inputs)
+
+print(prof.key_averages().table(sort_by="self_cpu_memory_usage", row_limit=10))
+
+# (omitting some columns)
+# ---------------------------------  ------------  ------------  ------------
+#                              Name       CPU Mem  Self CPU Mem    # of Calls
+# ---------------------------------  ------------  ------------  ------------
+#                       aten::empty      94.79 Mb      94.79 Mb           121
+#     aten::max_pool2d_with_indices      11.48 Mb      11.48 Mb             1
+#                       aten::addmm      19.53 Kb      19.53 Kb             1
+#               aten::empty_strided         572 b         572 b            25
+#                     aten::resize_         240 b         240 b             6
+#                         aten::abs         480 b         240 b             4
+#                         aten::add         160 b         160 b            20
+#               aten::masked_select         120 b         112 b             1
+#                          aten::ne         122 b          53 b             6
+#                          aten::eq          60 b          30 b             2
+# ---------------------------------  ------------  ------------  ------------
+# Self CPU time total: 53.064ms
+
+print(prof.key_averages().table(sort_by="cpu_memory_usage", row_limit=10))
+
+# (omitting some columns)
+# ---------------------------------  ------------  ------------  ------------
+#                              Name       CPU Mem  Self CPU Mem    # of Calls
+# ---------------------------------  ------------  ------------  ------------
+#                       aten::empty      94.79 Mb      94.79 Mb           121
+#                  aten::batch_norm      47.41 Mb           0 b            20
+#      aten::_batch_norm_impl_index      47.41 Mb           0 b            20
+#           aten::native_batch_norm      47.41 Mb           0 b            20
+#                      aten::conv2d      47.37 Mb           0 b            20
+#                 aten::convolution      47.37 Mb           0 b            20
+#                aten::_convolution      47.37 Mb           0 b            20
+#          aten::mkldnn_convolution      47.37 Mb           0 b            20
+#                  aten::max_pool2d      11.48 Mb           0 b             1
+#     aten::max_pool2d_with_indices      11.48 Mb      11.48 Mb             1
+# ---------------------------------  ------------  ------------  ------------
+# Self CPU time total: 53.064ms
+```
