@@ -2,8 +2,7 @@
 > Pytorch profiler
 
 ---
-
-> 学习流程：
+#### 学习流程 ：
 
 1. 都看，官方介绍、外网介绍、代码啥的
 2. 进展这种你可以先看个大概，比如说 profiler，先用起来，现在能用起来么？如果能的话，看看主要有什么功能是吧? 先用起来，至少 NV 上是可以用起来的是吧? 基础的用起来，有啥功能，能 profile 到什么程度?
@@ -11,7 +10,7 @@
 4. testcase 这种比较简单 debug 进去, 用 gdb 跟进去
 ---
 
-> 学习预期
+#### 学习预期
 
 profiler 工具完全支持  
 1. 熟悉 profiler 原理，使用清楚，预研下 KineTo 模式是否能支持。  
@@ -20,14 +19,14 @@ profiler 工具完全支持
 
 ---
 
-> 参考资料
+#### 参考资料
 1. 外网讲解代码：[PyTorch Community Voices | PyTorch Profiler | Sabrina & Geeta - YouTube](https://www.youtube.com/watch?v=m6ouC0XMYnc)
 2. 官方介绍 : [PyTorch Profiler — PyTorch Tutorials 1.12.1+cu102 documentation](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html)
 3. 代码：
 
 ---
 
-> 学习进展
+#### 学习进展
 
 23.1.5 - 23.1.6
 1. 学习外网讲解代码 | doing
