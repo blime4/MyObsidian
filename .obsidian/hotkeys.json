@@ -43,5 +43,21 @@
       ],
       "key": "M"
     }
+  ],
+  "outline:open-for-current": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "E"
+    }
   ]
 }
