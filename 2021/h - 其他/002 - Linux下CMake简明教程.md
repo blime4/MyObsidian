@@ -13,7 +13,7 @@ CMake是开源、跨平台的构建工具，可以让我们通过编写简单的
 1. CMakeLists.txt
 	1. cmake_minimum_required (VERSION 2.8)
 	2. project (demo)
-	3. **aux_source_directory(dir,var)**。
+	3. **aux_source_directory (dir, var)**。|  不建议用法
 		1. 把指定目录下所有的源文件存储在一个变量中
 		2. 弊端，会把目录下所有源文件都加进来，替代品：set
 		3. 弊端，增量编译会有问题
