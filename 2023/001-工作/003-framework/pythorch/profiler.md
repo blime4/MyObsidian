@@ -257,3 +257,6 @@ print(prof.key_averages(group_by_stack_n=5).table(sort_by="self_cuda_time_total"
 prof.export_stacks("/tmp/profiler_stacks.txt", "self_cuda_time_total")
 ```
 
+
+#### Using profiler to analyze long-running jobs
+
