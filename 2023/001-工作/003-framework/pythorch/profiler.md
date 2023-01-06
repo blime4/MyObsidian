@@ -328,4 +328,5 @@ enable:
 Libkineto is an in-process profiling library integrated with the PyTorch Profiler with special focus on low-overhead GPU timeline tracing.
 
 > Currently only NVIDIA GPUs are supported.
-> TODO： Check if we can support
+> TODO： Check if we can supported
+
