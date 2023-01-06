@@ -32,7 +32,7 @@ profiler 工具完全支持
 
 23.1.5
 1. 学习外网讲解代码 | doing
-2. 学习 profiler recipe | doing
+2. 学习 profiler recipe | done
 
 ### Typical Steps to Optimize Your Model
 
