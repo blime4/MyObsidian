@@ -332,3 +332,12 @@ Libkineto is an in-process profiling library integrated with the PyTorch Profile
 > 最基础的维度比说说就是计时间的，这个应该不需要这个CUPTI；再细粒度的profile你发的这个收集一些GPU的traces或者metrics，那可能就需要我们自己的sdk支持了，这个可能我们不支持，得确认
 
 #### Dependencies
+
+Libkineto requires gcc 5+ and:
+
+-   NVIDIA CUPTI: used to collect traces and metrics from NVIDIA GPUs.
+-   fmt: used for its convenient and lightweight string formatting functionality.
+-   googletest: required to build and run Kineto's tests.
+    -   **googletest is not required** if you don't want to run Kineto tests. By default, building of tests is **on**. Turn it off by setting `KINETO_BUILD_TESTS` to **off**.
+
+You can download [NVIDIA CUPTI](https://developer.nvidia.com/CUPTI-CTK10_2), [fmt](https://github.com/fmt), [googletest](https://github.com/google/googletest) and set `CUDA_SOURCE_DIR`, `FMT_SOURCE_DIR`, `GOOGLETEST_SOURCE_DIR` respectively for cmake to find these libraries. If the fmt and googletest variables are not set, cmake will build the git submodules found in the `third_party` directory. If `CUDA_SOURCE_DIR` is not set, libkineto will fail to build.
