@@ -374,7 +374,7 @@ get_filelist("get_libkineto_public_headers()" LIBKINETO_PUBLIC_HEADERS)
 get_filelist("get_libkineto_api_srcs()" LIBKINETO_API_SRCS)
 ```
 
-get_libkineto_cpu_only_srcs 
+get_libkineto_cpu_only_srcs : 
 ```
 [
 	"src/AbstractConfig.cpp",
@@ -394,5 +394,26 @@ get_libkineto_cpu_only_srcs
 	"src/init.cpp",
 	"src/output_csv.cpp",
 	"src/output_json.cpp",
+]
+```
+get_libkineto_cupti_srcs:
+```
+[
+	"src/CudaDeviceProperties.cpp",
+	"src/CudaUtil.cpp",
+	"src/CuptiActivityApi.cpp",
+	"src/CuptiActivityPlatform.cpp",
+	"src/CuptiCallbackApi.cpp",
+	"src/CuptiEventApi.cpp",
+	"src/CuptiMetricApi.cpp",
+	"src/CuptiRangeProfiler.cpp",
+	"src/CuptiRangeProfilerApi.cpp",
+	"src/CuptiRangeProfilerConfig.cpp",
+	"src/CuptiNvPerfMetric.cpp",
+	"src/Demangle.cpp",
+	"src/EventProfiler.cpp",
+	"src/EventProfilerController.cpp",
+	"src/WeakSymbols.cpp",
+	"src/cupti_strings.cpp",
 ]
 ```
