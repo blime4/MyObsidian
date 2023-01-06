@@ -325,3 +325,4 @@ enable:
 4. integration with popular visualization platforms and analysis pipelines
 
 ### Libkineto
+Libkineto is an in-process profiling library integrated with the PyTorch Profiler with special focus on low-overhead GPU timeline tracing.
