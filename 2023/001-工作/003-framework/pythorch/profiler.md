@@ -266,7 +266,7 @@ To illustrate how the API works, let’s first consider the following example wi
 from torch. profiler import schedule
 
 my_schedule = schedule(
-    skip_first=10,
+    skip_first=10, # 
     wait=5,
     warmup=1,
     active=3,
