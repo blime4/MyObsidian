@@ -314,3 +314,10 @@ with profile(
 ## Pytorch Profiler Architecture
 ![[截图_20230106114600.png]]、
 
+## Kineto
+
+enable:
+1. **performance observability and diagnostics** across common ML bottleneck components
+2. **actionable recommendations** for common issues
+3. integration of external system-level profiling tools
+4. integration with popular visualization platforms and analysis pipelines
