@@ -1,5 +1,5 @@
 
-
+![[Pasted image 20230106112858.png]]
 > Pytorch profiler
 
 ---
@@ -46,6 +46,7 @@ profiler 工具完全支持
 ---
 
 ### Five big futures 
+![[Pasted image 20230106112821.png]]
 1. 
 
 ---
