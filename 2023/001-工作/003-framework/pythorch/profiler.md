@@ -261,6 +261,17 @@ prof.export_stacks("/tmp/profiler_stacks.txt", "self_cuda_time_total")
 #### Using profiler to analyze long-running jobs
 1. `schedule`
 2. `on_trace_ready`
+To illustrate how the API works, let’s first consider the following example with `torch.profiler.schedule` helper function:
+```python
+from torch. profiler import schedule
+
+my_schedule = schedule(
+    skip_first=10,
+    wait=5,
+    warmup=1,
+    active=3,
+    repeat=2)
+```
 
 
 
