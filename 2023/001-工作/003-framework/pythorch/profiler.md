@@ -266,10 +266,10 @@ To illustrate how the API works, let’s first consider the following example wi
 from torch. profiler import schedule
 
 my_schedule = schedule(
-    skip_first=10, #  ignore the first 10 steps
-    wait=5,
-    warmup=1,
-    active=3,
+    skip_first=10, # ignore the first 10 steps
+    wait=5, # idling
+    warmup=1, # during this phase profiler starts tracing, but the results are discarded;
+    active=3, # profiler traces and records data
     repeat=2)
 ```
 
