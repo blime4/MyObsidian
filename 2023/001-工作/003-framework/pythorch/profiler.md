@@ -30,7 +30,7 @@ profiler 工具完全支持
 
 > 学习进展
 
-23.1.5
+23.1.5 - 23.1.6
 1. 学习外网讲解代码 | doing
 2. 学习 profiler recipe | done
 
@@ -46,7 +46,7 @@ profiler 工具完全支持
 ---
 
 ### Five big futures 
-
+1. 
 
 ---
 
