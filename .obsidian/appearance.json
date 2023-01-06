@@ -1,7 +1,7 @@
 {
   "baseFontSize": 27,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "translucency": false,
-  "cssTheme": "California-Coast",
-  "accentColor": ""
+  "cssTheme": "minimal",
+  "accentColor": "#8a67fe"
 }
