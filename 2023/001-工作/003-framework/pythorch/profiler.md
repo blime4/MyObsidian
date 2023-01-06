@@ -26,7 +26,7 @@ profiler 工具完全支持
 4. REFERENCES What's new in PyTorch Profiler 1.9： https://pytorch.org/blog/pytorch-profiler-1.9-released/ Introducing PyTorch Profiler：
 https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/ Profiler: https://pytorch.org/docs/stable/profiler.html Profiler Recipes: https://pytorch.org/tutorials/recipes/recipes/profiler.html VSCode TensorBoard support: https://devblogs.microsoft.com/python/python-in-visual-studio-code-february-
 2021-release/ GTC 2021-PROFILING PYTORCH MODELS FOR NVIDIA GPUS：
-https://gtc21.event.nvidia.com/media/Profiling%20PyTorch%20Models%20for%20NVIDIA%20GPUs%20%5BS31644%5D/1 nuwnw731
+https://gtc21.event.nvidia.com/media/Profiling%20PyTorch%20Models%20for%20NVIDIA%20GPUs%20%5BS31644%5D/1nuwnw731
 Optimizing PyTorch Performance batch size with PyTorch Profiler: https://opendatascience.com/optimizing-
 pytorch-performance-batch-size-with-pytorch-profiler/ Kubeflow PyTorch Samples: https://github.com/kubeflow/pipelines/tree/master/samples/contrib/pytorch-
 samples PyTorch Lightning Profiler example: https://github.com/PyTorchLightning/pytorch-
