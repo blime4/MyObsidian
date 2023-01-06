@@ -306,4 +306,3 @@ with profile(
 ---
 
 ## Pytorch Profiler Architecture
-
