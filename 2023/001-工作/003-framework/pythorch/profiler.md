@@ -330,3 +330,4 @@ Libkineto is an in-process profiling library integrated with the PyTorch Profile
 > Currently only NVIDIA GPUs are supported.
 > TODO： Check if we can supported
 
+#### Dependencies
