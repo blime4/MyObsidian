@@ -374,6 +374,7 @@ get_filelist("get_libkineto_public_headers()" LIBKINETO_PUBLIC_HEADERS)
 get_filelist("get_libkineto_api_srcs()" LIBKINETO_API_SRCS)
 ```
 
+get_libkineto_cpu_only_srcs 
 ```
 [
 	"src/AbstractConfig.cpp",
