@@ -346,6 +346,28 @@ You can download [NVIDIA CUPTI](https://developer.nvidia.com/CUPTI-CTK10_2), [
 #### Source Code
 
 [kineto/CMakeLists.txt at main · pytorch/kineto (github.com)](https://github.com/pytorch/kineto/blob/main/libkineto/CMakeLists.txt)
-```
+```cmake
+# Define file lists
 
+if (LIBKINETO_NOCUPTI AND LIBKINETO_NOROCTRACER)
+
+get_filelist("get_libkineto_cpu_only_srcs(with_api=False)" LIBKINETO_SRCS)
+
+message(INFO " CUPTI unavailable or disabled - not building GPU profilers")
+
+elseif(NOT LIBKINETO_NOROCTRACER)
+
+get_filelist("get_libkineto_roctracer_srcs(with_api=False)" LIBKINETO_SRCS)
+
+message(INFO " Building with roctracer")
+
+else()
+
+get_filelist("get_libkineto_cupti_srcs(with_api=False)" LIBKINETO_SRCS)
+
+endif()
+
+get_filelist("get_libkineto_public_headers()" LIBKINETO_PUBLIC_HEADERS)
+
+get_filelist("get_libkineto_api_srcs()" LIBKINETO_API_SRCS)
 ```
