@@ -373,3 +373,25 @@ endif()
 get_filelist("get_libkineto_public_headers()" LIBKINETO_PUBLIC_HEADERS)
 get_filelist("get_libkineto_api_srcs()" LIBKINETO_API_SRCS)
 ```
+
+```
+[
+	"src/AbstractConfig.cpp",
+	"src/CuptiActivityProfiler.cpp",
+	"src/ActivityProfilerController.cpp",
+	"src/ActivityProfilerProxy.cpp",
+	"src/ActivityType.cpp",
+	"src/Config.cpp",
+	"src/ConfigLoader.cpp",
+	"src/CuptiActivityApi.cpp",
+	"src/DaemonConfigLoader.cpp",
+	"src/Demangle.cpp",
+	"src/GenericTraceActivity.cpp",
+	"src/ILoggerObserver.cpp",
+	"src/IpcFabricConfigClient.cpp",
+	"src/Logger.cpp",
+	"src/init.cpp",
+	"src/output_csv.cpp",
+	"src/output_json.cpp",
+]
+```
