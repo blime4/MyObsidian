@@ -44,6 +44,22 @@
       "key": "M"
     }
   ],
-  "outline:open-for-current": [],
-  "outline:open": []
+  "outline:open-for-current": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ]
 }
