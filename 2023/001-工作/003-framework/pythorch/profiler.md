@@ -305,4 +305,5 @@ with profile(
 
 ---
 
-## Pytorch Profiler Arch
+## Pytorch Profiler Architecture
+
