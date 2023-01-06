@@ -321,3 +321,5 @@ enable:
 2. **actionable recommendations** for common issues
 3. integration of external system-level profiling tools
 4. integration with popular visualization platforms and analysis pipelines
+
+## Libkineto
