@@ -347,8 +347,22 @@ You can download [NVIDIA CUPTI](https://developer.nvidia.com/CUPTI-CTK10_2), [
 
 [kineto/CMakeLists.txt at main · pytorch/kineto (github.com)](https://github.com/pytorch/kineto/blob/main/libkineto/CMakeLists.txt)
 ```cmake
-# Define file lists
+# function to extract filelists from libkineto_defs.bzl file
 
+find_package(PythonInterp)
+
+function(get_filelist name outputvar)
+
+execute_process(
+	COMMAND "${PYTHON_EXECUTABLE}" -c
+	"exec(open('libkineto_defs.bzl').read());print(';'.join(${name}))"
+	WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
+	OUTPUT_VARIABLE _tempvar)
+	string(REPLACE "\n" "" _tempvar "${_tempvar}")
+	set(${outputvar} ${_tempvar} PARENT_SCOPE)
+endfunction()
+
+# Define file lists
 if (LIBKINETO_NOCUPTI AND LIBKINETO_NOROCTRACER)
 	get_filelist("get_libkineto_cpu_only_srcs(with_api=False)" LIBKINETO_SRCS)
 	message(INFO " CUPTI unavailable or disabled - not building GPU profilers")
