@@ -1,5 +1,4 @@
 
-![[Pasted image 20230106112858.png]]
 > Pytorch profiler
 
 ---
