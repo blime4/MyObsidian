@@ -272,7 +272,8 @@ my_schedule = schedule(
     active=3, # profiler traces and records data
     repeat=2)
 ```
-1. 
+1. p. step () : To send the signal to the profiler that the next step has started,
+2. p.step_num  : The current profiler step
 ```python
 def trace_handler (p):
     output = p.key_averages().table(sort_by="self_cuda_time_total", row_limit=10)
