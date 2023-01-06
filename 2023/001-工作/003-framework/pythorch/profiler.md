@@ -341,3 +341,8 @@ Libkineto requires gcc 5+ and:
     -   **googletest is not required** if you don't want to run Kineto tests. By default, building of tests is **on**. Turn it off by setting `KINETO_BUILD_TESTS` to **off**.
 
 You can download [NVIDIA CUPTI](https://developer.nvidia.com/CUPTI-CTK10_2), [fmt](https://github.com/fmt), [googletest](https://github.com/google/googletest) and set `CUDA_SOURCE_DIR`, `FMT_SOURCE_DIR`, `GOOGLETEST_SOURCE_DIR` respectively for cmake to find these libraries. If the fmt and googletest variables are not set, cmake will build the git submodules found in the `third_party` directory. If `CUDA_SOURCE_DIR` is not set, libkineto will fail to build.
+
+
+#### Source Code
+
+CmakeList
