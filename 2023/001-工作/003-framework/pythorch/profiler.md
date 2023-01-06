@@ -314,7 +314,9 @@ with profile(
 ## Pytorch Profiler Architecture
 ![[截图_20230106114600.png]]、
 
-## [Kineto]([pytorch/kineto: A CPU+GPU Profiling library that provides access to timeline traces and hardware performance counters. (github.com)](https://github.com/pytorch/kineto))
+## Kineto
+
+https://github.com/pytorch/kineto
 
 enable:
 1. **performance observability and diagnostics** across common ML bottleneck components
@@ -322,4 +324,4 @@ enable:
 3. integration of external system-level profiling tools
 4. integration with popular visualization platforms and analysis pipelines
 
-## Libkineto
+### Libkineto
