@@ -22,7 +22,6 @@ profiler 工具完全支持
 #### 参考资料
 1. 外网讲解代码：[PyTorch Community Voices | PyTorch Profiler | Sabrina & Geeta - YouTube](https://www.youtube.com/watch?v=m6ouC0XMYnc)
 2. 官方介绍 : [PyTorch Profiler — PyTorch Tutorials 1.12.1+cu102 documentation](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html)
-3. 代码：
 4. What's new in PyTorch Profiler 1.9： https://pytorch.org/blog/pytorch-profiler-1.9-released/ 
 5. Introducing PyTorch Profiler :  https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/ 
 6. Profiler: https://pytorch.org/docs/stable/profiler.html 
@@ -31,7 +30,6 @@ profiler 工具完全支持
 9. GTC 2021-PROFILING PYTORCH MODELS FOR NVIDIA GPUS:  https://gtc21.event.nvidia.com/media/Profiling%20PyTorch%20Models%20for%20NVIDIA%20GPUs%20%5BS31644%5D/1_nuwnw731
 10. Optimizing PyTorch Performance batch size with PyTorch Profiler: https://opendatascience.com/optimizing-pytorch-performance-batch-size-with-pytorch-profiler/ 
 11. Kubeflow PyTorch Samples: https://github.com/kubeflow/pipelines/tree/master/samples/contrib/pytorch-samples 
-12. PyTorch Lightning Profiler example: https://github.com/PyTorchLightning/pytorch-lightning/blob/master/pl_examples/basic_examples/profiler_example.py
 
 ---
 
