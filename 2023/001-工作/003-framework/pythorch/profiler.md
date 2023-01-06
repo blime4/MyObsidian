@@ -350,9 +350,7 @@ You can download [NVIDIA CUPTI](https://developer.nvidia.com/CUPTI-CTK10_2), [
 # function to extract filelists from libkineto_defs.bzl file
 
 find_package(PythonInterp)
-
 function(get_filelist name outputvar)
-
 execute_process(
 	COMMAND "${PYTHON_EXECUTABLE}" -c
 	"exec(open('libkineto_defs.bzl').read());print(';'.join(${name}))"
