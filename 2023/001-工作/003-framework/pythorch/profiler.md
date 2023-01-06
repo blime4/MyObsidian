@@ -345,4 +345,7 @@ You can download [NVIDIA CUPTI](https://developer.nvidia.com/CUPTI-CTK10_2), [
 
 #### Source Code
 
-CmakeList
+[kineto/CMakeLists.txt at main · pytorch/kineto (github.com)](https://github.com/pytorch/kineto/blob/main/libkineto/CMakeLists.txt)
+```
+
+```
