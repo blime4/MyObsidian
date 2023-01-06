@@ -34,6 +34,8 @@ profiler 工具完全支持
 1. 学习外网讲解代码 | doing
 2. 学习 profiler recipe | done
 
+---
+
 ### Typical Steps to Optimize Your Model
 
 1. Caputure Profile > Aggregate and analyze results > Optimize Model 
@@ -41,9 +43,12 @@ profiler 工具完全支持
 3. Caputure Profile > Aggregate and analyze results > Optimize Model 
 4. ...
 
+---
+
 ### Five big futures 
 
 
+---
 
 ### Usage
 
@@ -252,6 +257,8 @@ print(prof.key_averages(group_by_stack_n=5).table(sort_by="self_cuda_time_total"
 
 ```
 
+---
+
 #### Visualizing data as a flamegraph | 目测没啥用
 
 > Execution time (`self_cpu_time_total` and `self_cuda_time_total` metrics) and stack traces can also be visualized as a flame graph. To do this, first export the raw data using `export_stacks` (requires `with_stack=True`):
@@ -260,6 +267,7 @@ print(prof.key_averages(group_by_stack_n=5).table(sort_by="self_cuda_time_total"
 prof.export_stacks("/tmp/profiler_stacks.txt", "self_cuda_time_total")
 ```
 
+---
 
 #### Using profiler to analyze long-running jobs
 1. `schedule`
