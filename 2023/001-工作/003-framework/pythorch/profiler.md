@@ -444,3 +444,5 @@ get_libkineto_public_headers
 
 #### 2.13. Samples
 [CUPTI :: CUPTI Documentation (nvidia.com)](https://docs.nvidia.com/cupti/r_main.html#r_samples__cupti_correlation)
+
+#### kineto 需要的一些 api
