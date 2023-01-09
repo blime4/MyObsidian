@@ -418,3 +418,23 @@ get_libkineto_cupti_srcs:
 ]
 ```
 ![[截图_20230106173638.png]]
+get_libkineto_public_headers
+```
+[
+	"include/AbstractConfig.h",
+	"include/ActivityProfilerInterface.h",
+	"include/ActivityTraceInterface.h",
+	"include/ActivityType.h",
+	"include/Config.h",
+	"include/ClientInterface.h",
+	"include/GenericTraceActivity.h",
+	"include/IActivityProfiler.h",
+	"include/ILoggerObserver.h",
+	"include/ITraceActivity.h",
+	"include/TraceSpan.h",
+	"include/ThreadUtil.h",
+	"include/libkineto.h",
+	"include/time_since_epoch.h",
+]
+
+```
