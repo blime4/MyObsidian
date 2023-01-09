@@ -445,7 +445,7 @@ get_libkineto_public_headers
 ---
 
 ### CUPTI
-
+![[Pasted image 20230109193657.png]]
 #### 2.13. Samples
 [CUPTI :: CUPTI Documentation (nvidia.com)](https://docs.nvidia.com/cupti/r_main.html#r_samples__cupti_correlation)
 
