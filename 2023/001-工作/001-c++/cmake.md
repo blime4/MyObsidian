@@ -7,6 +7,8 @@ Cmake 关键字 | 遇到就补充
 
 [set — CMake 3.25.1 Documentation](https://cmake.org/cmake/help/latest/command/set.html?highlight=set)
 [set_property — CMake 3.25.1 Documentation](https://cmake.org/cmake/help/latest/command/set_property.html?highlight=set_property)
+[add_custom_target — CMake 3.25.1 Documentation](https://cmake.org/cmake/help/latest/command/add_custom_target.html?highlight=add_custom_target)
+
 
 
 

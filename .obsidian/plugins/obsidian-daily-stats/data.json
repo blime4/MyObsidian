@@ -9,24 +9,13 @@
     "2022/1/24": 43,
     "2023/0/3": 56,
     "2023/0/5": 1514,
-    "2023/0/6": 866
+    "2023/0/6": 866,
+    "2023/0/9": 0
   },
   "todaysWordCount": {
-    "2023/001-工作/003-framework/pythorch/profiler.md": {
-      "initial": 1369,
-      "current": 2147
-    },
-    "2021/h - 其他/002 - Linux下CMake简明教程.md": {
-      "initial": 478,
-      "current": 509
-    },
-    "2021/f - 语言/c++/双笙子详谬 - 高性能并行编程与优化/001 - cmake.md": {
-      "initial": 9,
-      "current": 8
-    },
     "2023/001-工作/001-c++/cmake.md": {
-      "initial": 2,
-      "current": 59
+      "initial": 88,
+      "current": 88
     }
   }
 }
