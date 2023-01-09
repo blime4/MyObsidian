@@ -40,7 +40,8 @@ profiler 工具完全支持
 2. 学习 profiler recipe | done
 
 23.1.9 
-1. 编译le
+1. 编译了 libkineto. a 试了试，如何编译
+2. 梳理了如何我们如果要支持
 
 ---
 
