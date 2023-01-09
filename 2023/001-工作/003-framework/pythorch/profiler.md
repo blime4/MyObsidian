@@ -448,34 +448,35 @@ get_libkineto_public_headers
 #### kineto 需要的一些 api
 | kineto 需要的一些 api                  | 支持情况 |
 | -------------------------------------- | -------- |
-| cuptiActivityDisable                   |          |
-| cuptiActivityEnable                    |          |
-| cuptiActivityFlushAll                  |          |
-| cuptiActivityGetNextRecord             |          |
-| cuptiActivityGetNumDroppedRecords      |          |
-| cuptiActivityPopExternalCorrelationId  |          |
-| cuptiActivityPushExternalCorrelationId |          |
-| cuptiActivityRegisterCallbacks         |          |
-| cuptiDeviceEnumEventDomains            |          |
-| cuptiDeviceGetEventDomainAttribute     |          |
-| cuptiDeviceGetNumEventDomains          |          |
-| cuptiEnableCallback                    |          |
-| cuptiEventDomainGetAttribute           |          |
-| cuptiEventGetAttribute                 |          |
-| cuptiEventGetIdFromName                |          |
-| cuptiEventGroupGetAttribute            |          |
-| cuptiEventGroupReadEvent               |          |
-| cuptiEventGroupSetAttribute            |          |
-| cuptiEventGroupSetDisable              |          |
-| cuptiEventGroupSetEnable               |          |
-| cuptiEventGroupSetsCreate              |          |
-| cuptiEventGroupSetsDestroy             |          |
-| cuptiGetDeviceId                       |          |
-| cuptiGetResultString                   |          |
-| cuptiMetricEnumEvents                  |          |
-| cuptiMetricGetAttribute                |          |
-| cuptiMetricGetIdFromName               |          |
-| cuptiMetricGetNumEvents                |          |
-| cuptiMetricGetValue                    |          |
-| cuptiSetEventCollectionMode            |          |
-| cuptiSubscribe                         |          |
+| cuptiActivityDisable                   | 不支持   |
+| cuptiActivityEnable                    | 不支持   |
+| cuptiActivityFlushAll                  | 不支持   |
+| cuptiActivityGetNextRecord             | 不支持   |
+| cuptiActivityGetNumDroppedRecords      | 不支持   |
+| cuptiActivityPopExternalCorrelationId  | 不支持   |
+| cuptiActivityPushExternalCorrelationId | 不支持   |
+| cuptiActivityRegisterCallbacks         | 不支持   |
+| cuptiDeviceEnumEventDomains            | 不支持   |
+| cuptiDeviceGetEventDomainAttribute     | 不支持   |
+| cuptiDeviceGetNumEventDomains          | 不支持   |
+| cuptiEnableCallback                    | 不支持   |
+| cuptiEventDomainGetAttribute           | 不支持   |
+| cuptiEventGetAttribute                 | 不支持   |
+| cuptiEventGetIdFromName                | 不支持   |
+| cuptiEventGroupGetAttribute            | 不支持   |
+| cuptiEventGroupReadEvent               | 不支持   |
+| cuptiEventGroupSetAttribute            | 不支持   |
+| cuptiEventGroupSetDisable              | 不支持   |
+| cuptiEventGroupSetEnable               | 不支持   |
+| cuptiEventGroupSetsCreate              | 不支持   |
+| cuptiEventGroupSetsDestroy             | 不支持   |
+| cuptiGetDeviceId                       | 不支持   |
+| cuptiGetResultString                   | 不支持   |
+| cuptiMetricEnumEvents                  | 不支持   |
+| cuptiMetricGetAttribute                | 不支持   |
+| cuptiMetricGetIdFromName               | 不支持   |
+| cuptiMetricGetNumEvents                | 不支持   |
+| cuptiMetricGetValue                    | 不支持   |
+| cuptiSetEventCollectionMode            | 不支持   |
+| cuptiSubscribe                         | 不支持   |
+
