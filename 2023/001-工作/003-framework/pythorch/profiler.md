@@ -446,3 +446,74 @@ get_libkineto_public_headers
 [CUPTI :: CUPTI Documentation (nvidia.com)](https://docs.nvidia.com/cupti/r_main.html#r_samples__cupti_correlation)
 
 #### kineto 需要的一些 api
+| kineto 需要的一些 api                 |
+| ------------------------------------- |
+| cuptiActivityDisable                  |
+| cuptiActivityEnable                   |
+| cuptiActivityFlushAll                 |
+| cuptiActivityGetNextRecord            |
+| cuptiActivityGetNumDroppedRecords     |
+| cuptiActivityPopExternalCorrelationId |
+|cuptiActivityPushExternalCorrelationId                                       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cuptiActivityRegisterCallbacks
+
+cuptiDeviceEnumEventDomains
+
+cuptiDeviceGetEventDomainAttribute
+
+cuptiDeviceGetNumEventDomains
+
+cuptiEnableCallback
+
+cuptiEventDomainGetAttribute
+
+cuptiEventGetAttribute
+
+cuptiEventGetIdFromName
+
+cuptiEventGroupGetAttribute
+
+cuptiEventGroupReadEvent
+
+cuptiEventGroupSetAttribute
+
+cuptiEventGroupSetDisable
+
+cuptiEventGroupSetEnable
+
+cuptiEventGroupSetsCreate
+
+cuptiEventGroupSetsDestroy
+
+cuptiGetDeviceId
+
+cuptiGetResultString
+
+cuptiMetricEnumEvents
+
+cuptiMetricGetAttribute
+
+cuptiMetricGetIdFromName
+
+cuptiMetricGetNumEvents
+
+cuptiMetricGetValue
+
+cuptiSetEventCollectionMode
+
+cuptiSubscribe
