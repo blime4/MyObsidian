@@ -12,4 +12,6 @@
 6.  [std::enable_if](https://en.cppreference.com/w/cpp/types/enable_if)
 7.  [std::optional](https://en.cppreference.com/w/cpp/utility/optional)
 8.  [std::nullopt_t](https://en.cppreference.com/w/cpp/utility/optional/nullopt_t)
-9. 
+9. [std::call_once](https://en.cppreference.com/w/cpp/thread/call_once)
+10. [std::once_flag](https://en.cppreference.com/w/cpp/thread/once_flag)
+11. 
