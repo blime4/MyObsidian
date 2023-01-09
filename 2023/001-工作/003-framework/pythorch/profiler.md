@@ -42,7 +42,7 @@ profiler 工具完全支持
 23.1.9 
 1. 编译了 libkineto. a 试了试，如何编译
 2. 梳理了如何我们如果要支持 libkineto，可能需要支持的，必要的 31 个 api
-3. 梳理lib
+3. 梳理 libkineto 的代码结构
 
 ---
 
