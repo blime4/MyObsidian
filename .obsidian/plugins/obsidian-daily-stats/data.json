@@ -10,24 +10,13 @@
     "2023/0/3": 56,
     "2023/0/5": 1514,
     "2023/0/6": 866,
-    "2023/0/9": 428
+    "2023/0/9": 428,
+    "2023/0/10": 9
   },
   "todaysWordCount": {
-    "2023/001-工作/001-c++/cmake.md": {
-      "initial": 88,
-      "current": 108
-    },
-    "2023/001-工作/003-framework/pythorch/profiler.md": {
-      "initial": 2147,
-      "current": 2405
-    },
-    "2023/001-工作/001-c++/std必知必会.md": {
-      "initial": 0,
-      "current": 132
-    },
     "2023/001-工作/001-c++/CMAKE001.md": {
-      "initial": 0,
-      "current": 18
+      "initial": 108,
+      "current": 117
     }
   }
 }

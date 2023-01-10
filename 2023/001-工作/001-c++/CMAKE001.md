@@ -26,6 +26,12 @@ link_directories(/opt/cuda)
 add_definitions(MY_MACRO=1)
 add_compile_options(-fopenmp)
 👆 不推荐使用
+
+# 子库
+
+add_subdirectory(fmt)
+add_executable(a.out main.cpp)
+a
 ```
 
 [[header-only]] 
