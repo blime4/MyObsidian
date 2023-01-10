@@ -31,7 +31,9 @@ add_compile_options(-fopenmp)
 
 add_subdirectory(fmt)
 add_executable(a.out main.cpp)
-a
+target_link_libraries(a.out PUBLIC fmt)
 ```
 
 [[header-only]] 
+
+## find_pa
