@@ -52,7 +52,8 @@ profiler 工具完全支持
 	1. 对比分析 kineto 提供了什么功能，
 	2. 分析 kineto 和 tensorboard 是如何结合起来的
 	3. 统计我们真正需要什么的 CUPTI 接口
-	4. 思考我们的profilering， hc 讨论
+	4. 思考我们的 profilering 大概需要完成到什么功能
+	5. 与 hc 讨论能支持什么我们的 CUPTI 的接口
 5. 
 
 ---
