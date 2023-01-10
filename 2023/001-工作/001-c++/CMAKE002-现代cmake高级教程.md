@@ -19,5 +19,7 @@ cmake -B build -G Ninja
 3. 启用 CONFIGURE_DEPENDS 选项，当添加新文件时，自动更新变量
 	```
 	add_executable(main)
-	file(GLOB )
+	file(GLOB sources CONFIGURE_DEPENDS *.cpp *.h)
+	target_sources(main PUBLIC ${sources})
 	```
+4. 
