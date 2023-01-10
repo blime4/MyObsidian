@@ -17,6 +17,8 @@ target_link_libraries(a.out PUBLIC hellolib)
 target_include_directories(a.out PUBLIC hellolib)
 target_add_definitions(myapp PUBLIC MY_MACRO=1)
 target_add_definitions(myapp PUBLIC -DMY_MACRO=1)
+target_compile_options(myapp PUBLIC -fopenmp)
+target_sources(myapp PUBLIC hello.cpp other.cpp)
 
 以及可以通过下列指令（不推荐使用）：👇 不推荐使用👇
 include_directories(/opt/cuda/include)
@@ -26,4 +28,4 @@ add_compile_options(-fopenmp)
 👆 不推荐使用
 ```
 
-####    
+[[header-only]] 
