@@ -484,3 +484,4 @@ get_libkineto_public_headers
 | cuptiMetricGetValue                    | 不支持   |
 | cuptiSetEventCollectionMode            | 不支持   |
 | cuptiSubscribe                         | 不支持   |
+
