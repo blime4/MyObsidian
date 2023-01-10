@@ -316,6 +316,7 @@ with profile(
 ---
 
 ## Pytorch Profiler Architecture
+[[profiler架构分析]]
 ![[截图_20230106114600.png]]、
 
 ## Kineto
@@ -483,5 +484,3 @@ get_libkineto_public_headers
 | cuptiMetricGetValue                    | 不支持   |
 | cuptiSetEventCollectionMode            | 不支持   |
 | cuptiSubscribe                         | 不支持   |
-
-[[profiler架构分析]]
