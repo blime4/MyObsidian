@@ -7,3 +7,8 @@ cmake -B build -G Ninja
 ```
 
 ## 添加源文件
+
+```
+add_executable(main)
+target_sources(main PUBLIC main.cpp)
+```
