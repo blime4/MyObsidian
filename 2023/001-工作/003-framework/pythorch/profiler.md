@@ -44,7 +44,8 @@ profiler 工具完全支持
 3. 梳理 libkineto 的代码结构 | doing
 
 23.1.10
-1. 在 NV，DL 上编译 kineto, DL 是 cpu only 版本的。想看看 cpu only 的话，能否获得什么信息。与 GPU 相比还差
+1. 在 NV，DL 上编译 kineto, DL 是 cpu only 版本的。想看看 cpu only 的话，能否获得什么信息。与 GPU 相比还差 | delay
+2. CUPTI 接口，梳理出来
 
 ---
 
