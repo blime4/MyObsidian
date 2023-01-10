@@ -9,11 +9,11 @@ cmake -B build -G Ninja
 ## 添加源文件
 1. 添加一个可执行文件作为构建目标
 ```
-3. 
-4. 
+add_executable(main main.cpp)
 ```
-3. 先创建目标，再添加源文件
+2. 先创建目标，再添加源文件
 ```
 add_executable(main)
 target_sources(main PUBLIC main.cpp)
 ```
+3. 
