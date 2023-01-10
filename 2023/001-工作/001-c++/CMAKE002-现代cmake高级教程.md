@@ -22,4 +22,10 @@ cmake -B build -G Ninja
 	file(GLOB sources CONFIGURE_DEPENDS *.cpp *.h)
 	target_sources(main PUBLIC ${sources})
 	```
-4. GLOB_REC
+4. GLOB_RECURSE 能自动包含所有子文件夹下的文件
+	```
+    add_executable(main)
+	file(GLOB_RECURSE sources CONFIGURE_DEPENDS *.cpp *.h)
+	target_sources(main PUBLIC ${sources})
+	```
+	
