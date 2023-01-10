@@ -16,4 +16,4 @@ add_executable(main main.cpp)
 add_executable(main)
 target_sources(main PUBLIC main.cpp)
 ```
-3. 
+1. 启用 CONFIGURE_DEPENDS 选项，当添加新文件时，自动更新变量
