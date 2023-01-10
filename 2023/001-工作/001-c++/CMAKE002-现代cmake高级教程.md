@@ -22,4 +22,4 @@ cmake -B build -G Ninja
 	file(GLOB sources CONFIGURE_DEPENDS *.cpp *.h)
 	target_sources(main PUBLIC ${sources})
 	```
-4. 
+4. GLOB_REC
