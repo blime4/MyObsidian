@@ -29,3 +29,4 @@ cmake -B build -G Ninja
 	target_sources(main PUBLIC ${sources})
 	```
 
+## 项目配置变量
