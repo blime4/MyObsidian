@@ -484,3 +484,4 @@ get_libkineto_public_headers
 | cuptiSetEventCollectionMode            | 不支持   |
 | cuptiSubscribe                         | 不支持   |
 
+[[profiler架构分析]]
