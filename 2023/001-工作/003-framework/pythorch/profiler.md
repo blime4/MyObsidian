@@ -46,8 +46,9 @@ profiler 工具完全支持
 23.1.10
 1. 在 NV，DL 上编译 kineto, DL 是 cpu only 版本的。想看看 cpu only 的话，能否获得什么信息。与 GPU 相比还差 | delay
 2. CUPTI 接口，梳理出来
-3. 提供了什么功能，tensorboard，CUPTI 接口，profilering， hc 讨论
-4. 
+3. 跑一下 NV +kineto
+4. 提供了什么功能，tensorboard，CUPTI 接口，profilering， hc 讨论
+5. 
 
 ---
 
