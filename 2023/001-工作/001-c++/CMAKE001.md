@@ -36,4 +36,5 @@ target_link_libraries(a.out PUBLIC fmt)
 
 [[header-only]] 
 
-## find_pa
+## find_package
+
