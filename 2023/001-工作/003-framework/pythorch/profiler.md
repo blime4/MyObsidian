@@ -48,7 +48,11 @@ profiler 工具完全支持
 2. CUPTI 接口，梳理出来
 3. 跑一下 NV +kineto 的 profiler ，获取一下数据，和之前的数据进行对比
 	1. 问同事，找到我们之前的 profiler 数据
-4. 提供了什么功能，tensorboard，CUPTI 接口，profilering， hc 讨论
+4. todo:
+	1. 对比分析 kineto 提供了什么功能，
+	2. 分析 kineto 和 tensorboard 是如何结合起来的
+	3. 统计我们真正需要什么的 CUPTI 接口
+	4. 思考我们的profilering， hc 讨论
 5. 
 
 ---
