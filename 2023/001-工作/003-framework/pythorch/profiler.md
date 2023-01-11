@@ -1,7 +1,10 @@
 
 > Pytorch profiler
 
-## 与auto
+### 与 torch.autograd.profiler 相比
+[Introducing PyTorch Profiler - the new and improved performance tool | PyTorch](https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/)
+1. 基于 libkineto，有更多的 GPU 细粒度的信息
+2. 有te'nso't
 ---
 #### 学习流程 ：
 
