@@ -62,6 +62,7 @@ profiler 工具完全支持
 			目前，libkineto不支持下，直接用**torch. autograd.profiler可以获得更多的信息。**
 			在 DL，torch. profiler 直接不支持。
 	2. 分析 kineto 和 tensorboard 是如何结合起来的
+		1. 
 	3. 统计我们真正需要什么的 CUPTI 接口
 	4. 思考我们的 profilering 大概需要完成到什么功能
 	5. 与 hc 讨论能支持什么我们的 CUPTI 的接口
