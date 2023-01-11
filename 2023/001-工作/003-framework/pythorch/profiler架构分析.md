@@ -3,3 +3,4 @@
 1. 整个架构，NVIDIA Driver 为上层的 libCUPTI 提供了什么信息，libCUPTI 再给 libkineto 提供了什么信息，给 pytorch profiler 统计。 DL Driver 需要提供什么接口
 2. 只是 cpu only 版的 libkineto 不能提供什么信息，能提供什么信息
 
+
