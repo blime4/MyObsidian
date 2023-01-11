@@ -49,7 +49,7 @@ profiler 工具完全支持
 3. 跑一下 NV +kineto 的 profiler ，获取一下数据，和之前的数据进行对比
 	1. 问同事，找到我们之前的 profiler 数据
 4. todo:
-	1. 对比分析 kineto 提供了什么功能，
+	1. 对比分析 kineto 提供了什么功能 | 目前是分析 42 和 43 f
 	2. 分析 kineto 和 tensorboard 是如何结合起来的
 	3. 统计我们真正需要什么的 CUPTI 接口
 	4. 思考我们的 profilering 大概需要完成到什么功能
