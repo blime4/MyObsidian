@@ -54,11 +54,20 @@ profiler 工具完全支持
 3. 跑一下 NV +kineto 的 profiler ，获取一下数据，和之前的数据进行对比
 	1. 问同事，找到我们之前的 profiler 数据
 4. todo:
-	1. 对比分析 kineto 提供了什么功能 | 目前是分析 42 和 43 服务器，最简单的 resnet50 先，再分析 yolov3
-	2. 分析 kineto 和 tensorboard 是如何结合起来的
-	3. 统计我们真正需要什么的 CUPTI 接口
-	4. 思考我们的 profilering 大概需要完成到什么功能
-	5. 与 hc 讨论能支持什么我们的 CUPTI 的接口
+	1. 对比分析 kineto 提供了什么功能 
+	   **torch. profiler 与 torch. autograd. profiler 相比**
+			https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/
+				1.  基于 libkineto，有更多的 GPU 细粒度的信息
+				2.  有tensorboard加持
+					3.  对长任务的训练更加友好。（加入了sechedule的控制）
+			
+			目前，libkineto不支持下，直接用**torch. autograd.profiler可以获得更多的信息。**
+			
+			在DL，torch.profiler直接不支持。
+	1. 分析 kineto 和 tensorboard 是如何结合起来的
+	2. 统计我们真正需要什么的 CUPTI 接口
+	3. 思考我们的 profilering 大概需要完成到什么功能
+	4. 与 hc 讨论能支持什么我们的 CUPTI 的接口
 5. 
 
 ---
