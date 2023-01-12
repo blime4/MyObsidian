@@ -48,7 +48,7 @@ profiler 工具完全支持
 2. 梳理了如何我们如果要支持 libkineto，可能需要支持的，必要的 31 个 api | done
 3. 梳理 libkineto 的代码结构 | doing
 
-23.1.10
+23.1.10 - 23.1.12
 1. 在 NV，DL 上编译 kineto, DL 是 cpu only 版本的。想看看 cpu only 的话，能否获得什么信息。与 GPU 相比还差 | delay
 2. CUPTI 接口，梳理出来
 3. 跑一下 NV +kineto 的 profiler ，获取一下数据，和之前的数据进行对比
