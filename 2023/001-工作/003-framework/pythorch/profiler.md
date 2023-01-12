@@ -58,6 +58,7 @@ profiler 工具完全支持
 	   **torch. profiler 与 torch. autograd. profiler 相比** https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/
 		1.  基于 libkineto，有更多的 GPU 细粒度的信息 | 正在做实验，对比分析，多了什么信息
 		2.  有 tensorboard 加持 | 已经跑起来了
+			1. 
 		3.  对长任务的训练更加友好。（加入了sechedule的控制）
 			目前，libkineto不支持下，直接用**torch. autograd.profiler可以获得更多的信息。**
 			在 DL，torch. profiler 直接不支持。
