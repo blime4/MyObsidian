@@ -7,5 +7,5 @@ sudo adduser xxx sudo
 
 wget命令带用户名和密码
 ```bash
-wget --user username --password password http://example.com/
+wget --user=username --password=password http://example.com/
 ```
