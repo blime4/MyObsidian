@@ -6,6 +6,6 @@ sudo adduser xxx --force-badname
 sudo adduser xxx sudo
 
 wget命令带用户名和密码
-```css
+```bash
 wget --user username --password password http://example.com/
 ```
