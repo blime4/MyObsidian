@@ -22,7 +22,7 @@ target_link_libraries(lib PUBLIC Boost::filesystem)
 [【CMake 系列】（三）ExternalProject 实践 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/03/23/cmake-3-external-project-practise/) | √
 [[vcpkg的使用]]
 
-[【CMake 系列】（四）用 GoogleTest 测试 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/04/05/cmake-4-test-with-google-test/)
+[【CMake 系列】（四）用 GoogleTest 测试 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/04/05/cmake-4-test-with-google-test/) | √
 ctest
 ```
 enable_testing()  
