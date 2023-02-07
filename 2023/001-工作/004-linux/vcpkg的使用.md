@@ -4,48 +4,34 @@
 
 它的安装很简单：
 ```
-
-```
 git clone https://github.com/Microsoft/vcpkg.git  
 cd vcpkg  
 ./bootstrap-vcpkg.sh  
+```
 
 如果需要安装包：
-
-1  
-
+```
 vcpkg install opencv  
-
+```
 然后在你的项目中，使用 `find_package` 即可：
-
-1  
-2  
-
+```
 find_package(OpenCV REQUIRED)  
-target_link_libraries(target ${OpenCV_LIBS})  
+target_link_libraries(target ${OpenCV_LIBS})
+```
+  
 
 最后，在 CMake 配置阶段：
-
-1  
-
+```
 cmake .. -DCMAKE_TOOLCHAIN_FILE=path/to/vcpkg/scripts/buildsystems/vcpkg.cmake  
+```
 
 就可以了，对于 OpenCV 这类有着系统支持的包，或许没有提升太多的效率，但是对于一些没有多少系统支持的包，比如 GoogleTest、nlohmann-json、prometheus-cpp 等，再也不需要费劲去自己下载编译了。
 
 之后，为了方便随时运行 vcpkg，可以将它加到系统 PATH：
-
-1  
-
+```
 export PATH="path/to/vcpkg/:$PATH"  
+```
 
 是不是很简单？只是，目前它还是不完善，我之所以不在现有的团队项目中使用它，就是因为交叉编译的问题没解决，它目前支持的交叉编译不多，比如面对 Android 还有 iOS 的交叉编译，它就基本上成了废物一般，打算等日后它完善了再用。
 
 另外，它相对于我上面的方案来说，编译时间还是不能省去的。
-
----
-
-首发于 Github issues: [https://github.com/xizhibei/blog/issues/135](https://github.com/xizhibei/blog/issues/135) ，欢迎 Star 以及 Watch
-
-**本文采用 [署名-非商业性使用-相同方式共享（BY-NC-SA）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可**  
-**作者：[习之北 (@xizhibei)](https://blog.xizhibei.me/about/)**  
-**原链接：[https://blog.xizhibei.me/2020/03/23/cmake-3-external-project-practise/](https://blog.xizhibei.me/2020/03/23/cmake-3-external-project-practise/)**
