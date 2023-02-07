@@ -13,7 +13,7 @@ add_executable(demo main.cpp)
 target_link_libraries(demo demo_lib)
 ```
 
-[【CMake 系列】（二）第三方依赖管理 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/03/15/cmake-2-third-party-dependances-management/)
+[【CMake 系列】（二）第三方依赖管理 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/03/15/cmake-2-third-party-dependances-management/) | √
 ```
 find_package(Boost 1.50 REQUIRED COMPONENTS filesystem)  
 target_link_libraries(lib PUBLIC Boost::filesystem)
