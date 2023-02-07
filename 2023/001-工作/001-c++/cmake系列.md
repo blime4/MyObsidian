@@ -18,3 +18,5 @@ target_link_libraries(demo demo_lib)
 find_package(Boost 1.50 REQUIRED COMPONENTS filesystem)  
 target_link_libraries(lib PUBLIC Boost::filesystem)
 ```
+
+[【CMake 系列】（三）ExternalProject 实践 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/03/23/cmake-3-external-project-practise/)
