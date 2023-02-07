@@ -23,6 +23,26 @@ target_link_libraries(lib PUBLIC Boost::filesystem)
 [[vcpkg的使用]]
 
 [【CMake 系列】（四）用 GoogleTest 测试 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/04/05/cmake-4-test-with-google-test/)
+ctest
+```
+enable_testing()  
+  
+add_executable(test_example test.cpp)  
+target_link_libraries(test_example example_lib)  
+  
+add_test(NAME test_example1 COMMAND test_example --arg1=a --arg2=b)  
+add_test(NAME test_example2 COMMAND test_example --arg1=c --arg2=d)
+```
+gtest
+```
+enable_testing()  
+include(GoogleTest)  
+find_package(GTest 1.10.0)  
+  
+add_executable(test test.cpp)  
+target_link_libraries(test GTest::gtest GTest::gtest_main GTest::gmock  
+                        GTest::gmock_main)  
+gtest_discover_tests(test)
 ```
 
-```
+[【CMake 系列】（五）安装、打包与导出 | 须臾之学 (xizhibei.me)](https://blog.xizhibei.me/2020/04/20/cmake-5-install-package-and-export/)
