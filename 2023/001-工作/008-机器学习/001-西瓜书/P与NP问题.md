@@ -14,4 +14,4 @@
 2. Set Cover     [[集合覆盖]]
 3. Steiner Tree (Forest) [[斯坦纳树]]（森林）
 4. Max Cut       [[最大割]]
-5. SAT               可满足性
+5. SAT               [[可满足性]]
