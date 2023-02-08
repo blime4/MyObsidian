@@ -11,6 +11,6 @@ git submodule init
 # or
 git clone --recurse-submodules xxx.git
 
-
-# 
+# 3.
+git submodule update --init --recursive
 ```
