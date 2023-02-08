@@ -7,3 +7,9 @@
 
 著名的 NP 问题
 [[旅行商问题]]
+
+其他的 NP 问题
+
+1. Edge Cover  边覆盖
+2. Set Cover     集合覆盖
+3. Steiner Tree
