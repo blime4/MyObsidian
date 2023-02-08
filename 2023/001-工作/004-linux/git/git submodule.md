@@ -4,9 +4,13 @@
 # 1.
 git submodule add xxx.git
 
-
+# 2.
 git clone xxx.git
 git submodule init
 
+# or
+git clone --recurse-submodules xxx.git
 
+
+# 
 ```
