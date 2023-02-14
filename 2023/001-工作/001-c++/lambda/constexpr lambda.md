@@ -3,11 +3,10 @@ C++的 constexpr lambda 是一个能够在编译时求值的 lambda 表达式，
 
 例如，以下是一个使用constexpr lambda的示例：
 
-c++\
-```c++
-`constexpr auto add = [](int x, int y) constexpr { return x + y; }; constexpr int result = add(2, 3); // 在编译时求值，result将被赋值为5`
-```
 
+```c++
+constexpr auto add = [](int x, int y) constexpr { return x + y; }; constexpr int result = add(2, 3); // 在编译时求值，result将被赋值为5`
+```
 
 在上面的示例中，lambda表达式add被声明为constexpr，允许在编译时进行求值，而不是在运行时计算。在调用add时，传递的参数也必须是编译时常量，否则将导致编译错误。
 
