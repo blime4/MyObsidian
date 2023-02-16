@@ -35,6 +35,10 @@
     "2023/001-工作/004-linux/linux-vdso.so.1.md": {
       "initial": 401,
       "current": 401
+    },
+    "2023/001-工作/004-linux/动态链接库/librt.so.1.md": {
+      "initial": 444,
+      "current": 444
     }
   }
 }
