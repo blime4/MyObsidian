@@ -6,9 +6,8 @@
 `__cxa_finalize`函数的原型如下：
 
 ```c++
+void __cxa_finalize(void* dso_handle);
 ```
-
-`void __cxa_finalize(void* dso_handle);`
 
 其中，`dso_handle`参数表示需要进行清理的动态链接库的句柄。在程序退出时，C++运行时库会遍历所有的`.fini_array`段，并调用`__cxa_finalize`函数以完成清理操作。`__cxa_finalize`函数的实现会依次调用存储在`.fini_array`段中的函数指针，完成清理操作。
 
