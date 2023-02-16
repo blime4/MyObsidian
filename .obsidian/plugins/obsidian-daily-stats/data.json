@@ -50,7 +50,11 @@
     },
     "2023/001-工作/004-linux/动态链接库/__cxa_finalize.md": {
       "initial": 449,
-      "current": 447
+      "current": 448
+    },
+    "2023/001-工作/004-linux/动态链接库/cxa.md": {
+      "initial": 261,
+      "current": 261
     }
   }
 }
