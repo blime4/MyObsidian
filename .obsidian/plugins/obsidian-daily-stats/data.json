@@ -63,6 +63,10 @@
     "2023/001-工作/004-linux/动态链接库/libm.so.6.md": {
       "initial": 412,
       "current": 412
+    },
+    "2023/001-工作/004-linux/动态链接库/libc10.so.md": {
+      "initial": 312,
+      "current": 312
     }
   }
 }
