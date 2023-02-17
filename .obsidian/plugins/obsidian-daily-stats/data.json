@@ -40,6 +40,10 @@
     "2023/001-工作/004-linux/动态链接库/libtorch_cuda.so.md": {
       "initial": 312,
       "current": 312
+    },
+    "2023/001-工作/004-linux/动态链接库/libcudnn.so.8.md": {
+      "initial": 286,
+      "current": 286
     }
   }
 }
