@@ -11,3 +11,8 @@ git config --global core.compression=0
 # 0 ： uncompress
 # 1 :  compress
 ```
+
+
+```
+git remote set-url origin xxxx.git
+```
