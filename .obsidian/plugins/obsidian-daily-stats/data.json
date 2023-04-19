@@ -27,7 +27,7 @@
     "2023/1/23": 302,
     "2023/2/14": 7,
     "2023/3/14": 27,
-    "2023/3/19": 582
+    "2023/3/19": 589
   },
   "todaysWordCount": {
     "2023/001-工作/004-linux/debug/debug技巧-yzz提供.md": {
@@ -37,6 +37,10 @@
     "2023/001-工作/004-linux/debug/001-debug技巧-yzz提供.md": {
       "initial": 1,
       "current": 582
+    },
+    "2023/001-工作/004-linux/debug/002-debug技巧-clx提供.md": {
+      "initial": 0,
+      "current": 7
     }
   }
 }

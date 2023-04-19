@@ -1,0 +1,5 @@
+```
+export PYTORCH_TEST_SKIP_KNOWN_FAIL_AND_ERROR=0
+export DUMP_KERNEL_RUN_INFO=9
+expor
+```
