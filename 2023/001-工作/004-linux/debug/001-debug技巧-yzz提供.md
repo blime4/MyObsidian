@@ -31,3 +31,7 @@ sudo cat /proc/26864/stack
 
 最后一行 [<0>] entry_SYSCALL_64_after_hwframe+0x44/0xa9：表示进程正在从内核态返回用户态，这是发生在执行完系统调用后的过程，entry_SYSCALL_64_after_hwframe 函数负责恢复现场并返回用户程序。
 ```
+
+```
+总的来说，这段函数调用栈描述了一个进程在执行 futex 相关操作时所涉及的一系列函数调用过程。具体地说，该进程先通过 futex_wait_queue_me 函数将自己加入到等待队列中，并通过 futex_wait 函数等待 futex 变量改变；然后调用 do_futex 函数进行 futex 的操作，包括等待、解除阻塞等；接着通过 __x64_sys_futex 系统调用函数，在用户空间使用 futex 的接口提供针对 futex 的功能；最终调用 do_syscall_64 函数与内核进行交互，entry_SYSCALL_64_after_hwframe 函数则负责返回用户程序并恢复现场。
+```
