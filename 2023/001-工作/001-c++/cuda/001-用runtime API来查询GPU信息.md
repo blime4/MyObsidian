@@ -139,4 +139,8 @@ int main(int argc, char **argv) {
 
 }
 ```
-
+编译执行：
+```bash
+nvcc checkDeviceInfor.cu -o checkDeviceInfor
+./checkDeviceInfor
+```
