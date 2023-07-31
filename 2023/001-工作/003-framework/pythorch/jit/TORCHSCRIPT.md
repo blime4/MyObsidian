@@ -45,3 +45,5 @@ result = traced_model(torch.tensor([3.0]))
 print(result)  # 输出: tensor([6.])
 
 ```
+
+总结： `torch.jit.script` 用于将普通的PyTorch代码转换为TorchScript，适用于不需要依赖Python环境的高性能场景。`torch.jit.trace` 用于捕获模型的执行图，以优化模型的执行，但仍然依赖于Python环境。在使用时，根据您的需求选择合适的方法。
