@@ -24,4 +24,24 @@ print(result)  # 输出: 6
 ```
 
 ### torch. jit. trace
+`torch.jit.trace` 是一种方法，可以用于跟踪（trace）模型中的某些输入，以捕获模型的执行图。它接受一个模型和一个示例输入，然后记录模型的执行过程。这种追踪方法可以用于优化模型执行，同时仍然依赖于Python环境。
 
+```python
+import torch
+
+class MyModel(torch.nn.Module):
+    def forward(self, x):
+        return x * 2
+
+# 创建模型实例
+model = MyModel()
+
+# 跟踪模型并获取一个示例输入
+example_input = torch.tensor([1.0])
+traced_model = torch.jit.trace(model, example_input)
+
+# 现在可以像调用普通PyTorch模型一样调用TorchScript模型
+result = traced_model(torch.tensor([3.0]))
+print(result)  # 输出: tensor([6.])
+
+```
