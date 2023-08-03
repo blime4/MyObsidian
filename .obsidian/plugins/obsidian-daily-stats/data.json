@@ -33,12 +33,13 @@
     "2023/6/19": 408,
     "2023/6/20": 41,
     "2023/6/28": 206,
-    "2023/6/31": 498
+    "2023/6/31": 498,
+    "2023/7/3": 0
   },
   "todaysWordCount": {
-    "2023/001-工作/003-framework/pythorch/jit/TORCHSCRIPT.md": {
-      "initial": 0,
-      "current": 498
+    "2023/001-工作/003-framework/pythorch/jit/001-zomi/AI编译器.md": {
+      "initial": 4,
+      "current": 4
     }
   }
 }
