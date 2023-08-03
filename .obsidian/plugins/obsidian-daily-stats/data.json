@@ -34,7 +34,7 @@
     "2023/6/20": 41,
     "2023/6/28": 206,
     "2023/6/31": 498,
-    "2023/7/3": 14
+    "2023/7/3": 21
   },
   "todaysWordCount": {
     "2023/001-工作/003-framework/pythorch/jit/001-zomi/AI编译器.md": {
@@ -43,7 +43,7 @@
     },
     "2023/001-工作/003-framework/pythorch/jit/001-zomi/AI编译器小课.md": {
       "initial": 4,
-      "current": 18
+      "current": 25
     }
   }
 }
