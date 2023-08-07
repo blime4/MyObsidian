@@ -36,7 +36,7 @@
     "2023/6/31": 498,
     "2023/7/3": 21,
     "2023/7/4": 14,
-    "2023/7/7": 574
+    "2023/7/7": 578
   },
   "todaysWordCount": {
     "2023/001-工作/003-framework/pythorch/jit/002-jit做了什么/001-简介.md": {
@@ -57,7 +57,7 @@
     },
     "2023/001-工作/003-framework/pythorch/jit/006-A tracing JIT compiler for PyTorch/001-简介.md": {
       "initial": 1,
-      "current": 22
+      "current": 26
     },
     "2023/001-工作/003-framework/pythorch/jit/001-zomi/AI编译器小课.md": {
       "initial": 39,
