@@ -36,7 +36,7 @@
     "2023/6/31": 498,
     "2023/7/3": 21,
     "2023/7/4": 14,
-    "2023/7/7": 364
+    "2023/7/7": 368
   },
   "todaysWordCount": {
     "2023/001-工作/003-framework/pythorch/jit/002-jit做了什么/001-简介.md": {
@@ -53,7 +53,7 @@
     },
     "2023/001-工作/003-framework/pythorch/jit/005-Graph convolutional operator in the Pytorch jit/001-简介.md": {
       "initial": 1,
-      "current": 13
+      "current": 17
     }
   }
 }
