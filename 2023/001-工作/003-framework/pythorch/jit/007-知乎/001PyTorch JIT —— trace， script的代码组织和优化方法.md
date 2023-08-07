@@ -39,7 +39,6 @@ scripted_module = torch.jit.script(MyModule())
 	- The resulting recording of `nn.Module.forward` or `nn.Module` produces  
 	    `ScriptModule`.
 ```python
-```cpp
 # python接口，输入python::function和example_inputs，进行trace
 torch.jit.trace(
     func,  # (callable or torch.nn.Module) – function 或者 torch.nn.Module
@@ -47,4 +46,25 @@ torch.jit.trace(
     ...
 )
 ```
+
+```python
+# trace内包一层_create_function_from_trace  
+def trace(
+    func,
+    example_inputs,
+    optimize=None,
+    check_trace=True,
+    check_inputs=None,
+    check_tolerance=1e-5,
+    strict=True,
+    _force_outplace=False,
+    _module_class=None,
+    _compilation_unit=_python_cu,
+):
+
+    var_lookup_fn = _create_interpreter_name_lookup_fn(0)
+    traced = torch._C._create_function_from_trace(
+        name, func, example_inputs, var_lookup_fn, strict, _force_outplace
+    )
+    # 通过torch._C进行C++代码对func进行trace
 ```
