@@ -26,3 +26,6 @@
 
 ### [[三地址指令]]
 ![[Pasted image 20230807130729.png]]
+
+### LLVM IR 内存模型
+![[Pasted image 20230807130908.png]]
