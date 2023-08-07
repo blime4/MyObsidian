@@ -13,4 +13,4 @@ public:
 }
 ```
 
-> 获得一个用过 shared_ptr 管理的 this指针。自己管理自己。
+> 获得一个用 shared_ptr 管理的 this指针。自己管理自己。
