@@ -36,7 +36,7 @@
     "2023/6/31": 498,
     "2023/7/3": 21,
     "2023/7/4": 14,
-    "2023/7/7": 836
+    "2023/7/7": 941
   },
   "todaysWordCount": {
     "2023/001-工作/003-framework/pythorch/jit/002-jit做了什么/001-简介.md": {
@@ -77,7 +77,7 @@
     },
     "2023/001-工作/003-framework/pythorch/jit/007-知乎/001PyTorch JIT —— trace， script的代码组织和优化方法.md": {
       "initial": 28,
-      "current": 281
+      "current": 386
     }
   }
 }
