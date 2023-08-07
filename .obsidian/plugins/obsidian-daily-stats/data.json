@@ -74,6 +74,10 @@
     "2023/001-工作/003-framework/pythorch/torch dispatch/Dispatch Key.md": {
       "initial": 4,
       "current": 8
+    },
+    "2023/001-工作/003-framework/pythorch/jit/007-知乎/001PyTorch JIT —— trace， script的代码组织和优化方法.md": {
+      "initial": 28,
+      "current": 28
     }
   }
 }
