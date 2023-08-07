@@ -21,3 +21,7 @@
 
 ### [[SSA]] [[静态单赋值]]（static single assignment）
 ![[Pasted image 20230807130352.png]]
+### LLVM IR 基本语法
+![[Pasted image 20230807130624.png]]
+
+### 
