@@ -29,4 +29,22 @@ scripted_module = torch.jit.script(MyModule())
 ```
 
 
-## PyTorch Trace源码浅析
+## PyTorch Trace 源码浅析
+
+走一遍 forward，然后把计算 node insert 到 graph 中。
+
+1. python 调用 jit. trace 方法，输入是一个 `func` +一个 `example inputs`，输出是一个 `scriptModule` return an `executable` or `class::ScriptFunction`
+
+	- The resulting recording of a standalone function produces `ScriptFunction`.
+	- The resulting recording of `nn.Module.forward` or `nn.Module` produces  
+	    `ScriptModule`.
+```python
+```cpp
+# python接口，输入python::function和example_inputs，进行trace
+torch.jit.trace(
+    func,  # (callable or torch.nn.Module) – function 或者 torch.nn.Module
+    example_inputs, # (tuple or torch.Tensor) – tracing时作为例子的输入
+    ...
+)
+```
+```
