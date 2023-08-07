@@ -27,3 +27,6 @@ class MyModule(nn.Module):
 
 scripted_module = torch.jit.script(MyModule())
 ```
+
+
+## PyTorch Trace源码浅析
