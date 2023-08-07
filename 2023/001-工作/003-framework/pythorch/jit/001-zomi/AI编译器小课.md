@@ -34,4 +34,6 @@
 
 ![[Pasted image 20230807131045.png]]
 
-## LLVM 
+## LLVM Architecture
+![[Pasted image 20230807131255.png]]
+
