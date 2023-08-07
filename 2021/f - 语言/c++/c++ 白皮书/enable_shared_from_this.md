@@ -30,7 +30,24 @@ cppCopy code
 ```c++
 #include <iostream>
 #include <memory>
-class MyClass : public std::enable_shared_from_this<MyClass> { public:     std::shared_ptr<MyClass> getShared() {         return shared_from_this(); // 获取指向自身的 shared_ptr     } };  int main() {     std::shared_ptr<MyClass> obj1 = std::make_shared<MyClass>();     std::shared_ptr<MyClass> obj2 = obj1->getShared();      std::cout << "Use count for obj1: " << obj1.use_count() << std::endl;     std::cout << "Use count for obj2: " << obj2.use_count() << std::endl;      return 0; }`
+
+class MyClass : public std::enable_shared_from_this<MyClass> {
+public:
+    std::shared_ptr<MyClass> getShared() {
+        return shared_from_this(); // 获取指向自身的 shared_ptr
+    }
+};
+
+int main() {
+    std::shared_ptr<MyClass> obj1 = std::make_shared<MyClass>();
+    std::shared_ptr<MyClass> obj2 = obj1->getShared();
+
+    std::cout << "Use count for obj1: " << obj1.use_count() << std::endl;
+    std::cout << "Use count for obj2: " << obj2.use_count() << std::endl;
+
+    return 0;
+}
+
 ```
 
 
