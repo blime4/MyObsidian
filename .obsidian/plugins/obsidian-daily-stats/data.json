@@ -36,7 +36,7 @@
     "2023/6/31": 498,
     "2023/7/3": 21,
     "2023/7/4": 14,
-    "2023/7/7": 525
+    "2023/7/7": 529
   },
   "todaysWordCount": {
     "2023/001-工作/003-framework/pythorch/jit/002-jit做了什么/001-简介.md": {
@@ -73,7 +73,7 @@
     },
     "2023/001-工作/003-framework/pythorch/torch dispatch/Dispatch Key.md": {
       "initial": 4,
-      "current": 4
+      "current": 8
     }
   }
 }
