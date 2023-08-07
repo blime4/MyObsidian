@@ -36,7 +36,7 @@
     "2023/6/31": 498,
     "2023/7/3": 21,
     "2023/7/4": 14,
-    "2023/7/7": 1742
+    "2023/7/7": 2141
   },
   "todaysWordCount": {
     "2023/001-工作/003-framework/pythorch/jit/002-jit做了什么/001-简介.md": {
@@ -85,7 +85,7 @@
     },
     "2021/f - 语言/c++/c++ 白皮书/enable_shared_from_this.md": {
       "initial": 61,
-      "current": 62
+      "current": 461
     }
   }
 }
