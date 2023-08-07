@@ -19,4 +19,5 @@
 ## LLVM IR
 ![[Pasted image 20230807130302.png]]
 
-### SSA 静态单赋值（static single assigen）
+### [[SSA]] [[静态单赋值]]（static single assignment）
+![[Pasted image 20230807130352.png]]
