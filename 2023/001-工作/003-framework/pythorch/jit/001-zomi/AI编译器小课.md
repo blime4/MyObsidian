@@ -15,3 +15,8 @@
 ![[Pasted image 20230804180217.png]]
 
 ## GCC 和 LLVM
+
+## LLVM IR
+![[Pasted image 20230807130302.png]]
+
+### SSA 静态单赋值（static single assigen）
