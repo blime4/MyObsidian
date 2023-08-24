@@ -36,56 +36,13 @@
     "2023/6/31": 498,
     "2023/7/3": 21,
     "2023/7/4": 14,
-    "2023/7/7": 2141
+    "2023/7/7": 2141,
+    "2023/7/24": 0
   },
   "todaysWordCount": {
-    "2023/001-工作/003-framework/pythorch/jit/002-jit做了什么/001-简介.md": {
-      "initial": 23,
-      "current": 233
-    },
-    "2023/001-工作/003-framework/pythorch/jit/003-TorchScript and pytorch jit/001-简介.md": {
-      "initial": 0,
-      "current": 92
-    },
-    "2023/001-工作/003-framework/pythorch/jit/004-llvm orc jit/001-简介.md": {
-      "initial": 0,
-      "current": 50
-    },
-    "2023/001-工作/003-framework/pythorch/jit/005-Graph convolutional operator in the Pytorch jit/001-简介.md": {
-      "initial": 1,
-      "current": 23
-    },
-    "2023/001-工作/003-framework/pythorch/jit/006-A tracing JIT compiler for PyTorch/001-简介.md": {
-      "initial": 1,
-      "current": 31
-    },
-    "2023/001-工作/003-framework/pythorch/jit/001-zomi/AI编译器小课.md": {
-      "initial": 39,
-      "current": 101
-    },
-    "2023/001-工作/003-framework/pythorch/jit/001-zomi/静态单赋值.md": {
-      "initial": 0,
-      "current": 8
-    },
-    "2023/001-工作/003-framework/pythorch/torch dispatch/001-简介.md": {
-      "initial": 13,
-      "current": 118
-    },
-    "2023/001-工作/003-framework/pythorch/torch dispatch/Dispatch Key.md": {
-      "initial": 4,
-      "current": 8
-    },
-    "2023/001-工作/003-framework/pythorch/jit/007-知乎/001PyTorch JIT —— trace， script的代码组织和优化方法.md": {
-      "initial": 28,
-      "current": 1186
-    },
-    "2023/001-工作/001-c++/std必知必会.md": {
-      "initial": 534,
-      "current": 133
-    },
-    "2021/f - 语言/c++/c++ 白皮书/enable_shared_from_this.md": {
-      "initial": 61,
-      "current": 461
+    "2023/003-个人/002-电影/21世纪伟大电影.md": {
+      "initial": 156,
+      "current": 156
     }
   }
 }
