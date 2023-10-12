@@ -7,4 +7,5 @@
 	4. A Universal Accelerated Backed for RLHF（支持 [[InstructGPT]] pipline 和各种模型和场景下的大模型微调）
 	5. 
 2. 三个功能：
-	1. 简化 Chatgpt 类型模型的训练和强化推理
+	1. 简化 Chatgpt 类型模型的训练和强化推理体验 ![[Pasted image 20231012162608.png]]
+	2. 
