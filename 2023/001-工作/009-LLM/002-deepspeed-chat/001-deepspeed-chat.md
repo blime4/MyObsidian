@@ -10,8 +10,10 @@
 	1. 简化 Chatgpt 类型模型的训练和强化推理体验 ![[Pasted image 20231012162608.png]]
 3. 完整的 RLHF 训练流程概述
 	1. ![[Pasted image 20231012164842.png]]
-	2. key word
+	2. ![[Pasted image 20231012170145.png]]
+	3. key word
 		1. [[SFT]]
 		2. [[RW]]
 		3. PPO
-	3. 
+		4. EMA
+	4. 
