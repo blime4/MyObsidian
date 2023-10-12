@@ -1,5 +1,6 @@
 
 # C01S01
+![[Pasted image 20231012172340.png]]
 1. 四大特性：
 	1. Easy-Breezy Training (只需单击即可获得完整的端到端 [[RLHF]] 训练实验) 
 	2. High Performance System
