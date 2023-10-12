@@ -28,6 +28,6 @@
 讲了一下如何跑训练和评估模型
 [DeepSpeedExamples/applications/DeepSpeed-Chat at master · microsoft/DeepSpeedExamples (github.com)](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
 
-
-
 # C04S01
+演示一下 chat-bot 的交互
+#
