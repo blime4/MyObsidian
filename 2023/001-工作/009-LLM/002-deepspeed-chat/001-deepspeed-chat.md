@@ -16,4 +16,5 @@
 		2. [[RW]]
 		3. PPO
 		4. [[EMA]]
-	4. 
+4. DeepSpeed Hybrid Engine
+5. 
