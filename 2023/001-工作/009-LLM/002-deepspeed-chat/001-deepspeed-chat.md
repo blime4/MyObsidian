@@ -1,5 +1,5 @@
 
-## C01S01
+# C01S01
 1. 四大特性：
 	1. Easy-Breezy Training (只需单击即可获得完整的端到端 [[RLHF]] 训练实验) 
 	2. High Performance System
@@ -19,5 +19,6 @@
 4. [[DeepSpeed Hybrid Engine]]
 	1. ![[Pasted image 20231012170913.png]]
 
-#
+# C02S01
+![[Pasted image 20231012172145.png]]
 
