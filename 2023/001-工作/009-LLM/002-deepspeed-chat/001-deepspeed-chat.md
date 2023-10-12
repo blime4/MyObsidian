@@ -12,6 +12,6 @@
 	1. ![[Pasted image 20231012164842.png]]
 	2. key word
 		1. [[SFT]]
-		2. RW
+		2. [[RW]]
 		3. PPO
 	3. 
