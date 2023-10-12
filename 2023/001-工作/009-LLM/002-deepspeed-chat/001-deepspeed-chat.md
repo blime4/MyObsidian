@@ -23,3 +23,11 @@
 # C02S01
 ![[Pasted image 20231012172145.png]]
 [DeepSpeedExamples/applications/DeepSpeed-Chat at master · microsoft/DeepSpeedExamples (github.com)](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
+
+# C03S01
+讲了一下如何跑训练和评估模型
+[DeepSpeedExamples/applications/DeepSpeed-Chat at master · microsoft/DeepSpeedExamples (github.com)](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
+
+
+
+# C04S01
