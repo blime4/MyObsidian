@@ -17,4 +17,5 @@
 		3. PPO
 		4. [[EMA]]
 4. DeepSpeed Hybrid Engine
-5. 
+	1. ![[Pasted image 20231012170913.png]]
+	2. 
