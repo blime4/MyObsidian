@@ -22,4 +22,4 @@
 
 # C02S01
 ![[Pasted image 20231012172145.png]]
-
+[DeepSpeedExamples/applications/DeepSpeed-Chat at master · microsoft/DeepSpeedExamples (github.com)](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
