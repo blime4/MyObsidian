@@ -14,3 +14,4 @@ ZeRO（Zero Redundancy Optimizer）是一种针对深度学习训练的优化技
     - **作者**：NVIDIA
     - **出版时间**：2020
     - **论文链接**：[ZeRO: Memory Optimizations Toward Training Trillion Parameter Models (arXiv)](https://arxiv.org/abs/1910.02054)
+- ![[ZeRO 1.pdf]]
