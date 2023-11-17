@@ -9,7 +9,7 @@
 
 ## C02
 Windows 编译动态库：
->1. 
+>1. `add_library (xxx SHARD yyy.cpp)`
 
 
 
