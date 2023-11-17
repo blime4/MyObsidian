@@ -9,8 +9,8 @@
 
 ## C02
 Windows 编译动态库：
->1. `add_library (xxx SHARD yyy.cpp)`
-
+>1. `add_library(xxx SAHRD yyy.cpp)`
+>2. `__declspec(dllexport)`
 
 
 
