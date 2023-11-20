@@ -18,6 +18,5 @@
 	3. **clang -fomit-frame-pointer -O3 -S -o - t.c**
 		 -  `-fomit-frame-pointer ` ：启用帧指针的优化，这可以在一些情况下提高程序性能，但可能会影响调试
 		 - `-O3` ：使用较高级别的优化级别（级别 3），对代码进行更激进的优化。
-	1. 
-2. 
+2. [LLVM Language Reference Manual — LLVM 18.0.0git documentation](https://llvm.org/docs/LangRef.html)
 
