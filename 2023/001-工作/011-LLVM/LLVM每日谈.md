@@ -16,8 +16,10 @@
 		- `-emit-llvm`：指示生成 LLVM IR（Intermediate Representation，中间表示）代码。
 		- `-o -`：将输出重定向到标准输出，即将生成的 LLVM 汇编代码输出到终端。
 	3. **clang -fomit-frame-pointer -O3 -S -o - t.c**
-2.  
+	4. 
+2. 
 	- `-fomit-frame-pointer ` ：启用帧指针的优化，这可以在一些情况下提高程序性能，但可能会影响调试。
-	- `-O3` ：使用较高级别的优化级别（级别 3），对代码进行更激进的优化
+	- `-O3` ：使用较高级别的优化级别（级别 3），对代码进行更激进的优化。
+		1. 
 3. 
 
