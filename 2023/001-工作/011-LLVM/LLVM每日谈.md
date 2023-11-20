@@ -5,4 +5,6 @@
 ---
 ## [LLVM每日谈之一 LLVM是什么](https://zhuanlan.zhihu.com/p/26127007)
 ## [LLVM每日谈之二 LLVM IR](https://zhuanlan.zhihu.com/p/26127100)
+1. [Clang - Getting Started (llvm.org)](https://clang.llvm.org/get_started.html
+2. 
 
