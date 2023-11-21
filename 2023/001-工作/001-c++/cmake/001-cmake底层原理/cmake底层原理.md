@@ -12,7 +12,8 @@ Windows 编译动态库：
 >1. `add_library(xxx SAHRD yyy.cpp)`
 >2. `__declspec(dllexport)`
 >3. `include_directories(./bin)`
->4. `add_executable()`
+>4. `add_executable(main main.cpp)`
+>5. `target_lin_libraries(main )`
 
 
 
