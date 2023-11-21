@@ -23,4 +23,3 @@
 
 ## [LLVM每日谈之三 如何创建一个LLVM工程](https://zhuanlan.zhihu.com/p/26127139)
 1.  [Creating an LLVM Project — LLVM 18.0.0git documentation](https://llvm.org/docs/Projects.html)
-2. 
