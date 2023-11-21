@@ -9,13 +9,6 @@
 
 ## C02
 Windows 编译动态库：
->1. `add_library(xxx SAHRD yyy.cpp)`
->2. `__declspec(dllexport)`
->3. `include_directories(./bin)`
->4. `add_executable(main main.cpp)`
->5. `target_lin_libraries(main ./bin/xxx.lib)`
->	1. 虽然是动态库，但这里链接的是 lib 而不是 dll
-
 标准写法：
 ```c++
 #pragma once
@@ -27,11 +20,14 @@ Windows 编译动态库：
 #endif
 ```
 
->1. `add_library(xxx SAHRD yyy.cpp)`
->2. `target_compile_definitions(xxx PRIVATE EXPORT)`
+>1. 编译动态库
+>	1. `add_library(xxx SAHRD yyy.cpp)`
+>	2. `target_compile_definitions(xxx PRIVATE EXPORT)`
+>2. s
 >3. `include_directories(./bin)`
 >4. `add_executable(main main.cpp)`
 >5. `target_lin_libraries(main ./bin/xxx.lib)`
+>	1. 虽然是动态库，但这里链接的是 lib 而不是 dll
 
 
 
