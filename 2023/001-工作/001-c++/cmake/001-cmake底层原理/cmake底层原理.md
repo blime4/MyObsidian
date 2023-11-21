@@ -15,7 +15,13 @@ Windows 编译动态库：
 >4. `add_executable(main main.cpp)`
 >5. `target_lin_libraries(main ./bin/xxx.lib)`
 >	1. 虽然是动态库，但这里链接的是 lib 而不是 dll
->
+
+> 标准写法：
+```c++
+#pragma once
+
+#ifdef EX
+```
 
 
 
