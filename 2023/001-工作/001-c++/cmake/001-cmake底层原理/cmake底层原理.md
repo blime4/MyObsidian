@@ -11,7 +11,8 @@
 Windows 编译动态库：
 >1. `add_library(xxx SAHRD yyy.cpp)`
 >2. `__declspec(dllexport)`
->3. Cmake
+>3. `include_directories(./bin)`
+>4. `add_executable()`
 
 
 
