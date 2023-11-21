@@ -20,8 +20,13 @@ Windows 编译动态库：
 ```c++
 #pragma once
 
-#ifdef EX
+#ifdef EXPORT
+#define CMAKE_STUDY_API __declspec(dllexport)
+#else
+#define CMAKE_STUDY_API __declspec(dllimport)
+#endif
 ```
+
 
 
 
