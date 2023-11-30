@@ -1,5 +1,5 @@
 
-##  [0. 扉页 — Google 开源项目风格指南 (zh-google-styleguide.readthedocs.io)](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
+## [0. 扉页 — Google 开源项目风格指南 (zh-google-styleguide.readthedocs.io)](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 ## [1.5. ` #include ` 的路径及顺序]( https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/headers/#include )
 	`dir/foo.cc` 或 `dir/foo_test.cc` 的主要作用是实现或测试 `dir2/foo2.h` 的功能, `foo.cc` 中包含头文件的次序如下:
@@ -9,7 +9,7 @@
 		4. 其他库的 `.h` 文件
 		5. 本项目内 `.h` 文件
 
-##  [2.5. 静态和全局变量](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/scoping/#section-6)
+## [2.5. 静态和全局变量](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/scoping/#section-6)
 
 **禁止定义静态储存周期非 POD 变量：**
 - **静态存储周期（Static Storage Duration）：** 静态存储周期的变量在程序的整个运行周期内存在，其内存分配在程序启动时进行，直到程序结束时才被释放。这包括全局变量和静态变量。
