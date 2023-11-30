@@ -9,3 +9,6 @@
 		4. 其他库的 `.h` 文件
 		5. 本项目内 `.h` 文件
 
+[2.5. 静态和全局变量](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/scoping/#section-6)
+	
+
