@@ -10,5 +10,7 @@
 		5. 本项目内 `.h` 文件
 
 [2.5. 静态和全局变量](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/scoping/#section-6)
-	
+	禁止定义静态储存周期非 POD 变量
+	禁止使用含有副作用的函数初始化 POD 全局变量
+		因为多编译单元中的静态变量执行时的构造和析构顺序是未明确的，这将导致代码的不可移植。
 
