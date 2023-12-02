@@ -5,3 +5,4 @@
 文件：
 ![[简单易懂diffusion模型讲解 - 从前置知识深度生成模型 隐变量 VAE开始.pptx]]
 ![[diffusion简明综述_基础算法.pptx]]
+![[diffusion简明综述_基础算法文稿.txt]]
