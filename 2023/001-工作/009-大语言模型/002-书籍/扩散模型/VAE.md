@@ -1,3 +1,4 @@
+[[变分自编码器]]
 
 链接：
 1.  [简单易懂diffusion模型讲解 - 从前置知识深度生成模型 隐变量 VAE开始_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1re4y1m7gb/?spm_id_from=333.337.search-card.all.click&vd_source=e2ed568abb1e67cc88ad6275f6104534)
@@ -22,3 +23,5 @@
 	1. [[如何进行概率密度估计，训练出概率模型]]
 	2. [[如何采样生成样本]]
 是需要解决的两个难点。
+
+概念：[[隐空间]]， [[]]
