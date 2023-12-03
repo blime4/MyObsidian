@@ -1,6 +1,4 @@
-ODE 和 SDE 分别代表着普通微分方程（Ordinary Differential Equation）和随机微分方程（Stochastic Differential Equation）。
-
-1. **ODE（Ordinary Differential Equation）：**
+**ODE（Ordinary Differential Equation）：**
    - **定义：** 普通微分方程是一种包含未知函数及其导数的方程。这些方程通常描述系统在时间上的演化。ODE 是关于一个变量的函数及其导数的方程。
    - **表示形式：** 一般形式为 \( \frac{dy}{dt} = f (y, t) \)，其中 \(y\) 是未知函数，\(t\) 是独立变量，\(f\) 是给定函数。
    - **应用：** ODE 在物理学、生物学、经济学等领域中广泛应用，用于描述动态系统的演变过程。
