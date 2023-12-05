@@ -8,5 +8,5 @@
 ![[1701620833162.png]]
 
 伪代码：
-关键词：[[CBOW]]，[[Vision Transformer]]
+关键词：[[CBOW]]，[[Vision Transformer]], [[joint m]]
 ![[Pasted image 20231205114200.png]]
