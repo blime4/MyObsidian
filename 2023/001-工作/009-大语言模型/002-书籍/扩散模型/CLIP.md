@@ -8,4 +8,5 @@
 ![[1701620833162.png]]
 
 伪代码：
+关键词：[[CBOW]]，[[Vision Transformer]]
 ![[Pasted image 20231205114200.png]]
