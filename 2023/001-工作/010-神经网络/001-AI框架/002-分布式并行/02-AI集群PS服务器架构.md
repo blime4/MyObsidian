@@ -5,7 +5,7 @@
 [[同步并行]]
 [[异步并行]]
 [[环同步]]（[[Ring All Reduce]]）
-![[Pasted image 20231205165916.png]]
+![[Pasted image 20231205170102.png]]
 
 
 
