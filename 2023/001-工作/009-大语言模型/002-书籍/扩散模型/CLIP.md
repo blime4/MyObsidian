@@ -7,6 +7,8 @@
 
 ![[1701620833162.png]]
 
-伪代码：
+## 伪代码 ：
 关键词：[[CBOW]]，[[Vision Transformer]], [[joint multimodal embedding]], [[ground truth]], [[对比学习]]
 ![[Pasted image 20231205114200.png]]
+## 核心精华
+[[Zero-Shot Transfer]]
