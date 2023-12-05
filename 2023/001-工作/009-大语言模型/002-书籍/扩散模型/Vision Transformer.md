@@ -16,5 +16,8 @@ VIT 处理的方式：将图片切成 16\*16 的很多的 patch
 ![[Pasted image 20231205150628.png]]
 
 [[inductive biases]] (归纳偏置)
+卷积神经网络特点：
 1. locality
-2. t'ran's
+2. [[translation equivalence]]
+
+
