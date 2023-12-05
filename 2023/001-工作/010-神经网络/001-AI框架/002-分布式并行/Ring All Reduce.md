@@ -1,1 +1,2 @@
-![[Pasted image 20231205170019.png]]
+![[Pasted image 20231205170019.png]] [[Scatter-reduce]]
+![[Pasted image 20231205171117.png]] \
