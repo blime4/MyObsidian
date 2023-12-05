@@ -18,3 +18,5 @@
 > 	A photo of a {lable}, a type of {xxx}
 2. [[PROMPT ENSEMBLING]]
 ![[Pasted image 20231205121050.png]]
+[[Few-shot]]
+![[Pasted image 20231205142126.png]]
