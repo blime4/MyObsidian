@@ -11,4 +11,7 @@
 关键词：[[CBOW]]，[[Vision Transformer]], [[joint multimodal embedding]], [[ground truth]], [[对比学习]]
 ![[Pasted image 20231205114200.png]]
 ## 核心精华
-[[Zero-Shot Transfer]]
+1.  [[Zero-Shot Transfer]]
+2. [[PROMPT ENGINEERING]]
+3. [[PROMPT ENSEMBLING]]
+4. 
