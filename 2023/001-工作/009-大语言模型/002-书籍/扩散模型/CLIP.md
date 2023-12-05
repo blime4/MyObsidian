@@ -12,8 +12,10 @@
 ![[Pasted image 20231205114200.png]]
 ## 核心精华
 1.  [[Zero-Shot Transfer]]
-2. [[PROMPT ENGINEERING]]
-3. [[PROMPT ENSEMBLING]]
+2. [[PROMPT ENSEMBLING]]
+3. [[PROMPT ENGINEERING]]
 > 奇异性的问题
 > distribution gap 的问题：
-> 	A photo of a {lable}
+> 	A photo of a {lable}, a type of 
+
+
