@@ -14,4 +14,6 @@
 1.  [[Zero-Shot Transfer]]
 2. [[PROMPT ENGINEERING]]
 3. [[PROMPT ENSEMBLING]]
-4. 
+> 奇异性的问题
+> distribution gap 的问题：
+> 	A photo of a {lable}
