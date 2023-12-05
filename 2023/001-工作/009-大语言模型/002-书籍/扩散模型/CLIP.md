@@ -21,3 +21,4 @@
 [[Few-shot]]
 ![[Pasted image 20231205142126.png]]
 
+## 模型局限性
