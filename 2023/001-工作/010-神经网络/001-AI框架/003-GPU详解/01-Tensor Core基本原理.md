@@ -2,5 +2,5 @@
 [[混合精度]]
 ![[Pasted image 20231207105824.png]]
 [[FMA]]
-
+![[Pasted image 20231207111205.png]]
 
