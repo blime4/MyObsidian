@@ -87,3 +87,5 @@ int main() {
 }
 
 ```
+
+在这个例子中，`Vector`类表示一个简单的向量，支持向量加法。`VectorExpression`类是一个基类，用于表示表达式模板，而`VectorAdditionExpression`类表示向量加法表达式。通过使用`VectorExpression`和`VectorAdditionExpression`，我们可以在不实际执行向量加法的情况下构建和优化表达式，从而在编译时进行性能优化。
