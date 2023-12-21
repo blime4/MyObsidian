@@ -15,4 +15,4 @@
 9. [std::call_once](https://en.cppreference.com/w/cpp/thread/call_once)
 10. [std::once_flag](https://en.cppreference.com/w/cpp/thread/once_flag)
 11. [[enable_shared_from_this]]
-12. 
+12. [[std declval]]
