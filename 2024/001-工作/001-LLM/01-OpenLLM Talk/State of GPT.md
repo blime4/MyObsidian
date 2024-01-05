@@ -11,4 +11,4 @@
 ![[Pasted image 20240105171733.png]]
 #### 2 example models
 ![[Pasted image 20240105172104.png]]
-[[LLamda]]
+[[LLaMA]] : you shouldn't judge the power of a model just by the number of parameters that it contains
