@@ -3,3 +3,6 @@
 
 ## GPT Assistant training pipeline
 ![[Pasted image 20240105171411.png]]
+
+## Pretraining
+### Data coll
