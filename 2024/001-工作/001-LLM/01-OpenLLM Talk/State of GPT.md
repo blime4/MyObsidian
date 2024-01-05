@@ -8,3 +8,4 @@
 ### Data collection
 ![[Pasted image 20240105171641.png]]
 ### Tokenization
+![[Pasted image 20240105171733.png]]
