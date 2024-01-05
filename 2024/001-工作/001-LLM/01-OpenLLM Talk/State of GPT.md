@@ -16,4 +16,5 @@
 ![[Pasted image 20240105172843.png]]
 ### Step 1: pretaining Step 2: finetuning
 ![[Pasted image 20240105173950.png]]
-### Base
+### Base models in the wild
+![[Pasted image 20240105180431.png]]
