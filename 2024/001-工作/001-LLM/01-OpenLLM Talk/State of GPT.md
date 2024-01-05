@@ -14,4 +14,5 @@
 [[LLaMA]] > [[GPT3]] : you shouldn't judge the power of a model just by the number of parameters that it contains
 ### Pretraining inputs
 ![[Pasted image 20240105172843.png]]
-###
+### Step 1: pretaining Step 2: finetuning
+![[Pasted image 20240105173950.png]]
