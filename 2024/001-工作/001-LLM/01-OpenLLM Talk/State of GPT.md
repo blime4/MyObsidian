@@ -10,3 +10,4 @@
 ### Tokenization
 ![[Pasted image 20240105171733.png]]
 #### 2 example models
+![[Pasted image 20240105172104.png]]
