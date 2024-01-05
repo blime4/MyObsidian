@@ -20,3 +20,6 @@
 ![[Pasted image 20240105180431.png]] 
 > Currently the beat available base model probably is the llaMA series from Meta although it is not commercially licensed.
 
+> Base models are NOT 'Assistants'
+
+
