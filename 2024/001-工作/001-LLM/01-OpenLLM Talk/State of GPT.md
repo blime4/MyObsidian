@@ -14,4 +14,4 @@
 [[LLaMA]] > [[GPT3]] : you shouldn't judge the power of a model just by the number of parameters that it contains
 ### Pretraining inputs
 ![[Pasted image 20240105172843.png]]
-
+###
