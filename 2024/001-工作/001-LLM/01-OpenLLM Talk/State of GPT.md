@@ -5,4 +5,6 @@
 ![[Pasted image 20240105171411.png]]
 
 ## Pretraining
-### Data coll
+### Data collection
+![[Pasted image 20240105171641.png]]
+### Tokenization
