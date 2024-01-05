@@ -18,4 +18,5 @@
 ![[Pasted image 20240105173950.png]]
 ### Base models in the wild
 ![[Pasted image 20240105180431.png]] 
-> Currently the beat available base model probably is the llaMA series from Meta
+> Currently the beat available base model probably is the llaMA series from Meta although it is not commercially licensed.
+
