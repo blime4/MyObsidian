@@ -17,4 +17,5 @@
 ### Step 1: pretaining Step 2: finetuning
 ![[Pasted image 20240105173950.png]]
 ### Base models in the wild
-![[Pasted image 20240105180431.png]]
+![[Pasted image 20240105180431.png]] 
+> Currently the beat available base model probably is the llaMA series from Meta
