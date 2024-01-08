@@ -55,4 +55,7 @@
 Human:
 ![[Pasted image 20240108113917.png]]
 LLM:
-![[Pasted image 20240108114148.png]] > 
+![[Pasted image 20240108114148.png]]
+
+> You can't expect the transformer to do too much reasoning per token
+
