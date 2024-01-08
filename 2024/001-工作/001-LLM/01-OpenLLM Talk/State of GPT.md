@@ -23,4 +23,8 @@
 > Base models are NOT 'Assistants'
 
 ## Supervised Finetuning
-### SF
+### SFT Dataset
+1. Prompt
+2. Response
+3. Labeling inst
+![[Pasted image 20240108110807.png]]
