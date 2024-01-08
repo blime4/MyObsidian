@@ -33,3 +33,4 @@
 ![[Pasted image 20240108110807.png]]
 
 > In the reward modeling step what we're going to do is we're now going to shift our data collection to be of the form of **comparisons**.
+
