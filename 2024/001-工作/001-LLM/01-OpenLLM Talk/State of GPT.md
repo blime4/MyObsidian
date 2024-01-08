@@ -67,4 +67,5 @@ LLM:
 ## Default recommendation
 ![[Pasted image 20240108143602.png]]
 
-## Us
+## Use cases
+![[Pasted image 20240108144639.png]]
