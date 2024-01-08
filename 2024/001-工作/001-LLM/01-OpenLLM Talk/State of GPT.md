@@ -28,5 +28,8 @@
 2. Response
 3. Labeling instructions
 	1. Helpful
-	2. T
+	2. Truthful
+	3. Harmless
 ![[Pasted image 20240108110807.png]]
+
+> In the reward modeling step 
