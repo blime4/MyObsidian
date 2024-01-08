@@ -64,4 +64,5 @@ LLM:
 
 ## Finetuning
 ![[Pasted image 20240108143048.png]]
-
+## Default recommendation
+![[Pasted image 20240108143602.png]]
