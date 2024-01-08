@@ -32,5 +32,8 @@
 	3. Harmless
 ![[Pasted image 20240108110807.png]]
 
+## Reward Modeling
 > In the reward modeling step what we're going to do is we're now going to shift our data collection to be of the form of **comparisons**.
+### RM Dataset
+![[Pasted image 20240108111358.png]]
 
