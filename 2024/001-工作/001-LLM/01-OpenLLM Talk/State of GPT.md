@@ -57,5 +57,7 @@ Human:
 LLM:
 ![[Pasted image 20240108114148.png]]
 
-> You can't expect the transformer to do too much reasoning per token
+> You can't expect the transformer to do too much reasoning (推理) per token
+> And so you have to really spread out the reasoning across more and more tokens
+
 
