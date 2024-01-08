@@ -56,8 +56,8 @@ Human:
 ![[Pasted image 20240108113917.png]]
 LLM:
 ![[Pasted image 20240108114148.png]]
-
+### Chain of thought
 > You can't expect the transformer to do too much reasoning (推理) per token
 > And so you have to really spread out the reasoning across more and more tokens
 
-
+![[Pasted image 20240108114740.png]]
