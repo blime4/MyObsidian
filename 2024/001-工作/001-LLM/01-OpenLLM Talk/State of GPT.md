@@ -50,3 +50,8 @@
 ![[Pasted image 20240108112736.png]] ![[Pasted image 20240108112749.png]]
 ![[Pasted image 20240108112803.png]]
 [[RLHF]] 
+
+### Human text generation vs. LLM text generation
+Human:
+![[Pasted image 20240108113917.png]]
+
