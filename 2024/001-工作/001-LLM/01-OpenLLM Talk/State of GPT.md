@@ -54,4 +54,4 @@
 ### Human text generation vs. LLM text generation
 Human:
 ![[Pasted image 20240108113917.png]]
-
+LLM:
