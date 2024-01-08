@@ -61,3 +61,7 @@ LLM:
 > And so you have to really spread out the reasoning across more and more tokens
 
 ![[Pasted image 20240108114740.png]]
+
+## Finetuning
+![[Pasted image 20240108143048.png]]
+
