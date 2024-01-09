@@ -1,6 +1,6 @@
 
 ## GLM
-
+![[Pasted image 20240109150942.png]]
 ## Finetuning
 1. Prerequisite [英 /priː'rekwɪzɪt/]
 	1. Mixed precision
