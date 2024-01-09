@@ -4,6 +4,7 @@
 	1. Mixed precision ![[Pasted image 20240109153137.png]]![[Pasted image 20240109153421.png]]
 		1. [[prevent underflow]]
 	2. ZeRO
+		1. Why not [[para]]
 2. [[P-tuning]]
 3. Full Parameter
 4. LoRA
