@@ -1,7 +1,7 @@
 
 ## GLM
 ## Finetuning
-1. Prerequisite
+1. Prerequisite [英 /priː'rekwɪzɪt/]
 	1. Mixed precision
 	2. ZeRO
 2. [[P-tuning]]
