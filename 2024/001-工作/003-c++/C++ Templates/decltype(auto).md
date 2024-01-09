@@ -30,3 +30,25 @@ int main() {
 ```
 
 在这个例子中，`decltype(auto)` 用于声明变量 `y`，其类型被推断为 `int&`，因为 `x` 是一个 `int` 类型的变量。因此，`y` 成为了 `x` 的引用，对 `x` 的修改也会影响到 `y`。
+
+```c++
+#include <iostream>
+
+int main() {
+    int x = 42;
+    const int& cx = x;
+
+    // 使用decltype(auto)推断变量y的类型，保留引用和常量性
+    decltype(auto) y = cx;  // y的类型是const int&，因为cx是一个const int类型的引用
+
+    // 修改原始变量x，对y也有影响
+    x++;
+
+    // 打印结果
+    std::cout << "x: " << x << std::endl;
+    std::cout << "y: " << y << std::endl;
+
+    return 0;
+}
+
+```
