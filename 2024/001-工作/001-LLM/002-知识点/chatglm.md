@@ -1,4 +1,4 @@
-
+![[ChatGLM微调实训.pdf]]
 ## GLM
 ![[Pasted image 20240109150942.png]]
 ## Finetuning
