@@ -4,7 +4,8 @@
 	1. Mixed precision ![[Pasted image 20240109153137.png]]![[Pasted image 20240109153421.png]]
 		1. [[prevent underflow]]
 	2. ZeRO
-		1. Why not [[Data parallel]] or [[Model parallel]]
+		1. Why not [[Data parallel]] (数据冗余) or [[Model parallel]]（通信慢）
+		2. 
 2. [[P-tuning]]
 3. Full Parameter
 4. LoRA
