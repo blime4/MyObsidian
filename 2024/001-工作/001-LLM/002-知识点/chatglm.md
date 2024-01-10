@@ -10,6 +10,8 @@
 			1. ![[Pasted image 20240110105102.png]]
 		3. 
 2. [[P-tuning]]
+	1. [[P-tuning v2]]
+	2.  
 3. Full Parameter
 4. LoRA
 ## Deploy with Gradio
