@@ -6,7 +6,9 @@
 	2. ZeRO
 		1. Why not [[Data parallel]] (数据冗余) or [[Model parallel]]（通信慢）
 			1. DP replicates the entire model states across all data parallel process resulting in redundant memory consumption; while MP partition these states to obtain high memory efficiency, but often result in too finegrained computation and expensive communication that is less scaling efficient.
-		2. 
+		2. Where the memory goes
+			1. ![[Pasted image 20240110105102.png]]
+		3. 
 2. [[P-tuning]]
 3. Full Parameter
 4. LoRA
