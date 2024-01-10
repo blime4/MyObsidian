@@ -13,5 +13,6 @@
 	1. [[P-tuning v2]]
 	2.  
 3. Full Parameter
+	1. [[deepspeed]]
 4. LoRA
 ## Deploy with Gradio
