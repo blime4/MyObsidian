@@ -6,8 +6,7 @@
 
 ## select接口
 
-**#include** <**sys/select.h**>
-
+`#include <sys/select.h>`
 _int_ **select**(_int_ _nfds_, _fd_**_**_set_ _*readfds_, _fd_**_**_set_ _*writefds_, _fd_**_**_set_ _*exceptfds,_ _struct_ _timeval_ _*timeout_);
 
 -   readfds，读流集合，也就是程序员希望从这些描述符中读内容
