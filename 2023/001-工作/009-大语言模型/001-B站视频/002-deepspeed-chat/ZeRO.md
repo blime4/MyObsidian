@@ -1,3 +1,4 @@
+[Zero 论文精读【论文精读】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1tY411g7ZT/)
 ZeRO（Zero Redundancy Optimizer）是一种针对深度学习训练的优化技术，**用于降低训练期间的内存使用，并提高训练效率**。它是由 NVIDIA 提出并实现的，并在深度学习框架中广泛应用，以改善训练大规模神经网络时的性能和资源利用率。**ZeRO 的目标是减少内存占用，提高扩展性，以便能够训练更大的模型。**
 
 以下是有关ZeRO的主要特点和论文的摘要：
