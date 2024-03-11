@@ -1,0 +1,1 @@
+rank-loss和[[AUC]]之间的关系主要体现在它们与ROC曲线之间的联系。在ROC曲线的性能度量中，rank-loss（排序损失）与AUC（Area Under the Curve，曲线下面积）有着密切的联系。具体来说，rank-loss对应的是ROC曲线之上的面积，因此有AUC=1-rank-loss。这一公式揭示了rank-loss和AUC之间的互补关系，即一个增加时另一个减小，反之亦然。
