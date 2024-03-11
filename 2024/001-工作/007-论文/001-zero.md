@@ -19,8 +19,12 @@
 				1. 基本数据并行性 （DP） 不会减少每个设备的内存，并且对于具有 32 GB 内存的当前一代 GPU 上参数超过 1.4B 的型号的内存不足。
 		2. Pipeline Parallelism (PP)
 		3. Model Parallelism (MP) : 最有前途的
-			1. 11B T5 model
-			2. Megatron-LM 8.3B
-			3. 不足：MP cannot scale much further beyond these models sizes
-			4. 
+			1. 例子：
+				1. 11B T5 model
+				2. Megatron-LM 8.3B
+			2. 不足：
+				1. MP cannot scale much further beyond these models sizes
+			3. 原理：
+				1. MP splits the model vertically, partitioning the computation and parameters in each layer across multiple devices, requiring significant communication between each layer.
+					1. MP 垂直拆分模型，将每一层的计算和参数分区到多个设备中，这需要在每一层之间进行大量通信。
 		4. CPU-Offloading
