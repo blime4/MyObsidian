@@ -1,0 +1,1 @@
+CUDA（Compute Unified Device Architecture）是一种由NVIDIA开发的并行计算平台和编程模型，用于利用GPU进行通用目的计算。CUDA Separable Compilation是一种CUDA编译技术，允许开发者将CUDA程序分割成多个部分进行编译。这些部分可以是独立的源代码文件、库文件或者其他已编译好的对象文件。通过使用Separable Compilation，开发者可以在不重新编译整个程序的情况下，只编译需要更新的部分，从而加快开发和编译的速度。这对于大型项目和团队合作非常有用，因为它可以提高代码的可维护性和开发效率。
