@@ -12,4 +12,9 @@
 ## Extended Introduction
 1. 遇到的挑战：
 	1. To enable the continuation of model size growth from 10s of billions to trillions of parameters, we experience the challenges of training them - they clearly do not fit within the memory of a single device
-	2. 
+		1. 为了实现模型大小从数十亿个参数到数万亿个参数的持续增长，我们遇到了训练它们的挑战——它们显然不适合单个设备的内存
+	2. 解决方法：
+		1. DP ： 无效
+			1. Basic data parallelism (DP) does not reduce memory per device, and runs out of memory for models with more than 1.4B parameters on current generation of GPUs with 32 GB memory.
+				1. 基本数据并行性 （DP） 不会减少每个设备的内存，并且对于具有 32 GB 内存的当前一代 GPU 上参数超过 1.4B 的型号的内存不足。
+		2. 
