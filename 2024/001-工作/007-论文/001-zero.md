@@ -10,3 +10,6 @@
 
 
 ## Extended Introduction
+1. 遇到的挑战：
+	1. To enable the continuation of model size growth from 10s of billions to trillions of parameters, we experience the challenges of training them - they clearly do not fit within the memory of a single device
+	2. 
