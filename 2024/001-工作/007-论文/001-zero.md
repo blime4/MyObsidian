@@ -30,5 +30,6 @@
 					2. 缺点：requiring significant communication between each layer
 						1. 每层之间需要重要的沟通
 				2. 缺点：
-					1. 
+					1. work well within a single node where the inter-GPU communication bandwidth is high, but the efficiency degrades quickly beyond a single node
+						1. 在 GPU 间通信带宽较高的单节点内工作良好，但超出单节点后效率下降很快
 		4. CPU-Offloading
