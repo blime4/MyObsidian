@@ -35,10 +35,11 @@
 	4. CPU-Offloading
 3. 如何解决现有问题：
 	1. we first analyze the full spectrum of memory consumption of the existing systems on model training and classify it into two parts:
-		1. 
+		1. OGP:
 			1. For large models the majority of the memory is occupied by model states which include the optimizer states (such as momentum and variances in Adam [6]), gradients, and parameters.
 				1. optimizer states
 				2. gradients
 				3. parameters
 				4. 
-		2. residual states
+		2. residual states:
+			1. The remaining memory is consumed by activation, temporary buffers and unusable fragmented memory, which we refer to collectively as residual state
