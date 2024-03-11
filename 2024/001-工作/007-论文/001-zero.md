@@ -27,4 +27,8 @@
 			3. 原理：
 				1. MP splits the model vertically, partitioning the computation and parameters in each layer across multiple devices, requiring significant communication between each layer.
 					1. MP 垂直拆分模型，将每一层的计算和参数分区到多个设备中，这需要在每一层之间进行大量通信。
+					2. 缺点：requiring significant communication between each layer
+						1. 每层之间需要重要的沟通
+				2. 缺点：
+					1. 
 		4. CPU-Offloading
