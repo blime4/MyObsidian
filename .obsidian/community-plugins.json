@@ -17,5 +17,6 @@
   "obsidian-pandoc",
   "cm-chs-patch",
   "cm-editor-syntax-highlight-obsidian",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "chemical-structure-renderer"
 ]
