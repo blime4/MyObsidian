@@ -5,6 +5,7 @@
 | https://github.com/huggingface/transformers.git                                                                                                                  |
 | https://www.bilibili.com/video/BV1qj411y7kF                                                                                                                      |
 | https://www.bilibili.com/video/BV1nK4y1F7x7                                                                                                                      |
+| https://www.bilibili.com/video/BV1Cw411y7gs/                                                                                                                     |
 | ![[llama_struct_B站良睦路程序员.svg]]                                                                                                                                   |
 |                                                                                                                                                                  |
 
