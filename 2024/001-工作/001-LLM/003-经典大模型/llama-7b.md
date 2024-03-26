@@ -11,7 +11,7 @@
 ## LLAMA 结构分析
 | LLAMA 结构分析 |               |               |
 | ---------- | ------------- | ------------- |
-| 分词的部分      | [[tokenizer]] | Test->        |
+| 分词的部分      | [[tokenizer]] |               |
 | llama 主干部分 | [[Embedding]] | [[Attention]] |
 |            |               | [[MLP]]       |
 | 下游任务       | [[自回归Loss]]   |               |
