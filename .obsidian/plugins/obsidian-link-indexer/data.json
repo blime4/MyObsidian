@@ -1,1 +1,16 @@
-{"usedLinks":[{"strictLineBreaks":true,"includeEmbeds":true,"linkToFiles":true,"nonexistentOnly":false,"excludeToFilenames":[],"excludeToGlobs":[],"excludeFromFilenames":[],"excludeFromGlobs":[],"name":"1612060268905","path":"./used_links1612060268905.md"}]}
+{
+  "usedLinks": [
+    {
+      "strictLineBreaks": true,
+      "includeEmbeds": true,
+      "linkToFiles": true,
+      "nonexistentOnly": false,
+      "excludeToFilenames": [],
+      "excludeToGlobs": [],
+      "excludeFromFilenames": [],
+      "excludeFromGlobs": [],
+      "name": "1612060268905",
+      "path": "./used_links1612060268905.md"
+    }
+  ]
+}
