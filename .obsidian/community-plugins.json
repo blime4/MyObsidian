@@ -14,5 +14,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
   "chemical-structure-renderer",
-  "obsidian-weread-plugin"
+  "obsidian-weread-plugin",
+  "obsidian-excalidraw-plugin"
 ]
