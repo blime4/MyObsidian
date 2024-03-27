@@ -1,0 +1,71 @@
+
+地址： https://www.bilibili.com/video/BV1X24y1A7Rz
+
+## GPT Assistant training pipeline
+![[Pasted image 20240105171411.png]]
+
+## Pretraining
+### Data collection
+![[Pasted image 20240105171641.png]]
+### Tokenization
+![[Pasted image 20240105171733.png]]
+### 2 example models
+![[Pasted image 20240105172104.png]]
+[[LLaMA]] > [[GPT3]] : you shouldn't judge the power of a model just by the number of parameters that it contains
+### Pretraining inputs
+![[Pasted image 20240105172843.png]]
+### Step 1: pretaining Step 2: finetuning
+![[Pasted image 20240105173950.png]]
+### Base models in the wild
+![[Pasted image 20240105180431.png]] 
+> Currently the beat available base model probably is the llaMA series from Meta although it is not commercially licensed.
+
+> Base models are NOT 'Assistants'
+
+## Supervised Finetuning
+### SFT Dataset
+1. Prompt
+2. Response
+3. Labeling instructions
+	1. Helpful
+	2. Truthful
+	3. Harmless
+![[Pasted image 20240108110807.png]]
+
+## Reward Modeling
+> In the reward modeling step what we're going to do is we're now going to shift our data collection to be of the form of **comparisons**.
+### RM Dataset
+![[Pasted image 20240108111358.png]]
+### RM Training
+![[Pasted image 20240108111514.png]]
+![[Pasted image 20240108112021.png]]
+![[Pasted image 20240108112037.png]]
+![[Pasted image 20240108112056.png]]![[Pasted image 20240108112133.png]]
+![[Pasted image 20240108112145.png]]
+## Reinforcement Learning
+![[Pasted image 20240108112518.png]]
+### RL Training
+![[Pasted image 20240108112630.png]] ![[Pasted image 20240108112657.png]]
+![[Pasted image 20240108112718.png]]
+![[Pasted image 20240108112736.png]] ![[Pasted image 20240108112749.png]]
+![[Pasted image 20240108112803.png]]
+[[RLHF]] 
+
+### Human text generation vs. LLM text generation
+Human:
+![[Pasted image 20240108113917.png]]
+LLM:
+![[Pasted image 20240108114148.png]]
+### Chain of thought
+> You can't expect the transformer to do too much reasoning (推理) per token
+> And so you have to really spread out the reasoning across more and more tokens
+
+![[Pasted image 20240108114740.png]]
+
+## Finetuning
+![[Pasted image 20240108143048.png]]
+## Default recommendation
+![[Pasted image 20240108143602.png]]
+
+## Use cases
+![[Pasted image 20240108144639.png]]
