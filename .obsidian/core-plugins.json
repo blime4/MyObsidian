@@ -12,6 +12,7 @@
   "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "bookmarks",
   "markdown-importer",
   "zk-prefixer",
@@ -19,6 +20,7 @@
   "outline",
   "word-count",
   "slides",
+  "workspaces",
   "file-recovery",
   "sync"
 ]
