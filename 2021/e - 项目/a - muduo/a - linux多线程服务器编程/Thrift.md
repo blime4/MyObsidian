@@ -1,2 +1,0 @@
-# Apcache Thrift
-
