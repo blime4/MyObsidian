@@ -1,7 +1,0 @@
-![[Pasted image 20231205170019.png]] [[Scatter-reduce]]
-![[Pasted image 20231205171117.png]] 
-[[All Gather]]
-![[Pasted image 20231205171153.png]]
-
-效果：
-![[Pasted image 20231205171332.png]]
