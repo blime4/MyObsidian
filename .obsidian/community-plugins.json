@@ -1,9 +1,6 @@
 [
-  "obsidian-pangu",
-  "calendar",
   "easy-typing-obsidian",
   "obsidian-emoji-toolbar",
-  "dataview",
   "obsidian-git",
   "obsidian-link-indexer",
   "obsidian-mind-map",
@@ -12,8 +9,6 @@
   "obsidian-file-path-to-uri",
   "markdown-prettifier",
   "extract-highlights-plugin",
-  "better-word-count",
-  "obsidian-daily-stats",
   "obsidian-pandoc",
   "cm-chs-patch",
   "cm-editor-syntax-highlight-obsidian",
