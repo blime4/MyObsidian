@@ -3,6 +3,10 @@
   --symbol-indent-padding: 12px;
 }
 
+.qsp-filter-active {
+  color: var(--text-accent);
+}
+
 /* suggestion file path icon */
 .qsp-path-indicator {
   margin-right: 4px;
@@ -25,6 +29,19 @@
 /* warning/error text */
 .qsp-warning {
   color: var(--text-error);
+}
+
+.qsp-tag {
+  background-color: var(--background-modifier-hover);
+  border-radius: var(--radius-s);
+  font-size: 9px;
+  font-weight: var(--font-semibold);
+  letter-spacing: 0.05em;
+  line-height: var(--line-height-normal);
+  margin-left: var(--size-2-3);
+  padding: 0 var(--size-4-1);
+  text-transform: uppercase;
+  align-self: center;
 }
 
 /* settings panel, indent setting to create visual hierarchy */
@@ -99,12 +116,6 @@
 /* related item suggestion */
 .qsp-suggestion-related {}
 
-/* starred suggestion item */
-.qsp-suggestion-starred {}
-
-/* indicates that an item represents a starred file */
-.qsp-starred-file {}
-
 /* symbol suggestion item */
 .qsp-suggestion-symbol {}
 
@@ -143,9 +154,6 @@
 
 /* flair icon for suggestions that represent a related file */
 .qsp-related-indicator {}
-
-/* flair icon for suggestions that represent a starred file */
-.qsp-starred-indicator {}
 
 /* flair icon for suggestions that represent an alias */
 .qsp-alias-indicator {}
