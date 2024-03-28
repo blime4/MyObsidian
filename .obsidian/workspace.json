@@ -4,22 +4,115 @@
     "type": "split",
     "children": [
       {
-        "id": "cb267bbf830772fd",
+        "id": "a3ebc4d7299fe522",
         "type": "tabs",
         "children": [
           {
-            "id": "daa7e7393fb14bf2",
+            "id": "d0b680ae40af877e",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "日常看板.md"
+              }
+            }
+          },
+          {
+            "id": "0a589695df02ddcd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "003-专业知识/008-书籍/专业相关的书.md"
+              }
+            }
+          },
+          {
+            "id": "8b16af138b651d46",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "003-专业知识/008-书籍/专业相关的书.md"
+              }
+            }
+          },
+          {
+            "id": "ee6acc51d05da22c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "003-专业知识/008-书籍/专业相关的书.md"
+              }
+            }
+          },
+          {
+            "id": "935c2df466ffd3e8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "003-专业知识/008-书籍/专业相关的书.md"
+              }
+            }
+          },
+          {
+            "id": "c5da133cb7314412",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "003-专业知识/008-书籍/专业相关的书.md"
+              }
+            }
+          },
+          {
+            "id": "02b0b858e0419f72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
+                "file": "003-专业知识/002-math/000-数学基础.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5673cf5262929d3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "003-专业知识/008-书籍/001-西瓜书/007-支持向量机.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad1bdb30dc32fab2",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "日常看板.md"
+              }
+            }
+          },
+          {
+            "id": "2cb7464281fcafd9",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "日常看板.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -38,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#未看完",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +151,7 @@
             }
           },
           {
-            "id": "862bf9a780164be0",
+            "id": "0be350cf66d78802",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.500732421875
+    "width": 200
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -86,9 +179,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
-                "collapseAll": false,
-                "extraContext": true,
+                "file": "日常看板.md",
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -103,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md"
+                "file": "日常看板.md"
               }
             }
           },
@@ -119,15 +212,31 @@
             }
           },
           {
+            "id": "a503d818dd923003",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
             "id": "690a179a942c6e5f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
+                "file": "日常看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
+            }
+          },
+          {
+            "id": "8db700249d616baf",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
             }
           },
           {
@@ -136,7 +245,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
+                "file": "日常看板.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,27 +268,37 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.2121233921902426,
+                  "scale": 0.6170147494168394,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "78364cde465f3185",
+            "id": "8f9151ee1cc192af",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "bb28ab21b107e2e4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,63 +310,63 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
       "extract-highlights-plugin:Extract Highlights": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-weread-plugin:同步微信读书笔记": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-file-cleaner:清理文件": false
     }
   },
-  "active": "a340b750d81dbf13",
+  "active": "2cb7464281fcafd9",
   "lastOpenFiles": [
-    "003-专业知识/008-书籍/002-深度学习500问/DeepLearning-500-questions",
-    "003-专业知识/001-cs/009-linux/git/git submodule.md",
-    "202403281420.md",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet/attachments/Pasted image 20230720140344.png",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet/attachments/Pasted image 20230720134706.png",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet/attachments/Pasted image 20230720134753.png",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet/attachments/Pasted image 20230720134536.png",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet/attachments",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet/001-espnet-se toolkit 介绍.md",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型/001-espnet",
+    "003-专业知识/009-视频/001-zomi酱/003-语音模型",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206175233.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206174132.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206173011.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206172928.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206163836.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206172034.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments/Pasted image 20231206170628.png",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/推理引擎架构.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/卷积空间组合优化.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/卷积原理.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/卷积优化原理.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/QNNPACK 间接卷积优化.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化/attachments",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/004-推理引擎 kernel优化",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/003-GPU详解/混合精度.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/003-GPU详解/NVIDIA GPU架构发展.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/003-GPU详解/attachments",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/003-GPU详解/FMA.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/003-GPU详解/01-Tensor Core基本原理.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理/Tensor Core.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理/attachments",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理/img2col.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理/000-深入GPU原理.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/环同步.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/Ring All Reduce.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/attachments",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/参数服务器.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/03-AI集群的软硬件通信.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/02-AI集群PS服务器架构.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/01-分布式集群基础介绍.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/002-分布式并行/000-分布式并行目录.md",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/003-GPU详解",
+    "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理",
+    "002-学习生活/006-旅游/旅游.md",
     "日常看板.md",
-    "002-学习生活/000-笔记管理/未命名.canvas",
+    "002-学习生活/006-旅游/未命名.md",
+    "003-专业知识/002-math/002-高等数学/拉格朗日乘子法.md",
     "003-专业知识/008-书籍/001-西瓜书/007-支持向量机.md",
     "未命名.canvas",
-    "002-学习生活/000-笔记管理/插件管理.md",
-    "003-专业知识/008-书籍/专业相关的书.md",
-    "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理/000-深入GPU原理.md",
-    "003-专业知识/009-视频/001-zomi酱",
-    "003-专业知识/008-书籍/001-西瓜书/000-目录.md",
-    "002-学习生活/006-旅游/旅游.md",
-    "003-专业知识/004-GPU/ARTHURCHIAO'S BLOG/000-目录.md",
-    "003-专业知识/008-书籍/001-西瓜书/attachments/img_v3_029c_bf180859-e1bf-4476-93ca-70be32cef41g.jpg",
-    "003-专业知识/002-math/002-高等数学/拉格朗日乘子法.md",
-    "003-专业知识/002-math/002-高等数学",
-    "002-学习生活/004-电影/在看/attachments/Pasted image 20230104202031.png",
-    "002-学习生活/004-电影/在看/attachments/Pasted image 20230104195933.png",
-    "002-学习生活/004-电影/在看/怪化猫.md",
-    "002-学习生活/004-电影/在看/attachments",
-    "002-学习生活/003-其他阅读/作家/太宰治.md",
-    "002-学习生活/003-其他阅读/书籍/斜阳.md",
-    "002-学习生活/003-其他阅读/书籍/人间失格.md",
-    "002-学习生活/002-微信读书/计算机/计算机系统解密：从理解计算机到编写高效代码.md",
-    "002-学习生活/002-微信读书/计算机/深度探索C++对象模型.md",
-    "002-学习生活/002-微信读书/计算机/深入浅出PyTorch：从模型到源码.md",
-    "002-学习生活/002-微信读书/计算机/流畅的Python.md",
-    "002-学习生活/002-微信读书/计算机/树莓派开始，玩转Linux.md",
-    "002-学习生活/002-微信读书/计算机/操作系统导论.md",
-    "002-学习生活/002-微信读书/计算机/嵌入式C语言自我修养：从芯片、编译器到操作系统.md",
-    "002-学习生活/002-微信读书/计算机/垃圾回收的算法与实现.md",
-    "002-学习生活/002-微信读书/计算机/提高C++性能的编程技术.md",
-    "002-学习生活/002-微信读书/计算机/图解HTTP.md",
-    "002-学习生活/004-电影/在看",
-    "002-学习生活/003-其他阅读/作家",
-    "002-学习生活/003-其他阅读/书籍",
-    "002-学习生活/002-微信读书/计算机",
-    "002-学习生活/002-微信读书/经济理财",
-    "002-学习生活/002-微信读书/艺术",
-    "002-学习生活/002-微信读书/精品小说",
-    "002-个人爱好/004-电影/在看/attachments/Pasted image 20230104195933.png",
-    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230234036.png",
-    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233947.png",
-    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230234003.png",
-    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233818.png",
-    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233613.png",
-    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233414.png",
-    "未命名 1.canvas",
-    "未命名 3.canvas",
-    "未命名 2.canvas"
+    "2024/001-工作/003-math/未命名.canvas"
   ]
 }
