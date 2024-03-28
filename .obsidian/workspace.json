@@ -310,12 +310,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
-      "workspaces:管理工作区布局": false,
       "extract-highlights-plugin:Extract Highlights": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-file-cleaner:清理文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "2cb7464281fcafd9",
