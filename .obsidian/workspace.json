@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "17c6e15f3b8566bb",
+        "id": "cb267bbf830772fd",
         "type": "tabs",
         "children": [
           {
-            "id": "9cff25a012f3ce28",
+            "id": "daa7e7393fb14bf2",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "日常看板.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -68,7 +66,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.500732421875
+    "width": 343.500732421875,
+    "collapsed": true
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -84,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常看板.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "日常看板.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +129,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日常看板.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,26 +151,10 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.148952681234421,
+                  "scale": 0.2121233921902426,
                   "close": true
                 }
               }
-            }
-          },
-          {
-            "id": "917e009ae81ae31d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a10935c6b0723955",
-            "type": "leaf",
-            "state": {
-              "type": "stats-tracker",
-              "state": {}
             }
           },
           {
@@ -192,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 547
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,13 +187,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9cff25a012f3ce28",
+  "active": "de4eb0baf546fc83",
   "lastOpenFiles": [
+    "003-专业知识/001-cs/009-linux/git/git submodule.md",
+    "202403281420.md",
+    "日常看板.md",
     "002-学习生活/000-笔记管理/未命名.canvas",
     "003-专业知识/008-书籍/001-西瓜书/007-支持向量机.md",
     "未命名.canvas",
     "002-学习生活/000-笔记管理/插件管理.md",
-    "日常看板.md",
     "003-专业知识/008-书籍/专业相关的书.md",
     "003-专业知识/009-视频/001-zomi酱/001-AI框架/001-深入GPU原理/000-深入GPU原理.md",
     "003-专业知识/009-视频/001-zomi酱",
@@ -243,7 +223,6 @@
     "002-学习生活/002-微信读书/计算机/提高C++性能的编程技术.md",
     "002-学习生活/002-微信读书/计算机/图解HTTP.md",
     "002-学习生活/002-微信读书/计算机/UNIX传奇：历史与回忆.md",
-    "002-学习生活/002-微信读书/计算机/动手打造深度学习框架.md",
     "002-学习生活/004-电影/在看",
     "002-学习生活/003-其他阅读/作家",
     "002-学习生活/003-其他阅读/书籍",
