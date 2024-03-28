@@ -11,8 +11,12 @@
             "id": "daa7e7393fb14bf2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.500732421875,
-    "collapsed": true
+    "width": 343.500732421875
   },
   "right": {
     "id": "3073b1c7997f7f6d",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md"
+              }
             }
           },
           {
@@ -118,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,6 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "003-专业知识/001-cs/009-linux/git/git submodule.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 547
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +196,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "de4eb0baf546fc83",
+  "active": "a340b750d81dbf13",
   "lastOpenFiles": [
     "003-专业知识/001-cs/009-linux/git/git submodule.md",
     "202403281420.md",
