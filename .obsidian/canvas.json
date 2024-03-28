@@ -1,5 +1,6 @@
 {
   "snapToObjects": true,
   "snapToGrid": true,
-  "newFileLocation": "folder"
+  "newFileLocation": "folder",
+  "newFileFolderPath": "002-学习生活/000-笔记管理"
 }
