@@ -1,0 +1,278 @@
+{
+  "main": {
+    "id": "81b55fee5695d7ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "31e7bb33302dc11d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5db79bcd03b6eb6e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "003-专业知识/008-书籍/专业相关的书.md"
+              }
+            }
+          },
+          {
+            "id": "9ac37dbe4ce07766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "003-专业知识/008-书籍/001-西瓜书/000-目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c078cbb4d27463bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbfef8fe94720898",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4780cac1667791de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#未看完",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a340b750d81dbf13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "862bf9a780164be0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.500732421875
+  },
+  "right": {
+    "id": "3073b1c7997f7f6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "47f79c3087b9bc72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2774da3816145752",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "003-专业知识/008-书籍/001-西瓜书/000-目录.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6d85e0b49c85855",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "003-专业知识/008-书籍/001-西瓜书/000-目录.md"
+              }
+            }
+          },
+          {
+            "id": "32dce8c51f3a3285",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "690a179a942c6e5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "003-专业知识/008-书籍/001-西瓜书/000-目录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "de4eb0baf546fc83",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "003-专业知识/008-书籍/001-西瓜书/000-目录.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.148952681234421,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "917e009ae81ae31d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a10935c6b0723955",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          },
+          {
+            "id": "78364cde465f3185",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "extract-highlights-plugin:Extract Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "9ac37dbe4ce07766",
+  "lastOpenFiles": [
+    "003-专业知识/008-书籍/专业相关的书.md",
+    "002-学习生活/006-旅游/旅游.md",
+    "002-学习生活/000-笔记管理/插件管理.md",
+    "日常看板.md",
+    "未命名.canvas",
+    "003-专业知识/004-GPU/ARTHURCHIAO'S BLOG/000-目录.md",
+    "003-专业知识/008-书籍/001-西瓜书/attachments/img_v3_029c_bf180859-e1bf-4476-93ca-70be32cef41g.jpg",
+    "003-专业知识/008-书籍/001-西瓜书/007-支持向量机.md",
+    "003-专业知识/002-math/002-高等数学/拉格朗日乘子法.md",
+    "003-专业知识/002-math/002-高等数学",
+    "002-学习生活/004-电影/在看/attachments/Pasted image 20230104202031.png",
+    "002-学习生活/004-电影/在看/attachments/Pasted image 20230104195933.png",
+    "002-学习生活/004-电影/在看/怪化猫.md",
+    "002-学习生活/004-电影/在看/attachments",
+    "002-学习生活/003-其他阅读/作家/太宰治.md",
+    "002-学习生活/003-其他阅读/书籍/斜阳.md",
+    "002-学习生活/003-其他阅读/书籍/人间失格.md",
+    "002-学习生活/002-微信读书/计算机/计算机系统解密：从理解计算机到编写高效代码.md",
+    "002-学习生活/002-微信读书/计算机/深度探索C++对象模型.md",
+    "002-学习生活/002-微信读书/计算机/深入浅出PyTorch：从模型到源码.md",
+    "002-学习生活/002-微信读书/计算机/流畅的Python.md",
+    "002-学习生活/002-微信读书/计算机/树莓派开始，玩转Linux.md",
+    "002-学习生活/002-微信读书/计算机/操作系统导论.md",
+    "002-学习生活/002-微信读书/计算机/嵌入式C语言自我修养：从芯片、编译器到操作系统.md",
+    "002-学习生活/002-微信读书/计算机/垃圾回收的算法与实现.md",
+    "002-学习生活/002-微信读书/计算机/提高C++性能的编程技术.md",
+    "002-学习生活/002-微信读书/计算机/图解HTTP.md",
+    "002-学习生活/002-微信读书/计算机/UNIX传奇：历史与回忆.md",
+    "002-学习生活/002-微信读书/计算机/动手打造深度学习框架.md",
+    "002-学习生活/002-微信读书/计算机/共创智能时代.md",
+    "002-学习生活/002-微信读书/计算机/从程序员到架构师：大数据量、缓存、高并发、微服务、多团队协同等核心场景实战.md",
+    "002-学习生活/002-微信读书/计算机/一本书读懂TCPIP.md",
+    "002-学习生活/004-电影/在看",
+    "002-学习生活/003-其他阅读/作家",
+    "002-学习生活/003-其他阅读/书籍",
+    "002-学习生活/002-微信读书/计算机",
+    "002-学习生活/002-微信读书/经济理财",
+    "002-学习生活/002-微信读书/艺术",
+    "002-学习生活/002-微信读书/精品小说",
+    "002-学习生活/002-微信读书/童书",
+    "002-个人爱好/004-电影/在看/attachments/Pasted image 20230104195933.png",
+    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230234036.png",
+    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233947.png",
+    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230234003.png",
+    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233818.png",
+    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233613.png",
+    "003-专业知识/001-cs/008-分布式/a - 分布式处理系统/b - spark/z - Attachments/Pasted image 20211230233414.png",
+    "未命名 1.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas"
+  ]
+}
